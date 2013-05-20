@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <game xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	id="d20746cd-b169-436e-b093-09969e3becff" version="3.0.0.2" octgnVersion="3.1.30.0"
+	id="d20746cd-b169-436e-b093-09969e3becff" version="3.0.0.3" octgnVersion="3.1.30.0"
 	name="Kaijudo" tags="kaijudo" description="Kaijudo"
 	setsurl="http://octgn.gamersjudgement.com/viewforum.php?f=51" gameurl="http://octgn.gamersjudgement.com/viewforum.php?f=51" authors="brine, ZeroVash"
 	markersize="18" iconurl="https://raw.github.com/brine/kaijudo-octgn/master/game/cards/logo.png" >
@@ -12,12 +12,13 @@
 	</proxygen>
 	<card back="cards/back.png" front="cards/front.jpg" width="63" height="88" cornerRadius="0">
 		<property name="Level" type="Integer" hidden="False" />
-		<property name="Civilization" type="String" hidden="False" ignoreText="False" />
-		<property name="Card Type" type="String" hidden="False" ignoreText="False" />
-		<property name="Race" type="String" hidden="False" ignoreText="False" />
-		<property name="Rarity" type="String" hidden="False" ignoreText="False" />
-		<property name="Rules" type="String" hidden="False" ignoreText="False" />
-		<property name="Power" type="String" hidden="False" ignoreText="False" />
+		<property name="Civilization" type="String" textKind="Enum" ignoreText="False" />
+		<property name="Type" type="String" textKind="Enum" ignoreText="False" />
+		<property name="Race" type="String" textKind="Enum" ignoreText="False" />
+		<property name="Rarity" type="String" textKind="Enum" ignoreText="False" />
+		<property name="Rules" type="String" ignoreText="False" />
+		<property name="Power" type="String" textKind="Enum" ignoreText="False" />
+		<property name="Number" type="Integer" ignoreText="False" />
 	</card>
 	<table name="Battle Zone" visibility="undefined" ordered="False" width="800" height="600" background="background/background.jpg" backgroundStyle="uniformToFill">
 		<groupaction menu="Untap All" shortcut="F1" execute="untapAll" />

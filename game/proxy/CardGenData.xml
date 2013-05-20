@@ -29,7 +29,7 @@
 			<location x="27" y="406" />
 			<text color="#000000" size="20" />
 			<border color="#000000" size="1" />
-			<wordwrap height="20" width="123" align="near" shrinktofit="True"/>
+			<wordwrap height="20" width="153" align="near" shrinktofit="True"/>
 		</block>
 			<block type="text" id="rules">
 			<location x="56" y="435" />
@@ -38,10 +38,10 @@
 			<wordwrap height="149" width="370" align="near" shrinktofit="True"/>
 		</block>
 		<block type="text" id="rarity">
-			<location x="445" y="406" />
+			<location x="327" y="406" />
 			<text color="#000000" size="20" />
 			<border color="#000000" size="1" />
-			<wordwrap height="20" width="167" align="far" shrinktofit="True"/>
+			<wordwrap height="20" width="120" align="far" shrinktofit="True"/>
 		</block>
 	</blocks>
 	<template src="proxy/nature.png" >
@@ -55,7 +55,7 @@
 			<link block="rules"><property name="Rules" /></link>
 			<link block="power"><property name="Power" /></link>
 			<link block="rarity"><property name="Rarity" /></link>
-			<link block="type"><property name="Card Type" /></link>
+			<link block="type"><property name="Type" /></link>
 		</textblocks>
 	</template>
 		<template src="proxy/light.png" >
@@ -69,7 +69,7 @@
 			<link block="rules"><property name="Rules" /></link>
 			<link block="power"><property name="Power" /></link>
 			<link block="rarity"><property name="Rarity" /></link>
-			<link block="type"><property name="Card Type" /></link>
+			<link block="type"><property name="Type" /></link>
 		</textblocks>
 	</template>
 		<template src="proxy/water.png" >
@@ -83,7 +83,7 @@
 			<link block="rules"><property name="Rules" /></link>
 			<link block="power"><property name="Power" /></link>
 			<link block="rarity"><property name="Rarity" /></link>
-			<link block="type"><property name="Card Type" /></link>
+			<link block="type"><property name="Type" /></link>
 		</textblocks>
 	</template>
 		<template src="proxy/fire.png" >
@@ -97,7 +97,7 @@
 			<link block="rules"><property name="Rules" /></link>
 			<link block="power"><property name="Power" /></link>
 			<link block="rarity"><property name="Rarity" /></link>
-			<link block="type"><property name="Card Type" /></link>
+			<link block="type"><property name="Type" /></link>
 		</textblocks>
 	</template>
 		<template src="proxy/darkness.png" default="True" >
@@ -111,7 +111,7 @@
 			<link block="rules"><property name="Rules" /></link>
 			<link block="power"><property name="Power" /></link>
 			<link block="rarity"><property name="Rarity" /></link>
-			<link block="type"><property name="Card Type" /></link>
+			<link block="type"><property name="Type" /></link>
 		</textblocks>
 	</template>
 </templates>

@@ -1,122 +1,175 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Promotional" id="0628d489-a13b-4ebc-ad97-7c59ffa1d429" gameId="d20746cd-b169-436e-b093-09969e3becff" gameVersion="1.0.0.0" version="2.0.0.0">
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Promotional Cards" id="0628d489-a13b-4ebc-ad97-7c59ffa1d429" gameId="d20746cd-b169-436e-b093-09969e3becff" gameVersion="1.0.0.0" version="2.0.0.0">
 	<cards>
-		<card id="400c479c-f910-4acd-b028-b434915ebae8" name="Mighty Shouter, the Shaman">
-			<property name="Level" value="5" />
-			<property name="Civilization" value="Nature" />
-			<property name="Card Type" value="Creature" />
-			<property name="Race" value="Beast Kin" />
-			<property name="Power" value="5000" />
-			<property name="Rules" value="Mighty Roar — Whenever this creature attacks, each of your other creatures gets +2000 power until the end of the turn." />
-			
+		<card name="Cybersphere Dragon" id="f5688184-ca88-4f0d-b48a-9dfd55e2cdb2" >
+			<property name="Level" value="7"/>
+			<property name="Civilization" value="Water"/>
+			<property name="Type" value="Creature"/>
+			<property name="Race" value="Tsunami Dragon"/>
+			<property name="Power" value="6000"/>
+			<property name="Rules" value="Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Uplink — If this creature would be banished, return it to your hand instead."/>
+			<property name="Number" value="0"/>
+			<property name="Rarity" value="Promo"/>
 		</card>
-		<card id="abec3af5-c7e6-4356-b20f-c879a05eb834" name="Flare Inhibitor">
-			<property name="Level" value="5" />
-			<property name="Civilization" value="Light" />
-			<property name="Card Type" value="Creature" />
-			<property name="Race" value="Enforcer" />
-			<property name="Power" value="1500" />
-			<property name="Rules" value="Blocker (You may tap this creature to change an enemy creature's attack to this creature.) Skirmisher (This creature can attack only creatures.)  Recalibrate — If this creature would be banished, put it into your shield zone face down as a new shield instead." />
-			
+		<card name="Billion-Degree Dragon" id="447ac0b2-7032-4171-9854-d8037dcba496" >
+			<property name="Level" value="8"/>
+			<property name="Civilization" value="Fire"/>
+			<property name="Type" value="Creature"/>
+			<property name="Race" value="Armored Dragon"/>
+			<property name="Power" value="6000"/>
+			<property name="Rules" value="Fast Attack (This creature can attack on the turn it enters the battle zone.)&#xd;&#xa;Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Hypersonic Charge — This creature can attack untapped creatures on the turn it enters the battle zone."/>
+			<property name="Number" value="0"/>
+			<property name="Rarity" value="Promo"/>
 		</card>
-		<card id="447ac0b2-7032-4171-9854-d8037dcba496" name="Billion-Degree Dragon">
-			<property name="Level" value="8" />
-			<property name="Civilization" value="Fire" />
-			<property name="Card Type" value="Creature" />
-			<property name="Race" value="Armored Dragon" />
-			<property name="Power" value="6000" />
-			<property name="Rules" value="Fast Attack (This creature can attack on the turn it enters the battle zone.), Double Breaker (This creature breaks 2 shields.), Hypersonic Charge -- This creature can attack untapped creatures on the turn it enters the battle zone." />
-			
+		<card name="Dark Scaradorable" id="f6b648be-536c-4a08-9ea0-2e9f910722c1" >
+			<property name="Level" value="6"/>
+			<property name="Civilization" value="Darkness"/>
+			<property name="Type" value="Creature"/>
+			<property name="Race" value="Chimera"/>
+			<property name="Power" value="6000"/>
+			<property name="Rules" value="Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Terrifying Gaze — Whenever this creature enters the battle zone, choose one of your opponent's shields. This creature breaks that shield."/>
+			<property name="Number" value="0"/>
+			<property name="Rarity" value="Promo"/>
 		</card>
-		<card id="f5688184-ca88-4f0d-b48a-9dfd55e2cdb2" name="Cybersphere Dragon">
-			<property name="Level" value="7" />
-			<property name="Civilization" value="Water" />
-			<property name="Card Type" value="Creature" />
-			<property name="Race" value="Tsunami Dragon" />
-			<property name="Power" value="6000" />
-			<property name="Rules" value="Double Breaker (This creature breaks 2 shields.), Uplink -- If this creature would be banished, return it to your hand instead." />
-			
+		<card name="Dorado, Golden Dragon" id="fa502d9d-ff15-4bb5-b86e-43488f92cd29" >
+			<property name="Level" value="6"/>
+			<property name="Civilization" value="Light"/>
+			<property name="Type" value="Creature"/>
+			<property name="Race" value="Celestial Dragon"/>
+			<property name="Power" value="6000"/>
+			<property name="Rules" value="Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Flawless Champion — While you have 5 or more shields, this creature gets +6000 power and has &quot;Triple Breaker.&quot;"/>
+			<property name="Number" value="0"/>
+			<property name="Rarity" value="Promo"/>
 		</card>
-		<card id="fa502d9d-ff15-4bb5-b86e-43488f92cd29" name="Dorado, Golden Dragon">
-			<property name="Level" value="6" />
-			<property name="Civilization" value="Light" />
-			<property name="Card Type" value="Creature" />
-			<property name="Race" value="Celestial Dragon" />
-			<property name="Power" value="6000" />
-			<property name="Rules" value="Double Breaker (This creature breaks 2 shields.), Flawless Champion -- While you have 5 or more shields, this creature gets +6000 power and has &quot;Triple Breaker.&quot;" />
-			
+		<card name="Flare Inhibitor" id="abec3af5-c7e6-4356-b20f-c879a05eb834" >
+			<property name="Level" value="5"/>
+			<property name="Civilization" value="Light"/>
+			<property name="Type" value="Creature"/>
+			<property name="Race" value="Enforcer"/>
+			<property name="Power" value="1500"/>
+			<property name="Rules" value="Blocker (You may tap this creature to change an enemy creature's attack to this creature.)&#xd;&#xa;Skirmisher (This creature can attack only creatures.)&#xd;&#xa; Recalibrate — If this creature would be banished, put it into your shield zone face down as a new shield instead."/>
+			<property name="Number" value="0"/>
+			<property name="Rarity" value="Promo"/>
 		</card>
-		<card id="17807135-59c7-4d2e-9df9-6febab713c82" name="Grybolos the Gatherer">
-			<property name="Level" value="7" />
-			<property name="Civilization" value="Water / Darkness" />
-			<property name="Card Type" value="Creature" />
-			<property name="Race" value="Aquan / Tarborg" />
-			<property name="Power" value="7000" />
-			<property name="Rules" value="(This card enters your mana zone tapped.), Double Breaker, Spell-Scrounge -- When this creature enters the battle zone, each player puts the top card of his or her deck into his or her discard pile. For each spell put into a discard pile this way, you may draw a card." />
-			
+		<card name="Hammer Dragon Foulbyrn" id="8f131be8-f501-4a58-9ee7-e4205a325630" >
+			<property name="Level" value="7"/>
+			<property name="Civilization" value="Fire"/>
+			<property name="Type" value="Creature"/>
+			<property name="Race" value="Armored Dragon"/>
+			<property name="Power" value="6000"/>
+			<property name="Rules" value="Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Draconic Roar — Whenever this creature attacks, reveal the top card of your deck. If it's a non-evolution Dragon, put it into the battle zone. Otherwise, put it on the bottom of your deck."/>
+			<property name="Number" value="0"/>
+			<property name="Rarity" value="Promo"/>
 		</card>
-		<card id="561e0eb8-2fba-46ec-8a3e-d17468de19ae" name="Impalicus">
-			<property name="Level" value="3" />
-			<property name="Civilization" value="Darkness" />
-			<property name="Card Type" value="Evolution Creature" />
-			<property name="Race" value="Shadow Champion / Zombie" />
-			<property name="Power" value="7000" />
-			<property name="Rules" value="Evolution -- Put on one of your Shadow Champions., Double Breaker (This creature breaks 2 shields.), Impale -- Whenever this creature attacks, your opponent chooses and discards a card." />
-			
+		<card name="Impalicus" id="561e0eb8-2fba-46ec-8a3e-d17468de19ae" >
+			<property name="Level" value="3"/>
+			<property name="Civilization" value="Darkness"/>
+			<property name="Type" value="Evolution Creature"/>
+			<property name="Race" value="Shadow Champion / Zombie"/>
+			<property name="Power" value="7000"/>
+			<property name="Rules" value="Evolution — Put on one of your Shadow Champions.)&#xd;&#xa;Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Impale — Whenever this creature attacks, your opponent chooses and discards a card."/>
+			<property name="Number" value="0"/>
+			<property name="Rarity" value="Promo"/>
 		</card>
-		<card id="cb528e44-8d06-42e6-9391-99ac0c083aa3" name="Moorna the Vengeful">
-			<property name="Level" value="9" />
-			<property name="Civilization" value="Fire" />
-			<property name="Card Type" value="Creature" />
-			<property name="Race" value="Armored Dragon" />
-			<property name="Power" value="8000" />
-			<property name="Rules" value="Double Breaker (This creature breaks 2 shields.), Rapid Fire -- When this creature enters the battle zone, banish up to 2 target enemy creatures that each have power 4000 or less." />
-			
+		<card name="Mother Virus" id="62c30804-00d4-46f0-bae0-02c2b828f1d3" >
+			<property name="Level" value="5"/>
+			<property name="Civilization" value="Water"/>
+			<property name="Type" value="Creature"/>
+			<property name="Race" value="Cyber Virus"/>
+			<property name="Power" value="5000"/>
+			<property name="Rules" value="Blocker (You may tap this creature to change an enemy creature's attack to this creature.)&#xd;&#xa;Guard (This creature can't attack.)&#xd;&#xa;Evo Archive — At the end of each of your turns, if you have an evolution creature in the battle zone, you may draw a card."/>
+			<property name="Number" value="0"/>
+			<property name="Rarity" value="Promo"/>
 		</card>
-		<card id="62c30804-00d4-46f0-bae0-02c2b828f1d3" name="Mother Virus">
-			<property name="Level" value="5" />
-			<property name="Civilization" value="Water" />
-			<property name="Card Type" value="Creature" />
-			<property name="Race" value="Cyber Virus" />
-			<property name="Power" value="5000" />
-			<property name="Rules" value="Blocker (You may tap this creature to change an enemy creature's attack to this creature.), Guard (This creature can't attack.), Evo Archive -- At the end of each of your turns, if you have an evolution creature in the battle zone, you may draw a card." />
-			
+		<card name="Mighty Shouter, the Shaman" id="400c479c-f910-4acd-b028-b434915ebae8" >
+			<property name="Level" value="5"/>
+			<property name="Civilization" value="Nature"/>
+			<property name="Type" value="Creature"/>
+			<property name="Race" value="Beast Kin"/>
+			<property name="Power" value="5000"/>
+			<property name="Rules" value="Mighty Roar — Whenever this creature attacks, each of your other creatures gets +2000 power until the end of the turn."/>
+			<property name="Number" value="0"/>
+			<property name="Rarity" value="Promo"/>
 		</card>
-		<card id="5c82e5f1-349d-4985-b2f1-b5a75c820b16" name="Old Man Winter">
-			<property name="Level" value="6" />
-			<property name="Civilization" value="Nature" />
-			<property name="Card Type" value="Creature" />
-			<property name="Race" value="Colossus" />
-			<property name="Power" value="11000" />
-			<property name="Rules" value="Double Breaker (This creature breaks 2 shields.), Holiday Bash -- When this creature enters the battle zone, each player may draw 3 cards. Then your opponent may put any number of non-evolution creatures into the battle zone from his or her hand." />
-			
+		<card name="Moorna the Vengeful" id="cb528e44-8d06-42e6-9391-99ac0c083aa3" >
+			<property name="Level" value="9"/>
+			<property name="Civilization" value="Fire"/>
+			<property name="Type" value="Creature"/>
+			<property name="Race" value="Armored Dragon"/>
+			<property name="Power" value="8000"/>
+			<property name="Rules" value="Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Rapid Fire — When this creature enters the battle zone, banish up to 2 target enemy creatures that each have power 4000 or less."/>
+			<property name="Number" value="0"/>
+			<property name="Rarity" value="Promo"/>
 		</card>
-		<card id="84ce7881-1845-48a4-8a02-22d49c1dd3a7" name="Saracon, Storm Dynamo">
-			<property name="Level" value="8" />
-			<property name="Civilization" value="Light / Water" />
-			<property name="Card Type" value="Creature" />
-			<property name="Race" value="Skyforce Champion / Trench Hunter" />
-			<property name="Power" value="7500" />
-			<property name="Rules" value="(This card enters your mana zone tapped.), Blocker, Double Breaker, Distress Beacon -- When this creature is banished, draw up to 3 cards." />
-			
+		<card name="Necrodragon of Vile Ichor" id="f3e43956-3686-4b57-bc82-bc694a64a53c" >
+			<property name="Level" value="9"/>
+			<property name="Civilization" value="Darkness"/>
+			<property name="Type" value="Creature"/>
+			<property name="Race" value="Terror Dragon"/>
+			<property name="Power" value="7000"/>
+			<property name="Rules" value="Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Slayer (When this creature loses a battle, banish the other creature.)&#xd;&#xa;Acidic Breath — When this creature enters the battle zone, choose one of your opponent's shields for each Dragon you have in the battle zone. This creature breaks those shields."/>
+			<property name="Number" value="0"/>
+			<property name="Rarity" value="Promo"/>
 		</card>
-		<card id="e24bed0c-0965-49a4-9297-5e2abd37ddab" name="Sparkblade Protector">
-			<property name="Level" value="4" />
-			<property name="Civilization" value="Light" />
-			<property name="Card Type" value="Evolution Creature" />
-			<property name="Race" value="Enforcer" />
-			<property name="Power" value="6000" />
-			<property name="Rules" value="Evolution -- Put on one of your Enforcers., Blocker, Double Breaker, Raise the Alarm -- Whenever another creature is banished during your opponent's turn, each of your other creatures gets +2000 power until the end of the turn." />
-			
+		<card name="Old Man Winter" id="5c82e5f1-349d-4985-b2f1-b5a75c820b16" >
+			<property name="Level" value="6"/>
+			<property name="Civilization" value="Nature"/>
+			<property name="Type" value="Creature"/>
+			<property name="Race" value="Colossus"/>
+			<property name="Power" value="11000"/>
+			<property name="Rules" value="Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Holiday Bash — When this creature enters the battle zone, each player may draw 3 cards. Then your opponent may put any number of non-evolution creatures into the battle zone from his or her hand."/>
+			<property name="Number" value="0"/>
+			<property name="Rarity" value="Promo"/>
 		</card>
-		<card id="8409f9f2-1b46-42a5-a3b3-a6aeb50404f7" name="Thorn Dragon">
-			<property name="Level" value="6" />
-			<property name="Civilization" value="Nature" />
-			<property name="Card Type" value="Creature" />
-			<property name="Race" value="Earthstrike Dragon" />
-			<property name="Power" value="5000" />
-			<property name="Rules" value="Powerful Attack +4000, Double Breaker" />
-			
+		<card name="Quillspike Tatsurion" id="df982c3c-7855-4a31-b23b-a5d0524daa6a" >
+			<property name="Level" value="5"/>
+			<property name="Civilization" value="Nature"/>
+			<property name="Type" value="Creature"/>
+			<property name="Race" value="Armored Dragon / Beast Kin"/>
+			<property name="Power" value="5000"/>
+			<property name="Rules" value="Spike Armor — While being attacked, this creature gets +5000 power."/>
+			<property name="Number" value="0"/>
+			<property name="Rarity" value="Promo"/>
+		</card>
+		<card name="Sparkblade Protector" id="e24bed0c-0965-49a4-9297-5e2abd37ddab" >
+			<property name="Level" value="4"/>
+			<property name="Civilization" value="Light"/>
+			<property name="Type" value="Evolution Creature"/>
+			<property name="Race" value="Enforcer"/>
+			<property name="Power" value="6000"/>
+			<property name="Rules" value="Evolution — Put on one of your Enforcers.)&#xd;&#xa;Blocker, Double Breaker, Raise the Alarm — Whenever another creature is banished during your opponent's turn, each of your other creatures gets +2000 power until the end of the turn."/>
+			<property name="Number" value="0"/>
+			<property name="Rarity" value="Promo"/>
+		</card>
+		<card name="Thorn Dragon" id="8409f9f2-1b46-42a5-a3b3-a6aeb50404f7" >
+			<property name="Level" value="6"/>
+			<property name="Civilization" value="Nature"/>
+			<property name="Type" value="Creature"/>
+			<property name="Race" value="Earthstrike Dragon"/>
+			<property name="Power" value="5000"/>
+			<property name="Rules" value="Powerful Attack +4000, Double Breaker"/>
+			<property name="Number" value="0"/>
+			<property name="Rarity" value="Promo"/>
+		</card>
+		<card name="Wrist-Rockets Tatsurion" id="69304986-0c0f-4610-bf89-cc3fe74ebb6d" >
+			<property name="Level" value="7"/>
+			<property name="Civilization" value="Fire"/>
+			<property name="Type" value="Creature"/>
+			<property name="Race" value="Armored Dragon / Beast Kin"/>
+			<property name="Power" value="5000"/>
+			<property name="Rules" value="Rocket Launchers — When this creature enters the battle zone or whenever it attacks, banish target enemy creature that has power 2000 or less."/>
+			<property name="Number" value="0"/>
+			<property name="Rarity" value="Promo"/>
+		</card>
+		<card name="Ra-Vu the Stormbringer " id="e6f965ea-c04d-4359-8b2b-046719784257" >
+			<property name="Level" value="6"/>
+			<property name="Civilization" value="Light"/>
+			<property name="Type" value="Evolution Creature"/>
+			<property name="Race" value="Skyforce Champion"/>
+			<property name="Power" value="11000"/>
+			<property name="Rules" value="Evolution — Put on one of your Skyforce Champions.  Double Breaker (This creature breaks 2 shields.)&#xd;&#xa; Lightning Vortex — At the end of each of your turns, untap all your creatures.  Eye of the Storm — All your creatures have &quot;Blocker.jpg Blocker.&quot; (You may tap a creature that has &quot;Blocker&quot; to change an enemy creature's attack to it.)&#xd;&#xa;"/>
+			<property name="Number" value="0"/>
+			<property name="Rarity" value="Promo"/>
 		</card>
 	</cards>
 </set>
