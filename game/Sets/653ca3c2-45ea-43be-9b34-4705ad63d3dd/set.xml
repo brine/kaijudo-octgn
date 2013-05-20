@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Dojo Edition" id="653ca3c2-45ea-43be-9b34-4705ad63d3dd" gameId="d20746cd-b169-436e-b093-09969e3becff" gameVersion="1.0.0.0" version="2.0.0.0">
-	<cards>
+  <packaging><pack name="Booster" id="f70dc4e0-b4db-40a6-8ad8-a1471f118439">
+    <options>
+      <option probability="0.083">
+        <pick qty="1" key="Rarity" value="Super Rare" />
+        <pick qty="2" key="Rarity" value="Uncommon" />
+      </option>
+      <option probability="0.250">
+        <pick qty="1" key="Rarity" value="Very Rare" />
+        <pick qty="2" key="Rarity" value="Uncommon" />
+      </option>
+	  <option probability="0.667">
+        <pick qty="3" key="Rarity" value="Uncommon" />
+      </option>
+    </options>
+    <pick qty="1" key="Rarity" value="Rare" />
+    <pick qty="5" key="Rarity" value="Common" />
+  </pack></packaging>	<cards>
 		<card id="2d5b67b5-8ab2-4663-80e7-782d2632c4d8" name="Chief Many-Tribes">
 			<property name="Level" value="2" />
 			<property name="Civilization" value="Nature" />

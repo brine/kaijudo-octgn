@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="DragonStrike Infernus" id="a3e51ef8-ffc4-4805-a205-b26c16ba043f" gameId="d20746cd-b169-436e-b093-09969e3becff" gameVersion="1.0.0.0" version="2.0.0.0">
-	<cards>
+  <packaging><pack name="Booster" id="d2161af4-fc7c-4c22-a46d-b5642aaaf274">
+    <options>
+      <option probability="0.083">
+        <pick qty="1" key="Rarity" value="Super Rare" />
+        <pick qty="2" key="Rarity" value="Uncommon" />
+      </option>
+      <option probability="0.250">
+        <pick qty="1" key="Rarity" value="Very Rare" />
+        <pick qty="2" key="Rarity" value="Uncommon" />
+      </option>
+	  <option probability="0.667">
+        <pick qty="3" key="Rarity" value="Uncommon" />
+      </option>
+    </options>
+    <pick qty="1" key="Rarity" value="Rare" />
+    <pick qty="5" key="Rarity" value="Common" />
+  </pack></packaging>
+  <cards>
 		<card id="f00ae8d6-f4d3-4c6a-816e-bf8b4c2a2fe1" name="Ancient Grave Worm">
 			<property name="Level" value="4" />
 			<property name="Civilization" value="Darkness" />

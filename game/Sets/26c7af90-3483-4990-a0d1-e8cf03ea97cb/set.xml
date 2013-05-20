@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Evo Fury" id="26c7af90-3483-4990-a0d1-e8cf03ea97cb" gameId="d20746cd-b169-436e-b093-09969e3becff" gameVersion="1.0.0.0" version="2.0.0.0">
+  <packaging><pack name="Booster" id="d8a823d7-5060-4c7d-b960-c96437944a16">
+    <options>
+      <option probability="0.083">
+        <pick qty="1" key="Rarity" value="Super Rare" />
+        <pick qty="2" key="Rarity" value="Uncommon" />
+      </option>
+      <option probability="0.250">
+        <pick qty="1" key="Rarity" value="Very Rare" />
+        <pick qty="2" key="Rarity" value="Uncommon" />
+      </option>
+	  <option probability="0.667">
+        <pick qty="3" key="Rarity" value="Uncommon" />
+      </option>
+    </options>
+    <pick qty="1" key="Rarity" value="Rare" />
+    <pick qty="5" key="Rarity" value="Common" />
+  </pack></packaging>
 	<cards>
 		<card id="ef15499b-e2cd-4c98-8c85-99a9a94a3a73" name="Orion, Radiant Fury">
 			<property name="Level" value="9" />

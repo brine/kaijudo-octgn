@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Rise of Duelmasters" id="2878362f-8feb-4578-a8ab-f60f48b64dcb" gameId="d20746cd-b169-436e-b093-09969e3becff" gameVersion="1.0.0.0" version="2.0.0.0">
-	<cards>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Rise of the Duel Masters" id="2878362f-8feb-4578-a8ab-f60f48b64dcb" gameId="d20746cd-b169-436e-b093-09969e3becff" gameVersion="1.0.0.0" version="2.0.0.0">
+  <packaging><pack name="Booster" id="40b243af-f3ea-4d8a-9a3f-68c1e10b7649">
+    <options>
+      <option probability="0.083">
+        <pick qty="1" key="Rarity" value="Super Rare" />
+        <pick qty="2" key="Rarity" value="Uncommon" />
+      </option>
+      <option probability="0.250">
+        <pick qty="1" key="Rarity" value="Very Rare" />
+        <pick qty="2" key="Rarity" value="Uncommon" />
+      </option>
+	  <option probability="0.667">
+        <pick qty="3" key="Rarity" value="Uncommon" />
+      </option>
+    </options>
+    <pick qty="1" key="Rarity" value="Rare" />
+    <pick qty="5" key="Rarity" value="Common" />
+  </pack></packaging>	<cards>
 		<card id="e9b824da-6891-4978-8ee7-35b039c3396d" name="Specter Claw">
 			<property name="Level" value="2" />
 			<property name="Civilization" value="Darkness" />
