@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Battle Decks: Tatsurion vs Razorkinder" id="77ccd1e5-a575-4c66-bbb8-c74f4c142133" gameId="d20746cd-b169-436e-b093-09969e3becff" gameVersion="1.0.0.0" version="2.0.0.0">
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Battle Decks: Tatsurion vs Razorkinder" id="77ccd1e5-a575-4c66-bbb8-c74f4c142133" gameId="48bb61f4-5707-44bf-853e-0c473549ef50" gameVersion="1.0.0.0" version="2.0.0.0">
 	<cards>
 		<card name="Aqua Seneschal" id="80194826-b121-43dd-b3d9-3a37509cecdd" >
 			<property name="Level" value="3"/>

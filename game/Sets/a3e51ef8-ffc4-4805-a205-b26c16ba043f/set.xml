@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="DragonStrike Infernus" id="a3e51ef8-ffc4-4805-a205-b26c16ba043f" gameId="d20746cd-b169-436e-b093-09969e3becff" gameVersion="1.0.0.0" version="2.0.0.0">
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="DragonStrike Infernus" id="a3e51ef8-ffc4-4805-a205-b26c16ba043f" gameId="48bb61f4-5707-44bf-853e-0c473549ef50" gameVersion="1.0.0.0" version="2.0.0.0">
 	<packaging>
 		<pack name="Booster" id="d2161af4-fc7c-4c22-a46d-b5642aaaf274">
 			<options>

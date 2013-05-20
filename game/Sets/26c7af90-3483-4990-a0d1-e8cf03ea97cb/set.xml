@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Evo Fury" id="26c7af90-3483-4990-a0d1-e8cf03ea97cb" gameId="d20746cd-b169-436e-b093-09969e3becff" gameVersion="1.0.0.0" version="2.0.0.0">
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Evo Fury" id="26c7af90-3483-4990-a0d1-e8cf03ea97cb" gameId="48bb61f4-5707-44bf-853e-0c473549ef50" gameVersion="1.0.0.0" version="2.0.0.0">
 	<packaging>
 		<pack name="Booster" id="d8a823d7-5060-4c7d-b960-c96437944a16">
 			<options>

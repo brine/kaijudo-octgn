@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Rise of the Duel Masters" id="2878362f-8feb-4578-a8ab-f60f48b64dcb" gameId="d20746cd-b169-436e-b093-09969e3becff" gameVersion="1.0.0.0" version="2.0.0.0">
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Rise of the Duel Masters" id="2878362f-8feb-4578-a8ab-f60f48b64dcb" gameId="48bb61f4-5707-44bf-853e-0c473549ef50" gameVersion="1.0.0.0" version="2.0.0.0">
 	<packaging>
 		<pack name="Booster" id="40b243af-f3ea-4d8a-9a3f-68c1e10b7649">
 			<options>

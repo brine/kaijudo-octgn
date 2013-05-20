@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Promotional Cards" id="0628d489-a13b-4ebc-ad97-7c59ffa1d429" gameId="d20746cd-b169-436e-b093-09969e3becff" gameVersion="1.0.0.0" version="2.0.0.0">
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Promotional Cards" id="0628d489-a13b-4ebc-ad97-7c59ffa1d429" gameId="48bb61f4-5707-44bf-853e-0c473549ef50" gameVersion="1.0.0.0" version="2.0.0.0">
 	<cards>
 		<card name="Cybersphere Dragon" id="f5688184-ca88-4f0d-b48a-9dfd55e2cdb2" >
 			<property name="Level" value="7"/>
