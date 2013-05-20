@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Dojo Edition" id="653ca3c2-45ea-43be-9b34-4705ad63d3dd" gameId="d20746cd-b169-436e-b093-09969e3becff" gameVersion="1.0.0.0" version="2.0.0.0">
+	<cards>
+		<card id="2d5b67b5-8ab2-4663-80e7-782d2632c4d8" name="Chief Many-Tribes">
+			<property name="Level" value="2" />
+			<property name="Civilization" value="Nature" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Spirit Totem" />
+			<property name="Power" value="1000" />
+			<property name="Rules" value="Mana Spirits – When this creature enters the battle zone, if you have at least 2 other nature creatures in your battle zone, you may put the top card of your deck in your mana zone." />
+			
+		</card>
+		<card id="15090f8e-96d6-4469-92a0-7789146caa99" name="Alcadeus, Winged Justice">
+			<property name="Level" value="7" />
+			<property name="Civilization" value="Light" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Skyforce Champion" />
+			<property name="Power" value="6000" />
+			<property name="Rules" value="Double Breaker (This creature breaks 2 shields.) Infuse with Light — Whenever this creature attacks, choose one of your creatures that is level 5 or less and untap it." />
+		</card>
+		<card id="305649ba-d580-4da9-bacd-d4c572d355dc" name="Bat-Breath Scaradorable">
+			<property name="Level" value="4" />
+			<property name="Civilization" value="Darkness" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Chimera" />
+			<property name="Power" value="4000" />
+			<property name="Rules" value="Fear Bats — This creature can't be attacked or blocked by creatures that are level 5 or less." />
+			
+		</card>
+		<card id="484a2b80-9139-4e1c-8b2f-630c150d4b41" name="Lord Skycrusher">
+			<property name="Level" value="7" />
+			<property name="Civilization" value="Fire" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Armored Dragon" />
+			<property name="Power" value="7000" />
+			<property name="Rules" value="Double Breaker (This creature breaks 2 shields.) Royal Command — Whenever this creature attacks, choose one of your other creatures. It gets +5000 power and &quot;'Double Breaker&quot; until the end of the turn." />
+			
+		</card>
+		<card id="c871f4f7-2dfb-485b-9998-1eb372b0c8af" name="Terradragon Regarion Doom">
+			<property name="Level" value="9" />
+			<property name="Civilization" value="Nature" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Earthstrike Dragon" />
+			<property name="Power" value="9000" />
+			<property name="Rules" value="Double Breaker (This creature breaks 2 shields.) Root Grapple — When this creature enters the battle zone, put target enemy creature that is level 8 or less from the battle zone into your opponent's mana zone." />
+			
+		</card>
+		<card id="dea2a1c6-fa92-4fd3-8d00-e1f6b626026d" name="Star Lantern">
+			<property name="Level" value="3" />
+			<property name="Civilization" value="Light" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Star Sentinel" />
+			<property name="Power" value="3000" />
+			<property name="Rules" value="Blocker (You may tap this creature to change an enemy creature's attack to this creature.)  Skirmisher (This creature can attack only creatures.) Photon Sting — Whenever this creature blocks, tap target enemy creature." />
+			
+		</card>
+		<card id="99ea2b23-892c-463c-94f8-3ca33c6c7147" name="Potato Gun Glu-urrgle">
+			<property name="Level" value="4" />
+			<property name="Civilization" value="Water" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Cyber Lord" />
+			<property name="Power" value="3000" />
+			<property name="Rules" value="Spud Salvo — During each of your turns, at the start of each battle that includes this creature, return the other creature to its owner's hand." />
+			
+		</card>
+		<card id="cd9c62a0-887c-44e8-b24a-7bcfedcfa85d" name="Vikorakas">
+			<property name="Level" value="5" />
+			<property name="Civilization" value="Water" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Trench Hunter" />
+			<property name="Power" value="3000" />
+			<property name="Rules" value="Deep Sea Scavenger — When this creature enters the battle zone, you may draw a card. If you do, discard a card." />
+			
+		</card>
+		<card id="746931cf-b6fb-4b5d-a798-1a7bee6ad850" name="Ghost Spy">
+			<property name="Level" value="4" />
+			<property name="Civilization" value="Darkness" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Specter" />
+			<property name="Power" value="1000" />
+			<property name="Rules" value="Snitch - When this creature is banished, your opponent chooses and discards a card. Then you may draw a card." />
+			
+		</card>
+		<card id="f8d74eb2-ec85-40da-a0a9-7f826090cc28" name="Chain-Lash Tatsurion">
+			<property name="Level" value="6" />
+			<property name="Civilization" value="Fire" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Armored Dragon / Beast Kin" />
+			<property name="Power" value="6000" />
+			<property name="Rules" value="Double Breaker (This creature breaks 2 shields.) Whip Chains — When this creature enters the battle zone, choose target untapped enemy creature. This turn, your attacking creatures can attack it." />
+			
+		</card>
+		<card id="df982c3c-7855-4a31-b23b-a5d0524daa6a" name="Quillspike Tatsurion">
+			<property name="Level" value="5" />
+			<property name="Civilization" value="Nature" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Armored Dragon / Beast Kin" />
+			<property name="Power" value="5000" />
+			<property name="Rules" value="Spike Armor — While being attacked, this creature gets +5000 power." />
+			
+		</card>
+	</cards>
+</set>

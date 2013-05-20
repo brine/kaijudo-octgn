@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<game xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	id="d20746cd-b169-436e-b093-09969e3becff" version="3.0.0.1" octgnVersion="3.1.30.0"
+	name="Kaijudo" tags="kaijudo" description="Kaijudo"
+	setsurl="http://octgn.gamersjudgement.com/viewforum.php?f=51" gameurl="http://octgn.gamersjudgement.com/viewforum.php?f=51" authors="brine, ZeroVash"
+	markersize="18" iconurl="http://www.montasycomics.com/uploads/1/0/1/8/10180782/5478150_orig.jpg" >
+
+	<scripts>
+		<script src="scripts/actions.py" />
+	</scripts>
+	<proxygen definitionsrc="proxy/CardGenData.xml">
+	</proxygen>
+	<card back="cards/back.png" front="cards/front.jpg" width="63" height="88" cornerRadius="0">
+		<property name="Level" type="Integer" hidden="False" />
+		<property name="Civilization" type="String" hidden="False" ignoreText="False" />
+		<property name="Card Type" type="String" hidden="False" ignoreText="False" />
+		<property name="Race" type="String" hidden="False" ignoreText="False" />
+		<property name="Rarity" type="String" hidden="False" ignoreText="False" />
+		<property name="Rules" type="String" hidden="False" ignoreText="False" />
+		<property name="Power" type="String" hidden="False" ignoreText="False" />
+	</card>
+	<table name="Battle Zone" visibility="undefined" ordered="False" width="800" height="600" background="background/background.jpg" backgroundStyle="uniformToFill">
+		<groupaction menu="Untap All" shortcut="F1" execute="untapAll" />
+		<groupaction menu="Roll Die" shortcut="ctrl+R" execute="rollDie" />
+		<groupaction menu="Set Die Type" shortcut="ctrl+shift+R" execute="setDie" />
+		<groupaction menu="Set Up Battlezone" execute="setup" />
+		<cardaction menu="Tap / Untap" default="True" shortcut="ctrl+G" execute="tap" />
+		<cardaction menu="Banish Card / Break Shield" shortcut="del" execute="banish" />
+		<cardaction menu="Clear Targets/Arrows" shortcut="esc" execute="clear" />
+	</table>
+	<player summary="{#Hand}">
+		<hand name="Hand" visibility="me" ordered="False" width="63" height="88" shortcut="ctrl+H" icon="groups/hand.png">
+			<cardaction menu="Play Card" default="True" execute="toPlay" />
+			<cardaction menu="Set as Shield" shortcut="ctrl+H" execute="toShields" />
+			<cardaction menu="Discard Card" shortcut="del" execute="toDiscard" />
+			<cardaction menu="Charge as Mana" shortcut="ctrl+C" execute="toMana" />
+			<groupaction menu="Random Discard" execute="randomDiscard" />
+		</hand>
+		<group name="Deck" visibility="none" ordered="False" width="63" height="88" shortcut="ctrl+Y" icon="groups/deck.png" collapsed="False">
+			<groupaction menu="Draw Card" shortcut="ctrl+D" execute="draw" />
+			<groupaction menu="Draw X Cards" shortcut="ctrl+shift+D" execute="drawX" />
+			<groupaction menu="Set Top Card as Shield" execute="shields" />
+			<groupaction menu="Shuffle" shortcut="ctrl+S" execute="shuffle" />
+			<groupaction menu="Discard Top Card" execute="mill" />
+			<groupaction menu="Discard Top X Cards" execute="millX" />
+			<groupaction menu="Charge Top Card as Mana" execute="mana" />
+		</group>
+		<group name="Discard Pile" visibility="all" ordered="False" width="63" height="88" shortcut="del" icon="groups/discard.png" collapsed="False" />
+	</player>
+	<deck>
+		<section name="Main" group="Deck" />
+	</deck>
+</game>

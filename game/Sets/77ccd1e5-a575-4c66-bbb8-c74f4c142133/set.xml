@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Kaijudo Battle Deck releases." id="77ccd1e5-a575-4c66-bbb8-c74f4c142133" gameId="d20746cd-b169-436e-b093-09969e3becff" gameVersion="1.0.0.0" version="2.0.0.0">
+	<cards>
+		<card id="69a47cd7-c8f1-4f08-b392-518e911fead7" name="Razorkinder">
+			<property name="Level" value="7" />
+			<property name="Civilization" value="Darkness" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Evil Toy" />
+			<property name="Power" value="4000" />
+			<property name="Rules" value="Grab and Stab - When this creature enters the battle zone, banish target untapped enemy creature." />
+		</card>
+		<card id="6b6f5f1e-e8c0-4998-9be4-e8619d21b219" name="Tatsurion">
+			<property name="Level" value="6" />
+			<property name="Civilization" value="Fire" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Armored Dragon / Beast Kin" />
+			<property name="Power" value="6000" />
+			<property name="Rules" value="Double Breaker (This creature breaks 2 shields.) Fury Charge - This creature can attack tapped creatures on the turn it enters the battle zone." />
+		</card>
+	</cards>
+</set>
