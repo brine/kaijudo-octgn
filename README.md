@@ -18,5 +18,6 @@ how to submit code updates (pull requests):
 8. You should see all of your changes/edits show up as 'uncommitted changes'.  If everything looks good,
    enter a ``commit message`` and an (optional) ``extended description`` in the yellow box, then click
    ``COMMIT``
-9. Your commit will be added to the main repository as a ``pull request`` which will get approved or denied
+9. Click the blue ``sync`` button on the top of the window to upload your changes to the github server.
+10. Your commit will be added to the main repository as a ``pull request`` which will get approved or denied
    by the game developers.
