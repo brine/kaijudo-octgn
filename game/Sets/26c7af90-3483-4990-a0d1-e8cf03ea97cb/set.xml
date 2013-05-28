@@ -46,7 +46,7 @@
 			<property name="Type" value="Evolution Creature"/>
 			<property name="Race" value="Enforcer"/>
 			<property name="Power" value="6500"/>
-			<property name="Rules" value="Evolution — Put on one of your Enforcers. Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Grid Charge — When this creature enters the battle zone, you may put the top card of your deck into your shield zone face down as a new shield."/>
+			<property name="Rules" value="Evolution — Put on one of your Enforcers.&#xd;&#xa;Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Grid Charge — When this creature enters the battle zone, you may put the top card of your deck into your shield zone face down as a new shield."/>
 			<property name="Number" value="3"/>
 			<property name="Rarity" value="Very Rare"/>
 		</card>
@@ -56,7 +56,7 @@
 			<property name="Type" value="Evolution Creature"/>
 			<property name="Race" value="Enforcer"/>
 			<property name="Power" value="8000"/>
-			<property name="Rules" value="Evolution — Put on one of your Enforcers. Double Breaker (This creature breaks 2 shields.)"/>
+			<property name="Rules" value="Evolution — Put on one of your Enforcers&#xd;&#xa;Double Breaker (This creature breaks 2 shields.)"/>
 			<property name="Number" value="4"/>
 			<property name="Rarity" value="Uncommon"/>
 		</card>
@@ -66,7 +66,7 @@
 			<property name="Type" value="Spell"/>
 			<property name="Race" value=""/>
 			<property name="Power" value=""/>
-			<property name="Rules" value="Shield Blast (Instead of putting this spell into your hand from a broken shield, you may cast it for free.)&#xd;&#xa; Tap up to 2 target enemy creatures."/>
+			<property name="Rules" value="Shield Blast (Instead of putting this spell into your hand from a broken shield, you may cast it for free.)&#xd;&#xa;Tap up to 2 target enemy creatures."/>
 			<property name="Number" value="5"/>
 			<property name="Rarity" value="Common"/>
 		</card>
@@ -86,7 +86,7 @@
 			<property name="Type" value="Creature"/>
 			<property name="Race" value="Enforcer"/>
 			<property name="Power" value="1500"/>
-			<property name="Rules" value="Heart of Light — While all cards in your mana zone are Light cards, this creature gets +2000 power and has &quot; Blocker.&quot; (You may tap a creature that has &quot;Blocker&quot; to change an enemy creature's attack to it.)"/>
+			<property name="Rules" value="Heart of Light — While all cards in your mana zone are Light cards, this creature gets +2000 power and has &quot;Blocker.&quot; (You may tap a creature that has &quot;Blocker&quot; to change an enemy creature's attack to it.)"/>
 			<property name="Number" value="7"/>
 			<property name="Rarity" value="Uncommon"/>
 		</card>
@@ -103,7 +103,7 @@
 		<card name="Shock Sentinel" id="7d125cb9-15fb-4beb-af36-6dac125c0feb" >
 			<property name="Level" value="3"/>
 			<property name="Civilization" value="Light"/>
-			<property name="Type" value="Creatue"/>
+			<property name="Type" value="Creature"/>
 			<property name="Race" value="Storm Patrol"/>
 			<property name="Power" value="2500"/>
 			<property name="Rules" value="Evo Shock — Whenever one of your evolution creatures enters the battle zone, tap target enemy creature."/>
@@ -166,7 +166,7 @@
 			<property name="Type" value="Evolution Creature"/>
 			<property name="Race" value="Cyber Lord"/>
 			<property name="Power" value="6000"/>
-			<property name="Rules" value="Evolution — Put on one of your Cyber Lords. Double Breaker (This creature breaks 2 shields.)"/>
+			<property name="Rules" value="Evolution — Put on one of your Cyber Lords.&#xd;&#xa;Double Breaker (This creature breaks 2 shields.)"/>
 			<property name="Number" value="15"/>
 			<property name="Rarity" value="Uncommon"/>
 		</card>
@@ -216,7 +216,7 @@
 			<property name="Type" value="Spell"/>
 			<property name="Race" value=""/>
 			<property name="Power" value=""/>
-			<property name="Rules" value="Shield Blast (Instead of putting this spell into your hand from a broken shield, you may cast it for free.)&#xd;&#xa; Look at the top 4 cards of your deck. Put one of them into your hand. Put the rest on the bottom of your deck in any order."/>
+			<property name="Rules" value="Shield Blast (Instead of putting this spell into your hand from a broken shield, you may cast it for free.)&#xd;&#xa;Look at the top 4 cards of your deck. Put one of them into your hand. Put the rest on the bottom of your deck in any order."/>
 			<property name="Number" value="21"/>
 			<property name="Rarity" value="Common"/>
 		</card>
@@ -226,7 +226,7 @@
 			<property name="Type" value="Creature"/>
 			<property name="Race" value="Aquan"/>
 			<property name="Power" value="3000"/>
-			<property name="Rules" value="Blocker (You may tap this creature to change an enemy creature's attack to this creature.)&#xd;&#xa;Guard (This creature can't attack.)&#xd;&#xa; Heart of Water — While all cards in your mana zone are Water cards, this creature gets +3000 power and has &quot;Whenever this creature blocks, you may draw a card.&quot;"/>
+			<property name="Rules" value="Blocker (You may tap this creature to change an enemy creature's attack to this creature.)&#xd;&#xa;Guard (This creature can't attack.)&#xd;&#xa;Heart of Water — While all cards in your mana zone are Water cards, this creature gets +3000 power and has &quot;Whenever this creature blocks, you may draw a card.&quot;"/>
 			<property name="Number" value="22"/>
 			<property name="Rarity" value="Uncommon"/>
 		</card>
@@ -276,7 +276,7 @@
 			<property name="Type" value="Evolution Creature"/>
 			<property name="Race" value="Chimera"/>
 			<property name="Power" value="5000"/>
-			<property name="Rules" value="Evolution — Put on one of your Chimeras. Eradicate — When this creature enters the battle zone, banish target enemy creature."/>
+			<property name="Rules" value="Evolution — Put on one of your Chimeras.&#xd;&#xa;Eradicate — When this creature enters the battle zone, banish target enemy creature."/>
 			<property name="Number" value="26"/>
 			<property name="Rarity" value="Uncommon"/>
 		</card>
@@ -356,7 +356,7 @@
 			<property name="Type" value="Evolution Creature"/>
 			<property name="Race" value="Dune Gecko"/>
 			<property name="Power" value="6000"/>
-			<property name="Rules" value="Evolution — Put on one of your Dune Geckos. Double Breaker (This creature breaks 2 shields.)&#xd;&#xa; 20-Ton Wrecking Ball — This creature can attack untapped creatures. "/>
+			<property name="Rules" value="Evolution — Put on one of your Dune Geckos.&#xd;&#xa;Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;20-Ton Wrecking Ball — This creature can attack untapped creatures."/>
 			<property name="Number" value="34"/>
 			<property name="Rarity" value="Very Rare"/>
 		</card>
@@ -366,7 +366,7 @@
 			<property name="Type" value="Evolution Creature"/>
 			<property name="Race" value="Drakon"/>
 			<property name="Power" value="4000"/>
-			<property name="Rules" value="Evolution — Put on one of your Drakons.  Craterize — Whenever this creature attacks, banish any number of target enemy creatures that have total power 4000 or less. "/>
+			<property name="Rules" value="Evolution — Put on one of your Drakons.&#xd;&#xa;Craterize — Whenever this creature attacks, banish any number of target enemy creatures that have total power 4000 or less."/>
 			<property name="Number" value="35"/>
 			<property name="Rarity" value="Rare"/>
 		</card>
@@ -376,7 +376,7 @@
 			<property name="Type" value="Creature"/>
 			<property name="Race" value="Drakon"/>
 			<property name="Power" value="1000"/>
-			<property name="Rules" value="Evo Inflamed — While you have an evolution creature in the battle zone, this creature gets +2000 power. "/>
+			<property name="Rules" value="Evo Inflamed — While you have an evolution creature in the battle zone, this creature gets +2000 power."/>
 			<property name="Number" value="36"/>
 			<property name="Rarity" value="Common"/>
 		</card>
@@ -406,7 +406,7 @@
 			<property name="Type" value="Spell"/>
 			<property name="Race" value=""/>
 			<property name="Power" value=""/>
-			<property name="Rules" value="Banish target enemy creature that has power 3000 or less. "/>
+			<property name="Rules" value="Banish target enemy creature that has power 3000 or less."/>
 			<property name="Number" value="39"/>
 			<property name="Rarity" value="Common"/>
 		</card>
@@ -436,7 +436,7 @@
 			<property name="Type" value="Evolution Creature"/>
 			<property name="Race" value="Drakon"/>
 			<property name="Power" value="4000"/>
-			<property name="Rules" value="Evolution — Put on one of your Drakons.  Powerful Attack +2000 (While attacking, this creature gets +2000 power.)&#xd;&#xa;Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;"/>
+			<property name="Rules" value="Evolution — Put on one of your Drakons.&#xd;&#xa;Powerful Attack +2000 (While attacking, this creature gets +2000 power.)&#xd;&#xa;Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;"/>
 			<property name="Number" value="42"/>
 			<property name="Rarity" value="Uncommon"/>
 		</card>
@@ -446,7 +446,7 @@
 			<property name="Type" value="Creature"/>
 			<property name="Race" value="Dune Gecko"/>
 			<property name="Power" value="1000"/>
-			<property name="Rules" value="Rocket Jump — This creature can't be attacked by creatures that have power 3000 or less. "/>
+			<property name="Rules" value="Rocket Jump — This creature can't be attacked by creatures that have power 3000 or less."/>
 			<property name="Number" value="43"/>
 			<property name="Rarity" value="Rare"/>
 		</card>
@@ -466,7 +466,7 @@
 			<property name="Type" value="Evolution Creature"/>
 			<property name="Race" value="Beast Kin"/>
 			<property name="Power" value="7000"/>
-			<property name="Rules" value="Evolution — Put on one of your Beast Kin.  Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;One with Nature — If this creature would be banished, put it into your mana zone instead. "/>
+			<property name="Rules" value="Evolution — Put on one of your Beast Kin.&#xd;&#xa;Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;One with Nature — If this creature would be banished, put it into your mana zone instead."/>
 			<property name="Number" value="45"/>
 			<property name="Rarity" value="Uncommon"/>
 		</card>
@@ -476,7 +476,7 @@
 			<property name="Type" value="Creature"/>
 			<property name="Race" value="Beast Kin"/>
 			<property name="Power" value="7000"/>
-			<property name="Rules" value="Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Focused Anger — This creature can't attack creatures. "/>
+			<property name="Rules" value="Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Focused Anger — This creature can't attack creatures."/>
 			<property name="Number" value="46"/>
 			<property name="Rarity" value="Rare"/>
 		</card>
@@ -506,7 +506,7 @@
 			<property name="Type" value="Creature"/>
 			<property name="Race" value="Megabug"/>
 			<property name="Power" value="8000"/>
-			<property name="Rules" value="Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Deafening Wingbeat — Whenever one of your creatures wins a battle, choose one of your opponent's shields. Your opponent puts it into his or her mana zone. "/>
+			<property name="Rules" value="Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Deafening Wingbeat — Whenever one of your creatures wins a battle, choose one of your opponent's shields. Your opponent puts it into his or her mana zone."/>
 			<property name="Number" value="49"/>
 			<property name="Rarity" value="Very Rare"/>
 		</card>
@@ -526,7 +526,7 @@
 			<property name="Type" value="Creature"/>
 			<property name="Race" value="Beast Kin"/>
 			<property name="Power" value="2000"/>
-			<property name="Rules" value="Hit and Run — At the end of each of your turns, if this creature broke a shield this turn, return this creature to your hand. "/>
+			<property name="Rules" value="Hit and Run — At the end of each of your turns, if this creature broke a shield this turn, return this creature to your hand."/>
 			<property name="Number" value="51"/>
 			<property name="Rarity" value="Common"/>
 		</card>
@@ -536,7 +536,7 @@
 			<property name="Type" value="Spell"/>
 			<property name="Race" value=""/>
 			<property name="Power" value=""/>
-			<property name="Rules" value="Look at the top 2 cards of your deck. Put one of them into your hand and the other into your mana zone. "/>
+			<property name="Rules" value="Look at the top 2 cards of your deck. Put one of them into your hand and the other into your mana zone."/>
 			<property name="Number" value="52"/>
 			<property name="Rarity" value="Common"/>
 		</card>
@@ -556,7 +556,7 @@
 			<property name="Type" value="Creature"/>
 			<property name="Race" value="Megabug"/>
 			<property name="Power" value="2000"/>
-			<property name="Rules" value="Evo Might — Each of your evolution creatures gets +2000 power. "/>
+			<property name="Rules" value="Evo Might — Each of your evolution creatures gets +2000 power."/>
 			<property name="Number" value="54"/>
 			<property name="Rarity" value="Uncommon"/>
 		</card>
@@ -566,7 +566,7 @@
 			<property name="Type" value="Spell"/>
 			<property name="Race" value=""/>
 			<property name="Power" value=""/>
-			<property name="Rules" value="Shield Blast (Instead of putting this spell into your hand from a broken shield, you may cast it for free.)&#xd;&#xa;Put all creatures that are level 3 or less from the battle zone into their owners' mana zones. "/>
+			<property name="Rules" value="Shield Blast (Instead of putting this spell into your hand from a broken shield, you may cast it for free.)&#xd;&#xa;Put all creatures that are level 3 or less from the battle zone into their owners' mana zones."/>
 			<property name="Number" value="55"/>
 			<property name="Rarity" value="Rare"/>
 		</card>
@@ -576,7 +576,7 @@
 			<property name="Type" value="Creature"/>
 			<property name="Race" value="Celestial Dragon"/>
 			<property name="Power" value="10500"/>
-			<property name="Rules" value="Double Breaker. Laser Lances — When this creature enters the battle zone, tap up to 3 target enemy creatures. Three Headed — When this creature is banished, look at the top 3 cards of your deck. You may put any number of non-evolution Light creatures from among them into the battle zone. Put the rest on the bottom of your deck in any order."/>
+			<property name="Rules" value="Double Breaker.&#xd;&#xa;Laser Lances — When this creature enters the battle zone, tap up to 3 target enemy creatures.&#xd;&#xa;Three Headed — When this creature is banished, look at the top 3 cards of your deck. You may put any number of non-evolution Light creatures from among them into the battle zone. Put the rest on the bottom of your deck in any order."/>
 			<property name="Number" value="56"/>
 			<property name="Rarity" value="Super Rare"/>
 		</card>
@@ -586,7 +586,7 @@
 			<property name="Type" value="Evolution Creature"/>
 			<property name="Race" value="Cyber Lord"/>
 			<property name="Power" value="5000"/>
-			<property name="Rules" value="Evolution — Put on one of your Cyber Lords. Master Tactician — This creature can't be blocked. Extract Data — Whenever this creature attacks, you may draw a card."/>
+			<property name="Rules" value="Evolution — Put on one of your Cyber Lords.&#xd;&#xa;Master Tactician — This creature can't be blocked.&#xd;&#xa;Extract Data — Whenever this creature attacks, you may draw a card."/>
 			<property name="Number" value="57"/>
 			<property name="Rarity" value="Super Rare"/>
 		</card>
@@ -596,7 +596,7 @@
 			<property name="Type" value="Evolution Creature"/>
 			<property name="Race" value="Chimera"/>
 			<property name="Power" value="11000"/>
-			<property name="Rules" value="Evolution — Put on one of your Chimeras. Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Engulf — Whenever this creature attacks, banish all enemy creatures that are level 1."/>
+			<property name="Rules" value="Evolution — Put on one of your Chimeras.&#xd;&#xa;Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Engulf — Whenever this creature attacks, banish all enemy creatures that are level 1."/>
 			<property name="Number" value="58"/>
 			<property name="Rarity" value="Super Rare"/>
 		</card>
@@ -606,7 +606,7 @@
 			<property name="Type" value="Evolution Creature"/>
 			<property name="Race" value="Armored Dragon / BeastKin"/>
 			<property name="Power" value="12000"/>
-			<property name="Rules" value="Evolution — Put on one of your Armored Dragons. Triple Breaker (This creature breaks 3 shields.)&#xd;&#xa;Dragon Wings — When this creature enters the battle zone, target enemy creature can't attack or block until the start of your next turn."/>
+			<property name="Rules" value="Evolution — Put on one of your Armored Dragons.&#xd;&#xa;Triple Breaker (This creature breaks 3 shields.)&#xd;&#xa;Dragon Wings — When this creature enters the battle zone, target enemy creature can't attack or block until the start of your next turn."/>
 			<property name="Number" value="59"/>
 			<property name="Rarity" value="Super Rare"/>
 		</card>
@@ -616,7 +616,7 @@
 			<property name="Type" value="Evolution Creature"/>
 			<property name="Race" value="Armored Dragon / Beast Kin"/>
 			<property name="Power" value="8000"/>
-			<property name="Rules" value="Evolution — Put on one of your Beast Kin. Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Built to Brawl — While battling, this creature gets +6000 power."/>
+			<property name="Rules" value="Evolution — Put on one of your Beast Kin.&#xd;&#xa;Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Built to Brawl — While battling, this creature gets +6000 power."/>
 			<property name="Number" value="60"/>
 			<property name="Rarity" value="Super Rare"/>
 		</card>

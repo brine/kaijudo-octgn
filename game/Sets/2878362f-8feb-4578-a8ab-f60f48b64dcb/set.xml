@@ -476,7 +476,7 @@
 			<property name="Type" value="Spell"/>
 			<property name="Race" value=""/>
 			<property name="Power" value=""/>
-			<property name="Rules" value="Shield Blast (Instead of putting this spell into your hand from a broken shield, you may cast it for free)  Return target creature that is level 4 or less from the battle zone to its owner's hand."/>
+			<property name="Rules" value="Shield Blast (Instead of putting this spell into your hand from a broken shield, you may cast it for free.)&#xd;&#xa;Return target creature that is level 4 or less from the battle zone to its owner's hand."/>
 			<property name="Number" value="46"/>
 			<property name="Rarity" value="Common"/>
 		</card>
@@ -666,7 +666,7 @@
 			<property name="Type" value="Spell"/>
 			<property name="Race" value=""/>
 			<property name="Power" value=""/>
-			<property name="Rules" value="Shield Blast (Instead of putting this spell into your hand from a broken shield, you may cast it for free.)&#xd;&#xa; Draw a number of cards equal to the number of enemy creatures in the battle zone."/>
+			<property name="Rules" value="Shield Blast (Instead of putting this spell into your hand from a broken shield, you may cast it for free.)&#xd;&#xa;Draw a number of cards equal to the number of enemy creatures in the battle zone."/>
 			<property name="Number" value="65"/>
 			<property name="Rarity" value="Rare"/>
 		</card>
@@ -676,7 +676,7 @@
 			<property name="Type" value="Spell"/>
 			<property name="Race" value=""/>
 			<property name="Power" value=""/>
-			<property name="Rules" value="Shield Blast (Instead of putting this spell into your hand from a broken shield, you may cast it for free)  Return target creature from the battle zone to its owner's hand."/>
+			<property name="Rules" value="Shield Blast (Instead of putting this spell into your hand from a broken shield, you may cast it for free.)&#xd;&#xa;Return target creature from the battle zone to its owner's hand."/>
 			<property name="Number" value="66"/>
 			<property name="Rarity" value="Rare"/>
 		</card>
@@ -1616,7 +1616,7 @@
 			<property name="Type" value="Creature"/>
 			<property name="Race" value="Megabug"/>
 			<property name="Power" value="3000"/>
-			<property name="Rules" value="Powerful Attack +4000 (While attacking, this creature gets +4000 power.)&#xd;&#xa; Double Breaker (This creature breaks 2 shields.)"/>
+			<property name="Rules" value="Powerful Attack +4000 (While attacking, this creature gets +4000 power.)&#xd;&#xa;Double Breaker (This creature breaks 2 shields.)"/>
 			<property name="Number" value="160"/>
 			<property name="Rarity" value="Rare"/>
 		</card>
@@ -1786,7 +1786,7 @@
 			<property name="Type" value="Creature"/>
 			<property name="Race" value="Armored Dragon / Beast Kin"/>
 			<property name="Power" value="6000"/>
-			<property name="Rules" value="Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Howitzer — When this creature enters the battle zone, banish target enemy creature that has power 4000 or less. "/>
+			<property name="Rules" value="Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Howitzer — When this creature enters the battle zone, banish target enemy creature that has power 4000 or less."/>
 			<property name="Number" value="177"/>
 			<property name="Rarity" value="Super Rare"/>
 		</card>

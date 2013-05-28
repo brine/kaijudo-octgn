@@ -1,16 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Promotional Cards" id="0628d489-a13b-4ebc-ad97-7c59ffa1d429" gameId="48bb61f4-5707-44bf-853e-0c473549ef50" gameVersion="1.0.0.0" version="2.0.0.0">
 	<cards>
-		<card name="Cybersphere Dragon" id="f5688184-ca88-4f0d-b48a-9dfd55e2cdb2" >
-			<property name="Level" value="7"/>
-			<property name="Civilization" value="Water"/>
-			<property name="Type" value="Creature"/>
-			<property name="Race" value="Tsunami Dragon"/>
-			<property name="Power" value="6000"/>
-			<property name="Rules" value="Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Uplink — If this creature would be banished, return it to your hand instead."/>
-			<property name="Number" value="0"/>
-			<property name="Rarity" value="Promo"/>
-		</card>
 		<card name="Billion-Degree Dragon" id="447ac0b2-7032-4171-9854-d8037dcba496" >
 			<property name="Level" value="8"/>
 			<property name="Civilization" value="Fire"/>
@@ -18,6 +8,16 @@
 			<property name="Race" value="Armored Dragon"/>
 			<property name="Power" value="6000"/>
 			<property name="Rules" value="Fast Attack (This creature can attack on the turn it enters the battle zone.)&#xd;&#xa;Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Hypersonic Charge — This creature can attack untapped creatures on the turn it enters the battle zone."/>
+			<property name="Number" value="0"/>
+			<property name="Rarity" value="Promo"/>
+		</card>
+		<card name="Cybersphere Dragon" id="f5688184-ca88-4f0d-b48a-9dfd55e2cdb2" >
+			<property name="Level" value="7"/>
+			<property name="Civilization" value="Water"/>
+			<property name="Type" value="Creature"/>
+			<property name="Race" value="Tsunami Dragon"/>
+			<property name="Power" value="6000"/>
+			<property name="Rules" value="Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Uplink — If this creature would be banished, return it to your hand instead."/>
 			<property name="Number" value="0"/>
 			<property name="Rarity" value="Promo"/>
 		</card>
@@ -41,13 +41,53 @@
 			<property name="Number" value="0"/>
 			<property name="Rarity" value="Promo"/>
 		</card>
+		<card name="Fault-Line Dragon" id="46dd806a-befa-444d-a715-ce6bf5c16785" >
+			<property name="Level" value="6"/>
+			<property name="Civilization" value="Fire / Nature"/>
+			<property name="Type" value="Creature"/>
+			<property name="Race" value="Armored Dragon / Earthstrike Dragon"/>
+			<property name="Power" value="5000"/>
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Sword of Outrage — This creature can attack tapped creatures on the turn it enters the battle zone.&#xd;&#xa;Sword of Reaping — Whenever this creature wins a battle, you may put the top card of your deck into your mana zone."/>
+			<property name="Number" value="0"/>
+			<property name="Rarity" value="Promo"/>
+		</card>
 		<card name="Flare Inhibitor" id="abec3af5-c7e6-4356-b20f-c879a05eb834" >
 			<property name="Level" value="5"/>
 			<property name="Civilization" value="Light"/>
 			<property name="Type" value="Creature"/>
 			<property name="Race" value="Enforcer"/>
 			<property name="Power" value="1500"/>
-			<property name="Rules" value="Blocker (You may tap this creature to change an enemy creature's attack to this creature.)&#xd;&#xa;Skirmisher (This creature can attack only creatures.)&#xd;&#xa; Recalibrate — If this creature would be banished, put it into your shield zone face down as a new shield instead."/>
+			<property name="Rules" value="Blocker (You may tap this creature to change an enemy creature's attack to this creature.)&#xd;&#xa;Skirmisher (This creature can attack only creatures.)&#xd;&#xa;Recalibrate — If this creature would be banished, put it into your shield zone face down as a new shield instead."/>
+			<property name="Number" value="0"/>
+			<property name="Rarity" value="Promo"/>
+		</card>
+		<card name="General Finbarr" id="42ef1f20-b19b-490a-b04d-74ab1c789f8f" >
+			<property name="Level" value="6"/>
+			<property name="Civilization" value="Water"/>
+			<property name="Type" value="Creature"/>
+			<property name="Race" value="Cyber Lord"/>
+			<property name="Power" value="4000"/>
+			<property name="Rules" value="Finbarr's Hoverhex — When this creature enters the battle zone, you may return target creature from the battle zone to its owner's hand.&#xd;&#xa;Finbarr's Command — Whenever one of your other creatures attacks, you may draw a card."/>
+			<property name="Number" value="0"/>
+			<property name="Rarity" value="Promo"/>
+		</card>
+		<card name="General Skycrusher" id="5f8c1dfa-d996-4977-9470-377b677f8e26" >
+			<property name="Level" value="7"/>
+			<property name="Civilization" value="Fire"/>
+			<property name="Type" value="Creature"/>
+			<property name="Race" value="Armored Dragon"/>
+			<property name="Power" value="8000"/>
+			<property name="Rules" value="Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Skycrusher's Saber — When this creature enters the battle zone, banish target enemy creature that has power 3000 or less.&#xd;&#xa;Skycrusher's Command — Whenever one of your other creatures attacks, it gets &quot;Powerful Attack +3000&quot; until the end of the turn. (A creature that has &quot;Powerful Attack +3000&quot; gets +3000 power while attacking.)"/>
+			<property name="Number" value="0"/>
+			<property name="Rarity" value="Promo"/>
+		</card>
+		<card name="Grybolos the Gatherer" id="3b9716ff-b533-4eb6-9ae3-87952d63dc2e" >
+			<property name="Level" value="7"/>
+			<property name="Civilization" value="Water / Darkness"/>
+			<property name="Type" value="Creature"/>
+			<property name="Race" value="Aquan / Tarborg"/>
+			<property name="Power" value="7000"/>
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Double Breaker&#xd;&#xa;Spell-Scrounge — When this creature enters the battle zone, each player puts the top card of his or her deck into his or her discard pile. For each spell put into a discard pile this way, you may draw a card."/>
 			<property name="Number" value="0"/>
 			<property name="Rarity" value="Promo"/>
 		</card>
@@ -71,16 +111,6 @@
 			<property name="Number" value="0"/>
 			<property name="Rarity" value="Promo"/>
 		</card>
-		<card name="Mother Virus" id="62c30804-00d4-46f0-bae0-02c2b828f1d3" >
-			<property name="Level" value="5"/>
-			<property name="Civilization" value="Water"/>
-			<property name="Type" value="Creature"/>
-			<property name="Race" value="Cyber Virus"/>
-			<property name="Power" value="5000"/>
-			<property name="Rules" value="Blocker (You may tap this creature to change an enemy creature's attack to this creature.)&#xd;&#xa;Guard (This creature can't attack.)&#xd;&#xa;Evo Archive — At the end of each of your turns, if you have an evolution creature in the battle zone, you may draw a card."/>
-			<property name="Number" value="0"/>
-			<property name="Rarity" value="Promo"/>
-		</card>
 		<card name="Mighty Shouter, the Shaman" id="400c479c-f910-4acd-b028-b434915ebae8" >
 			<property name="Level" value="5"/>
 			<property name="Civilization" value="Nature"/>
@@ -98,6 +128,16 @@
 			<property name="Race" value="Armored Dragon"/>
 			<property name="Power" value="8000"/>
 			<property name="Rules" value="Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Rapid Fire — When this creature enters the battle zone, banish up to 2 target enemy creatures that each have power 4000 or less."/>
+			<property name="Number" value="0"/>
+			<property name="Rarity" value="Promo"/>
+		</card>
+		<card name="Mother Virus" id="62c30804-00d4-46f0-bae0-02c2b828f1d3" >
+			<property name="Level" value="5"/>
+			<property name="Civilization" value="Water"/>
+			<property name="Type" value="Creature"/>
+			<property name="Race" value="Cyber Virus"/>
+			<property name="Power" value="5000"/>
+			<property name="Rules" value="Blocker (You may tap this creature to change an enemy creature's attack to this creature.)&#xd;&#xa;Guard (This creature can't attack.)&#xd;&#xa;Evo Archive — At the end of each of your turns, if you have an evolution creature in the battle zone, you may draw a card."/>
 			<property name="Number" value="0"/>
 			<property name="Rarity" value="Promo"/>
 		</card>
@@ -131,6 +171,26 @@
 			<property name="Number" value="0"/>
 			<property name="Rarity" value="Promo"/>
 		</card>
+		<card name="Ra-Vu the Stormbringer " id="e6f965ea-c04d-4359-8b2b-046719784257" >
+			<property name="Level" value="6"/>
+			<property name="Civilization" value="Light"/>
+			<property name="Type" value="Evolution Creature"/>
+			<property name="Race" value="Skyforce Champion"/>
+			<property name="Power" value="11000"/>
+			<property name="Rules" value="Evolution — Put on one of your Skyforce Champions.&#xd;&#xa;Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Lightning Vortex — At the end of each of your turns, untap all your creatures.&#xd;&#xa;Eye of the Storm — All your creatures have &quot;Blocker.&quot; (You may tap a creature that has &quot;Blocker&quot; to change an enemy creature's attack to it.)&#xd;&#xa;"/>
+			<property name="Number" value="0"/>
+			<property name="Rarity" value="Promo"/>
+		</card>
+		<card name="Saracon, Storm Dynamo" id="9a692349-9d9c-4943-b4f6-15a763ed93d4" >
+			<property name="Level" value="8"/>
+			<property name="Civilization" value="Light / Water"/>
+			<property name="Type" value="Creature"/>
+			<property name="Race" value="Skyforce Champion / Trench Hunter"/>
+			<property name="Power" value="7500"/>
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Blocker&#xd;&#xa;Double Breaker&#xd;&#xa;Distress Beacon — When this creature is banished, draw up to 3 cards."/>
+			<property name="Number" value="0"/>
+			<property name="Rarity" value="Promo"/>
+		</card>
 		<card name="Sparkblade Protector" id="e24bed0c-0965-49a4-9297-5e2abd37ddab" >
 			<property name="Level" value="4"/>
 			<property name="Civilization" value="Light"/>
@@ -151,6 +211,16 @@
 			<property name="Number" value="0"/>
 			<property name="Rarity" value="Promo"/>
 		</card>
+		<card name="Wild Sky Sword" id="f921a30b-d4e2-4b5b-82a3-c2d91b5758c3" >
+			<property name="Level" value="6"/>
+			<property name="Civilization" value="Light / Nature"/>
+			<property name="Type" value="Creature"/>
+			<property name="Race" value="Storm Patrol / Beast Kin"/>
+			<property name="Power" value="4000"/>
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Powerful Attack +4000 (While attacking, this creature gets +4000 power.)&#xd;&#xa;Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Electro-Field — Whenever this creature wins a battle, you may put the top card of your deck into your shield face-down as a new shield."/>
+			<property name="Number" value="0"/>
+			<property name="Rarity" value="Promo"/>
+		</card>
 		<card name="Wrist-Rockets Tatsurion" id="69304986-0c0f-4610-bf89-cc3fe74ebb6d" >
 			<property name="Level" value="7"/>
 			<property name="Civilization" value="Fire"/>
@@ -158,16 +228,6 @@
 			<property name="Race" value="Armored Dragon / Beast Kin"/>
 			<property name="Power" value="5000"/>
 			<property name="Rules" value="Rocket Launchers — When this creature enters the battle zone or whenever it attacks, banish target enemy creature that has power 2000 or less."/>
-			<property name="Number" value="0"/>
-			<property name="Rarity" value="Promo"/>
-		</card>
-		<card name="Ra-Vu the Stormbringer " id="e6f965ea-c04d-4359-8b2b-046719784257" >
-			<property name="Level" value="6"/>
-			<property name="Civilization" value="Light"/>
-			<property name="Type" value="Evolution Creature"/>
-			<property name="Race" value="Skyforce Champion"/>
-			<property name="Power" value="11000"/>
-			<property name="Rules" value="Evolution — Put on one of your Skyforce Champions.  Double Breaker (This creature breaks 2 shields.)&#xd;&#xa; Lightning Vortex — At the end of each of your turns, untap all your creatures.  Eye of the Storm — All your creatures have &quot;Blocker.jpg Blocker.&quot; (You may tap a creature that has &quot;Blocker&quot; to change an enemy creature's attack to it.)&#xd;&#xa;"/>
 			<property name="Number" value="0"/>
 			<property name="Rarity" value="Promo"/>
 		</card>

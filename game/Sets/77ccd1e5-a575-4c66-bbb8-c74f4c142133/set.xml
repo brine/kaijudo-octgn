@@ -47,7 +47,7 @@
 			<property name="Type" value="Spell"/>
 			<property name="Race" value=""/>
 			<property name="Power" value=""/>
-			<property name="Rules" value="Shield Blast (Instead of putting this spell into your hand from a broken shield, you may cast it for free)  Return target creature that is level 4 or less from the battle zone to its owner's hand."/>
+			<property name="Rules" value="Shield Blast (Instead of putting this spell into your hand from a broken shield, you may cast it for free.)&#xd;&#xa;Return target creature that is level 4 or less from the battle zone to its owner's hand."/>
 			<property name="Number" value="5"/>
 			<property name="Rarity" value="Common"/>
 		</card>
