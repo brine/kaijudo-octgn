@@ -802,7 +802,7 @@
 		</card>
 		<card name="Blade Seer" id="9cb8d25d-c7af-4952-b701-36174fd81abd" >
 			<property name="Level" value="6"/>
-			<property name="Civilization" value="Light /.Nature"/>
+			<property name="Civilization" value="Light / Nature"/>
 			<property name="Type" value="Creature"/>
 			<property name="Race" value="Storm Patrol / Beast Kin"/>
 			<property name="Power" value="4000"/>
@@ -812,7 +812,7 @@
 		</card>
 		<card name="Dawnflower Quartz" id="2993596d-4dfd-4d42-9988-c03d15e3fdf4" >
 			<property name="Level" value="4"/>
-			<property name="Civilization" value="Light /.Nature"/>
+			<property name="Civilization" value="Light / Nature"/>
 			<property name="Type" value="Creature"/>
 			<property name="Race" value="Spirit Quartz"/>
 			<property name="Power" value="3000"/>
@@ -822,7 +822,7 @@
 		</card>
 		<card name="Fullmetal Lemon" id="3196e625-26a0-4c4f-a15f-9761e92796d2" >
 			<property name="Level" value="3"/>
-			<property name="Civilization" value="Light /.Nature"/>
+			<property name="Civilization" value="Light / Nature"/>
 			<property name="Type" value="Creature"/>
 			<property name="Race" value="Enforcer / Wild Veggie"/>
 			<property name="Power" value="3500"/>
@@ -832,7 +832,7 @@
 		</card>
 		<card name="Humonculon the Blaster" id="16154b88-7b88-42d5-bbfe-f487d46bca17" >
 			<property name="Level" value="5"/>
-			<property name="Civilization" value="Light /.Nature"/>
+			<property name="Civilization" value="Light / Nature"/>
 			<property name="Type" value="Creature"/>
 			<property name="Race" value="Enforcer / Megabug"/>
 			<property name="Power" value="3000"/>
@@ -842,7 +842,7 @@
 		</card>
 		<card name="Oathsworn Call" id="6bd2ae05-a571-4e27-a0a6-359f3faa6197" >
 			<property name="Level" value="5"/>
-			<property name="Civilization" value="Light /.Nature"/>
+			<property name="Civilization" value="Light / Nature"/>
 			<property name="Type" value="Spell"/>
 			<property name="Race" value=""/>
 			<property name="Power" value=""/>
@@ -852,7 +852,7 @@
 		</card>
 		<card name="Starseed Squadron" id="01ddd3fc-3bee-45fc-a82a-bd81d253c3e9" >
 			<property name="Level" value="4"/>
-			<property name="Civilization" value="Light /.Nature"/>
+			<property name="Civilization" value="Light / Nature"/>
 			<property name="Type" value="Creature"/>
 			<property name="Race" value="Enforcer / Tree Kin"/>
 			<property name="Power" value="4000"/>
@@ -862,7 +862,7 @@
 		</card>
 		<card name="Suncloak Protector" id="dd9e9e82-7102-4d58-a1a8-f7222f2a80a9" >
 			<property name="Level" value="7"/>
-			<property name="Civilization" value="Light /.Nature"/>
+			<property name="Civilization" value="Light / Nature"/>
 			<property name="Type" value="Creature"/>
 			<property name="Race" value="Skyforce Champion / Colossus"/>
 			<property name="Power" value="7500"/>
@@ -872,7 +872,7 @@
 		</card>
 		<card name="Sword Horned" id="41bd24d0-f34d-4d75-ac22-f5a88cbb65de" >
 			<property name="Level" value="3"/>
-			<property name="Civilization" value="Light /.Nature"/>
+			<property name="Civilization" value="Light / Nature"/>
 			<property name="Type" value="Creature"/>
 			<property name="Race" value="Enforcer / Beast Kin"/>
 			<property name="Power" value="5500"/>
