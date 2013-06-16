@@ -36,12 +36,13 @@ def align():
     return "BREAK"
   cardorder = [[],[],[]]
   for card in table:
-    if not card.isFaceUp:
-      cardorder[1].append(card)
-    elif card.orientation == Rot180 or card.orientation == Rot270:
-      cardorder[2].append(card)
-    else:
-      cardorder[0].append(card)
+    if card.controller == me:
+      if not card.isFaceUp:
+        cardorder[1].append(card)
+      elif card.orientation == Rot180 or card.orientation == Rot270:
+        cardorder[2].append(card)
+      else:
+        cardorder[0].append(card)
   xpos = 80
   ypos = 5
   for cardtype in cardorder:
