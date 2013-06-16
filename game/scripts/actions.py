@@ -121,7 +121,7 @@ def banish(card, x = 0, y = 0):
         card.peek()
         rnd(1,10)
         if re.search("Shield Blast", card.Rules):
-            if confirm("Activate Shield Blast for {}?".format(card.Name)):
+            if confirm("Activate Shield Blast for {}\n\n{}?".format(card.Name, card.Rules)):
                 toDiscard(card, notifymute = False)
                 rnd(1,10)
                 notify("{} uses {}'s Shield Blast.".format(me, card))
