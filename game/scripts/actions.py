@@ -112,9 +112,9 @@ def tap(card, x = 0, y = 0):
     mute()
     card.orientation ^= Rot90
     if card.orientation & Rot90 == Rot90:
-        notify('{} taps {}'.format(me, card))
+        notify('{} taps {}.'.format(me, card))
     else:
-        notify('{} untaps {}'.format(me, card))    
+        notify('{} untaps {}.'.format(me, card))
 
 def banish(card, x = 0, y = 0):
     mute()
@@ -202,6 +202,8 @@ def toMana(card, x = 0, y = 0, notifymute = False):
 def toShields(card, x = 0, y = 0, notifymute = False):
     mute()
     card.moveToTable(0,0,True)
+    if card.isFaceUp:
+        card.isFaceUp = False
     align()
     if notifymute == False:
         notify("{} sets a new shield.".format(me))
