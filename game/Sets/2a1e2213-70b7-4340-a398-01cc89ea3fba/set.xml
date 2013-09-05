@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Elite Series - Triple Strike" id="2a1e2213-70b7-4340-a398-01cc89ea3fba" gameId="48bb61f4-5707-44bf-853e-0c473549ef50" gameVersion="1.0.0.0" version="2.0.0.0">
+	<cards>
+		<card name="Aqua Seneschal" id="392328b6-b783-4f87-9157-c22a3da69035" >
+			<property name="Level" value="3"/>
+			<property name="Civilization" value="Water"/>
+			<property name="Type" value="Creature"/>
+			<property name="Race" value="Cyber Lord"/>
+			<property name="Power" value="2000"/>
+			<property name="Rules" value="Choten's Advisor — Whenever this creature attacks, you may draw a card."/>
+			<property name="Number" value="1"/>
+			<property name="Rarity" value="Common"/>
+		</card>
+		<card name="Bottle of Wishes" id="2197401e-837a-4949-bb6b-371514bc6ce4" >
+			<property name="Level" value="5"/>
+			<property name="Civilization" value="Water"/>
+			<property name="Type" value="Spell"/>
+			<property name="Race" value=""/>
+			<property name="Power" value=""/>
+			<property name="Rules" value="Shield Blast (Instead of putting this spell into your hand from a broken shield, you may cast it for free.)&#xd;&#xa;Shuffle your deck, then reveal the top card. If it's a non-evolution creature, put it into the battle zone. If it's a spell that is level 7 or less, cast it for free. Otherwise, put it into your hand."/>
+			<property name="Number" value="2"/>
+			<property name="Rarity" value="Rare"/>
+		</card>
+		<card name="Crystal Memory" id="8fca352b-ac9b-4ff0-8f65-9e094efc9740" >
+			<property name="Level" value="4"/>
+			<property name="Civilization" value="Water"/>
+			<property name="Type" value="Spell"/>
+			<property name="Race" value=""/>
+			<property name="Power" value=""/>
+			<property name="Rules" value="Shield Blast (Instead of putting this spell into your hand from a broken shield, you may cast it for free.)&#xd;&#xa;Search your deck. Take a card from it and put that card into your hand. Then shuffle your deck."/>
+			<property name="Number" value="3"/>
+			<property name="Rarity" value="Rare"/>
+		</card>
+		<card name="Fluorogill Manta" id="538be3cd-034e-4c3d-a9f8-b308c2c5c12d" >
+			<property name="Level" value="3"/>
+			<property name="Civilization" value="Water"/>
+			<property name="Type" value="Creature"/>
+			<property name="Race" value="Trench Hunter"/>
+			<property name="Power" value="4000"/>
+			<property name="Rules" value="Blocker (You may tap this creature to change an enemy creature's attack to this creature.)&#xd;&#xa;Guard (This creature can't attack.)"/>
+			<property name="Number" value="4"/>
+			<property name="Rarity" value="Common"/>
+		</card>
+		<card name="Logos Scan" id="20db42ce-89e9-4090-bd95-3e61d2023a7d" >
+			<property name="Level" value="3"/>
+			<property name="Civilization" value="Water"/>
+			<property name="Type" value="Spell"/>
+			<property name="Race" value=""/>
+			<property name="Power" value=""/>
+			<property name="Rules" value="Draw 2 cards."/>
+			<property name="Number" value="5"/>
+			<property name="Rarity" value="Common"/>
+		</card>
+		<card name="Reef-Eye" id="b17f9a8a-664e-46a2-aab3-d0f35edc4dee" >
+			<property name="Level" value="2"/>
+			<property name="Civilization" value="Water"/>
+			<property name="Type" value="Creature"/>
+			<property name="Race" value="Trench Hunter"/>
+			<property name="Power" value="3000"/>
+			<property name="Rules" value="Blocker (You may tap this creature to change an enemy creature's attack to this creature.)&#xd;&#xa;Guard (This creature can't attack.)"/>
+			<property name="Number" value="6"/>
+			<property name="Rarity" value="Common"/>
+		</card>
+		<card name="Black Feather of Shadow Abyss" id="a89c467c-1939-4015-99a7-80f2d3a08c34" >
+			<property name="Level" value="5"/>
+			<property name="Civilization" value="Darkness"/>
+			<property name="Type" value="Creature"/>
+			<property name="Race" value="Specter"/>
+			<property name="Power" value="2000"/>
+			<property name="Rules" value="Ghostly Siphon — Whenever an enemy creature is banished, you may draw a card."/>
+			<property name="Number" value="7"/>
+			<property name="Rarity" value="Rare"/>
+		</card>
+		<card name="Bone Blades" id="3aa06199-8a49-40bc-80dc-c05fdfd94efd" >
+			<property name="Level" value="4"/>
+			<property name="Civilization" value="Darkness"/>
+			<property name="Type" value="Spell"/>
+			<property name="Race" value=""/>
+			<property name="Power" value=""/>
+			<property name="Rules" value="Shield Blast (Instead of putting this spell into your hand from a broken shield, you may cast it for free.)&#xd;&#xa;Banish target enemy creature that is level 4 or less."/>
+			<property name="Number" value="8"/>
+			<property name="Rarity" value="Common"/>
+		</card>
+		<card name="Dream Pirate" id="c6f8b729-e844-4cf7-a57b-43029f503fd8" >
+			<property name="Level" value="3"/>
+			<property name="Civilization" value="Darkness"/>
+			<property name="Type" value="Creature"/>
+			<property name="Race" value="Specter"/>
+			<property name="Power" value="3000"/>
+			<property name="Rules" value="Blocker (You may tap this creature to change an enemy creature's attack to this creature.)&#xd;&#xa;Ghostly — When this creature attacks, banish it at the end of the attack."/>
+			<property name="Number" value="9"/>
+			<property name="Rarity" value="Uncommon"/>
+		</card>
+		<card name="Razorkinder" id="5f583d71-18f6-48c5-9f58-80b0750a3d25" >
+			<property name="Level" value="7"/>
+			<property name="Civilization" value="Darkness"/>
+			<property name="Type" value="Creature"/>
+			<property name="Race" value="Evil Toy"/>
+			<property name="Power" value="4000"/>
+			<property name="Rules" value="Grab and Stab — When this creature enters the battle zone, banish target untapped enemy creature."/>
+			<property name="Number" value="10"/>
+			<property name="Rarity" value="Super Rare"/>
+		</card>
+		<card name="Skull Shatter" id="2537fb7c-d68f-4b7d-81d3-17cbdd61234b" >
+			<property name="Level" value="8"/>
+			<property name="Civilization" value="Darkness"/>
+			<property name="Type" value="Spell"/>
+			<property name="Race" value=""/>
+			<property name="Power" value=""/>
+			<property name="Rules" value="You opponent discards his or her hand."/>
+			<property name="Number" value="11"/>
+			<property name="Rarity" value="Rare"/>
+		</card>
+		<card name="Terror Pit" id="e0c20978-56c1-470c-9ffd-b532d6a47084" >
+			<property name="Level" value="7"/>
+			<property name="Civilization" value="Darkness"/>
+			<property name="Type" value="Spell"/>
+			<property name="Race" value=""/>
+			<property name="Power" value=""/>
+			<property name="Rules" value="Shield Blast (Instead of putting this spell into your hand from a broken shield, you may cast it for free.)&#xd;&#xa;Banish target enemy creature."/>
+			<property name="Number" value="12"/>
+			<property name="Rarity" value="Rare"/>
+		</card>
+		<card name="Bolshack Dragon" id="8f64c94e-b668-45b7-9323-4e97a0365c53" >
+			<property name="Level" value="6"/>
+			<property name="Civilization" value="Fire"/>
+			<property name="Type" value="Creature"/>
+			<property name="Race" value="Armored Dragon"/>
+			<property name="Power" value="6000+"/>
+			<property name="Rules" value="Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Molten Fists — While attacking, this creature gets +1000 power for each Fire card in your discard pile."/>
+			<property name="Number" value="13"/>
+			<property name="Rarity" value="Rare"/>
+		</card>
+		<card name="Comet Missile" id="9c251dad-4c5c-4969-a677-2690ce8ae511" >
+			<property name="Level" value="2"/>
+			<property name="Civilization" value="Fire"/>
+			<property name="Type" value="Spell"/>
+			<property name="Race" value=""/>
+			<property name="Power" value=""/>
+			<property name="Rules" value="Shield Blast (Instead of putting this spell into your hand from a broken shield, you may cast it for free.)&#xd;&#xa;Banish target enemy creature that has &quot;Blocker.&quot;"/>
+			<property name="Number" value="14"/>
+			<property name="Rarity" value="Common"/>
+		</card>
+		<card name="Dragon's Breath" id="64af5756-22a0-459d-a6a3-6318cba7adbd" >
+			<property name="Level" value="7"/>
+			<property name="Civilization" value="Fire"/>
+			<property name="Type" value="Spell"/>
+			<property name="Race" value=""/>
+			<property name="Power" value=""/>
+			<property name="Rules" value="Shield Blast (Instead of putting this spell into your hand from a broken shield, you may cast it for free.)&#xd;&#xa;Banish target enemy creature that has power 3000 or less.)&#xd;&#xa;Banish target enemy creature that has power 2000 or less.)&#xd;&#xa;Banish target enemy creature that has power 1000 or less."/>
+			<property name="Number" value="15"/>
+			<property name="Rarity" value="Rare"/>
+		</card>
+		<card name="Hyperspeed Dragon" id="acbe41fe-ee5e-4308-8728-ebebdd24df78" >
+			<property name="Level" value="5"/>
+			<property name="Civilization" value="Fire"/>
+			<property name="Type" value="Creature"/>
+			<property name="Race" value="Armored Dragon"/>
+			<property name="Power" value="5000"/>
+			<property name="Rules" value="Slipstream — While you have another Armored Dragon in the battle zone, all your Armored Dragons have &quot;Fast Attack.&quot; (A creature that has &quot;Fast Attack&quot; can attack on the turn it enters the battle zone.)"/>
+			<property name="Number" value="16"/>
+			<property name="Rarity" value="Rare"/>
+		</card>
+		<card name="Meteosaur" id="54f75682-e9f0-450f-9734-34c5cef70656" >
+			<property name="Level" value="5"/>
+			<property name="Civilization" value="Fire"/>
+			<property name="Type" value="Creature"/>
+			<property name="Race" value="Rock Brute"/>
+			<property name="Power" value="2000"/>
+			<property name="Rules" value="Headbutt — When this creature enters the battle zone, banish target enemy creature that has power 2000 or less."/>
+			<property name="Number" value="17"/>
+			<property name="Rarity" value="Uncommon"/>
+		</card>
+		<card name="Moorna, Gatling Dragon" id="af3334a2-ef17-4eb8-99a6-b6f8408b3201" >
+			<property name="Level" value="7"/>
+			<property name="Civilization" value="Fire"/>
+			<property name="Type" value="Creature"/>
+			<property name="Race" value="Armored Dragon"/>
+			<property name="Power" value="7000"/>
+			<property name="Rules" value="Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Twin Cannons — This creature can attack untapped creatures."/>
+			<property name="Number" value="18"/>
+			<property name="Rarity" value="Very Rare"/>
+		</card>
+		<card name="Rock Bite" id="eb60d087-e0cb-45ea-833f-053f301dc28f" >
+			<property name="Level" value="4"/>
+			<property name="Civilization" value="Fire"/>
+			<property name="Type" value="Spell"/>
+			<property name="Race" value=""/>
+			<property name="Power" value=""/>
+			<property name="Rules" value="Shield Blast (Instead of putting this spell into your hand from a broken shield, you may cast it for free.)&#xd;&#xa;Banish target enemy creature that has power 3000 or less."/>
+			<property name="Number" value="19"/>
+			<property name="Rarity" value="Common"/>
+		</card>
+		<card name="Tornado Flame" id="d5aaca66-a7fc-48b6-8678-c5a65af5e2d3" >
+			<property name="Level" value="5"/>
+			<property name="Civilization" value="Fire"/>
+			<property name="Type" value="Spell"/>
+			<property name="Race" value=""/>
+			<property name="Power" value=""/>
+			<property name="Rules" value="Shield Blast (Instead of putting this spell into your hand from a broken shield, you may cast it for free.)&#xd;&#xa;Banish target enemy creature that has power 5000 or less."/>
+			<property name="Number" value="20"/>
+			<property name="Rarity" value="Rare"/>
+		</card>
+		<card name="Grip of Despair" id="4193066d-dab3-4579-900a-1c358995108a" >
+			<property name="Level" value="5"/>
+			<property name="Civilization" value="Water / Darkness"/>
+			<property name="Type" value="Spell"/>
+			<property name="Race" value=""/>
+			<property name="Power" value=""/>
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Shield Blast (Instead of putting this spell into your hand from a broken shield, you may cast it for free.)&#xd;&#xa;Return target creature from the battle zone to its owner's hand. Then that player chooses and discards a card"/>
+			<property name="Number" value="21"/>
+			<property name="Rarity" value="Rare"/>
+		</card>
+		<card name="Soul Vortex" id="51031cdc-73c9-411b-8cd7-58ddcc6f9923" >
+			<property name="Level" value="5"/>
+			<property name="Civilization" value="Darkness / Fire"/>
+			<property name="Type" value="Spell"/>
+			<property name="Race" value=""/>
+			<property name="Power" value=""/>
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Shield Blast (Instead of putting this spell into your hand from a broken shield, you may cast it for free.)&#xd;&#xa;Banish target enemy creature that has power 3000 or less.&#xd;&#xa;Choose a creature in your discard pile that is level 4 or less and return it to your hand."/>
+			<property name="Number" value="22"/>
+			<property name="Rarity" value="Rare"/>
+		</card>
+		<card name="Magnet Mech Glu-urrgle" id="4e2ff1a0-b15e-4ff6-9fd3-7a58a778335e" >
+			<property name="Level" value="6"/>
+			<property name="Civilization" value="Water"/>
+			<property name="Type" value="Creature"/>
+			<property name="Race" value="Cyber Lord"/>
+			<property name="Power" value="6000"/>
+			<property name="Rules" value="Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Magnetic Grapple — Whenever this creature attacks and isn't blocked, you may return target creature that is level 5 or less from the battle zone to its owner's hand."/>
+			<property name="Number" value="23"/>
+			<property name="Rarity" value="Super Rare"/>
+		</card>
+		<card name="Feral Scaradorable" id="5366dc6a-9b63-4112-94e9-7c3d716fb761" >
+			<property name="Level" value="5"/>
+			<property name="Civilization" value="Darkness"/>
+			<property name="Type" value="Creature"/>
+			<property name="Race" value="Chimera"/>
+			<property name="Power" value="5000"/>
+			<property name="Rules" value="Mindshred — At the end of each of your turns, if this creature broke a shield that turn, your opponent puts the top card of his or her deck into his or her discard pile. If it's a spell, banish target enemy creature. Otherwise, your opponent chooses and discards a card."/>
+			<property name="Number" value="24"/>
+			<property name="Rarity" value="Super Rare"/>
+		</card>
+		<card name="Rampaging Tatsurion" id="ee0aedf0-d743-43b6-a8f7-419c6e3546f3" >
+			<property name="Level" value="7"/>
+			<property name="Civilization" value="Fire"/>
+			<property name="Type" value="Creature"/>
+			<property name="Race" value="Armored Dragon / Beast Kin"/>
+			<property name="Power" value="8000"/>
+			<property name="Rules" value="Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Aftershock Shells — Whenever this creature wins a battle, banish target enemy creature that has power less than the losing creature's power."/>
+			<property name="Number" value="25"/>
+			<property name="Rarity" value="Super Rare"/>
+		</card>
+	</cards>
+</set>

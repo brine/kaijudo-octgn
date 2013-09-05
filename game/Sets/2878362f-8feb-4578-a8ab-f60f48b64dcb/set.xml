@@ -326,7 +326,7 @@
 			<property name="Type" value="Spell"/>
 			<property name="Race" value=""/>
 			<property name="Power" value=""/>
-			<property name="Rules" value="Shield Blast (Instead of putting this spell into your hand from a broken shield, you may cast it for free) Tap target enemy creature."/>
+			<property name="Rules" value="Shield Blast (Instead of putting this spell into your hand from a broken shield, you may cast it for free.)&#xd;&#xa;Tap target enemy creature."/>
 			<property name="Number" value="31"/>
 			<property name="Rarity" value="Common"/>
 		</card>
@@ -636,7 +636,7 @@
 			<property name="Type" value="Spell"/>
 			<property name="Race" value=""/>
 			<property name="Power" value=""/>
-			<property name="Rules" value="Shield Blast (Instead of putting this spell into your hand from a broken shield, you may cast it for free) Draw 2 cards."/>
+			<property name="Rules" value="Shield Blast (Instead of putting this spell into your hand from a broken shield, you may cast it for free.)&#xd;&#xa;Draw 2 cards."/>
 			<property name="Number" value="62"/>
 			<property name="Rarity" value="Uncommon"/>
 		</card>
@@ -706,7 +706,7 @@
 			<property name="Type" value="Spell"/>
 			<property name="Race" value=""/>
 			<property name="Power" value=""/>
-			<property name="Rules" value="Shield Blast (Instead of putting this spell into your hand from a broken shield, you may cast it for free) Banish target enemy creature that is level 4 or less."/>
+			<property name="Rules" value="Shield Blast (Instead of putting this spell into your hand from a broken shield, you may cast it for free.)&#xd;&#xa;Banish target enemy creature that is level 4 or less."/>
 			<property name="Number" value="69"/>
 			<property name="Rarity" value="Common"/>
 		</card>
@@ -946,7 +946,7 @@
 			<property name="Type" value="Spell"/>
 			<property name="Race" value=""/>
 			<property name="Power" value=""/>
-			<property name="Rules" value="Shield Blast (Instead of putting this spell into your hand from a broken shield, you may cast it for free) Your opponent chooses and discards a card."/>
+			<property name="Rules" value="Shield Blast (Instead of putting this spell into your hand from a broken shield, you may cast it for free.)&#xd;&#xa;Your opponent chooses and discards a card."/>
 			<property name="Number" value="93"/>
 			<property name="Rarity" value="Common"/>
 		</card>
@@ -956,7 +956,7 @@
 			<property name="Type" value="Spell"/>
 			<property name="Race" value=""/>
 			<property name="Power" value=""/>
-			<property name="Rules" value="Shield Blast (Instead of putting this spell into your hand from a broken shield, you may cast it for free) Banish target enemy creature."/>
+			<property name="Rules" value="Shield Blast (Instead of putting this spell into your hand from a broken shield, you may cast it for free.)&#xd;&#xa;Banish target enemy creature."/>
 			<property name="Number" value="94"/>
 			<property name="Rarity" value="Rare"/>
 		</card>
@@ -986,7 +986,7 @@
 			<property name="Type" value="Creature"/>
 			<property name="Race" value="Shadow Champion"/>
 			<property name="Power" value="4000"/>
-			<property name="Rules" value="Slayer (When this creature loses a battle, banish the other creature) Death Rattle — When this creature is banished, you may draw a card."/>
+			<property name="Rules" value="Slayer (When this creature loses a battle, banish the other creature)&#xd;&#xa;Death Rattle — When this creature is banished, you may draw a card."/>
 			<property name="Number" value="97"/>
 			<property name="Rarity" value="Rare"/>
 		</card>
@@ -1015,7 +1015,7 @@
 			<property name="Civilization" value="Fire"/>
 			<property name="Type" value="Creature"/>
 			<property name="Race" value="Dune Gecko"/>
-			<property name="Power" value="2000"/>
+			<property name="Power" value="2000+"/>
 			<property name="Rules" value="Powerful Attack +1000 (While attacking, this creature gets +1000 power.)&#xd;&#xa;Enraged — This creature attacks each turn if able."/>
 			<property name="Number" value="100"/>
 			<property name="Rarity" value="Uncommon"/>
@@ -1036,7 +1036,7 @@
 			<property name="Type" value="Creature"/>
 			<property name="Race" value="Drakon"/>
 			<property name="Power" value="1000"/>
-			<property name="Rules" value="Taskmaster — Each of your other Drakon gets +2000 power."/>
+			<property name="Rules" value="Taskmaster — Each of your other Drakons gets +2000 power."/>
 			<property name="Number" value="102"/>
 			<property name="Rarity" value="Uncommon"/>
 		</card>
@@ -1065,7 +1065,7 @@
 			<property name="Civilization" value="Fire"/>
 			<property name="Type" value="Creature"/>
 			<property name="Race" value="Armored Dragon"/>
-			<property name="Power" value="6000"/>
+			<property name="Power" value="6000+"/>
 			<property name="Rules" value="Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Molten Fists — While attacking, this creature gets +1000 power for each Fire card in your discard pile."/>
 			<property name="Number" value="105"/>
 			<property name="Rarity" value="Rare"/>
@@ -1086,7 +1086,7 @@
 			<property name="Type" value="Spell"/>
 			<property name="Race" value=""/>
 			<property name="Power" value=""/>
-			<property name="Rules" value="Shield Blast (Instead of putting this spell into your hand from a broken shield, you may cast it for free) Banish target enemy creature that has &quot;Blocker.&quot;"/>
+			<property name="Rules" value="Shield Blast (Instead of putting this spell into your hand from a broken shield, you may cast it for free.)&#xd;&#xa;Banish target enemy creature that has &quot;Blocker.&quot;"/>
 			<property name="Number" value="107"/>
 			<property name="Rarity" value="Common"/>
 		</card>
@@ -1105,7 +1105,7 @@
 			<property name="Civilization" value="Fire"/>
 			<property name="Type" value="Creature"/>
 			<property name="Race" value="Drakon"/>
-			<property name="Power" value="1000"/>
+			<property name="Power" value="1000+"/>
 			<property name="Rules" value="Powerful Attack +2000 (While attacking, this creature gets +2000 power.)"/>
 			<property name="Number" value="109"/>
 			<property name="Rarity" value="Common"/>
@@ -1125,7 +1125,7 @@
 			<property name="Civilization" value="Fire"/>
 			<property name="Type" value="Creature"/>
 			<property name="Race" value="Rock Brute"/>
-			<property name="Power" value="4000"/>
+			<property name="Power" value="4000+"/>
 			<property name="Rules" value="Lava Stomp — While you have no other creatures in the battle zone, this creature has &quot;Powerful Attack +4000&quot; and &quot;Double Breaker&quot;. (A creature that has &quot;Powerful Attack +4000&quot; and &quot;Double Breaker&quot; gets +4000 power while attacking and breaks 2 shields.)"/>
 			<property name="Number" value="111"/>
 			<property name="Rarity" value="Rare"/>
@@ -1175,7 +1175,7 @@
 			<property name="Civilization" value="Fire"/>
 			<property name="Type" value="Creature"/>
 			<property name="Race" value="Dune Gecko"/>
-			<property name="Power" value="2000"/>
+			<property name="Power" value="2000+"/>
 			<property name="Rules" value="Finishing Blow — While attacking, this creature gets +2000 power for each other tapped creature you have in the battle zone."/>
 			<property name="Number" value="116"/>
 			<property name="Rarity" value="Rare"/>
@@ -1245,7 +1245,7 @@
 			<property name="Civilization" value="Fire"/>
 			<property name="Type" value="Creature"/>
 			<property name="Race" value="Drakon"/>
-			<property name="Power" value="3000"/>
+			<property name="Power" value="3000+"/>
 			<property name="Rules" value="Powerful Attack +2000 (While attacking, this creature gets +2000 power.)"/>
 			<property name="Number" value="123"/>
 			<property name="Rarity" value="Common"/>
@@ -1256,7 +1256,7 @@
 			<property name="Type" value="Spell"/>
 			<property name="Race" value=""/>
 			<property name="Power" value=""/>
-			<property name="Rules" value="Shield Blast (Instead of putting this spell into your hand from a broken shield, you may cast it for free) Banish target enemy creature that has power 3000 or less."/>
+			<property name="Rules" value="Shield Blast (Instead of putting this spell into your hand from a broken shield, you may cast it for free.)&#xd;&#xa;Banish target enemy creature that has power 3000 or less."/>
 			<property name="Number" value="124"/>
 			<property name="Rarity" value="Common"/>
 		</card>
@@ -1295,7 +1295,7 @@
 			<property name="Civilization" value="Fire"/>
 			<property name="Type" value="Creature"/>
 			<property name="Race" value="Rock Brute"/>
-			<property name="Power" value="2000"/>
+			<property name="Power" value="2000+"/>
 			<property name="Rules" value="Powerful Attack +2000 (While attacking, this creature gets +2000 power.)"/>
 			<property name="Number" value="128"/>
 			<property name="Rarity" value="Common"/>
@@ -1305,7 +1305,7 @@
 			<property name="Civilization" value="Fire"/>
 			<property name="Type" value="Creature"/>
 			<property name="Race" value="Drakon"/>
-			<property name="Power" value="1000"/>
+			<property name="Power" value="1000+"/>
 			<property name="Rules" value="Powerful Attack +4000 (While attacking, this creature gets +4000 power.)"/>
 			<property name="Number" value="129"/>
 			<property name="Rarity" value="Uncommon"/>
@@ -1316,7 +1316,7 @@
 			<property name="Type" value="Spell"/>
 			<property name="Race" value=""/>
 			<property name="Power" value=""/>
-			<property name="Rules" value="Shield Blast (Instead of putting this spell into your hand from a broken shield, you may cast it for free) Banish target enemy creature that has power 5000 or less."/>
+			<property name="Rules" value="Shield Blast (Instead of putting this spell into your hand from a broken shield, you may cast it for free.)&#xd;&#xa;Banish target enemy creature that has power 5000 or less."/>
 			<property name="Number" value="130"/>
 			<property name="Rarity" value="Rare"/>
 		</card>
@@ -1416,7 +1416,7 @@
 			<property name="Type" value="Creature"/>
 			<property name="Race" value="Tree Kin"/>
 			<property name="Power" value="1000"/>
-			<property name="Rules" value="Nature’s Gift – Each of your other creatures gets +1000 power."/>
+			<property name="Rules" value="Nature’s Gift — Each of your other creatures gets +1000 power."/>
 			<property name="Number" value="140"/>
 			<property name="Rarity" value="Uncommon"/>
 		</card>
@@ -1465,7 +1465,7 @@
 			<property name="Civilization" value="Nature"/>
 			<property name="Type" value="Creature"/>
 			<property name="Race" value="Wild Veggie"/>
-			<property name="Power" value="3000"/>
+			<property name="Power" value="3000+"/>
 			<property name="Rules" value="Powerful Attack +2000 (While attacking, this creature gets +2000 power.)&#xd;&#xa;Unsliceable — If this creature would be banished, put it into your mana zone instead."/>
 			<property name="Number" value="145"/>
 			<property name="Rarity" value="Uncommon"/>
@@ -1556,7 +1556,7 @@
 			<property name="Type" value="Spell"/>
 			<property name="Race" value=""/>
 			<property name="Power" value=""/>
-			<property name="Rules" value="Shield Blast (Instead of putting this spell into your hand from a broken shield, you may cast it for free) Put target enemy creature that is level 4 or less from the battle zone into your opponent's mana zone."/>
+			<property name="Rules" value="Shield Blast (Instead of putting this spell into your hand from a broken shield, you may cast it for free.)&#xd;&#xa;Put target enemy creature that is level 4 or less from the battle zone into your opponent's mana zone."/>
 			<property name="Number" value="154"/>
 			<property name="Rarity" value="Common"/>
 		</card>
@@ -1576,7 +1576,7 @@
 			<property name="Type" value="Spell"/>
 			<property name="Race" value=""/>
 			<property name="Power" value=""/>
-			<property name="Rules" value="Shield Blast (Instead of putting this spell into your hand from a broken shield, you may cast it for free) Put target enemy creature from the battle zone into your opponent's mana zone."/>
+			<property name="Rules" value="Shield Blast (Instead of putting this spell into your hand from a broken shield, you may cast it for free.)&#xd;&#xa;Put target enemy creature from the battle zone into your opponent's mana zone."/>
 			<property name="Number" value="156"/>
 			<property name="Rarity" value="Rare"/>
 		</card>
@@ -1615,7 +1615,7 @@
 			<property name="Civilization" value="Nature"/>
 			<property name="Type" value="Creature"/>
 			<property name="Race" value="Megabug"/>
-			<property name="Power" value="3000"/>
+			<property name="Power" value="3000+"/>
 			<property name="Rules" value="Powerful Attack +4000 (While attacking, this creature gets +4000 power.)&#xd;&#xa;Double Breaker (This creature breaks 2 shields.)"/>
 			<property name="Number" value="160"/>
 			<property name="Rarity" value="Rare"/>
@@ -1626,7 +1626,7 @@
 			<property name="Type" value="Spell"/>
 			<property name="Race" value=""/>
 			<property name="Power" value=""/>
-			<property name="Rules" value="Shield Blast (Instead of putting this spell into your hand from a broken shield, you may cast it for free) Put the top card of your deck into your mana zone."/>
+			<property name="Rules" value="Shield Blast (Instead of putting this spell into your hand from a broken shield, you may cast it for free.)&#xd;&#xa;Put the top card of your deck into your mana zone."/>
 			<property name="Number" value="161"/>
 			<property name="Rarity" value="Common"/>
 		</card>
@@ -1655,7 +1655,7 @@
 			<property name="Civilization" value="Nature"/>
 			<property name="Type" value="Creature"/>
 			<property name="Race" value="Tree Kin"/>
-			<property name="Power" value="1000"/>
+			<property name="Power" value="1000+"/>
 			<property name="Rules" value="Powerful Attack +2000 (While attacking, this creature gets +2000 power.)"/>
 			<property name="Number" value="164"/>
 			<property name="Rarity" value="Common"/>
@@ -1775,7 +1775,7 @@
 			<property name="Civilization" value="Fire"/>
 			<property name="Type" value="Creature"/>
 			<property name="Race" value="Armored Dragon"/>
-			<property name="Power" value="6000"/>
+			<property name="Power" value="6000+"/>
 			<property name="Rules" value="Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Powerful Attack +4000 (While attacking, this creature gets +4000 power.)"/>
 			<property name="Number" value="176"/>
 			<property name="Rarity" value="Super Rare"/>
@@ -1795,7 +1795,7 @@
 			<property name="Civilization" value="Nature"/>
 			<property name="Type" value="Creature"/>
 			<property name="Race" value="Armored Dragon / Beast Kin"/>
-			<property name="Power" value="5000"/>
+			<property name="Power" value="5000+"/>
 			<property name="Rules" value="Powerful Attack +3000 (While attacking, this creature gets +3000 power.)&#xd;&#xa;Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Raging Mad — Whenever this creature wins a battle, choose one of your opponent's shields. This creature breaks that shield."/>
 			<property name="Number" value="178"/>
 			<property name="Rarity" value="Super Rare"/>
@@ -1815,7 +1815,7 @@
 			<property name="Civilization" value="Nature"/>
 			<property name="Type" value="Creature"/>
 			<property name="Race" value="Megabug"/>
-			<property name="Power" value="8000"/>
+			<property name="Power" value="8000+"/>
 			<property name="Rules" value="Powerful Attack +2000 (While attacking, this creature gets +2000 power.)&#xd;&#xa;Double Breaker (This creature breaks 2 shields.)"/>
 			<property name="Number" value="180"/>
 			<property name="Rarity" value="Super Rare"/>

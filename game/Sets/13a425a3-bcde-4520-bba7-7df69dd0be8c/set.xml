@@ -95,7 +95,7 @@
 			<property name="Civilization" value="Light"/>
 			<property name="Type" value="Creature"/>
 			<property name="Race" value="Invader"/>
-			<property name="Power" value="4000"/>
+			<property name="Power" value="4000+"/>
 			<property name="Rules" value="Heliograph — Whenever you cast a spell, this creature gains +2000 power and &quot;Double Breaker&quot; until the end of the turn. (A creature that has &quot;Double Breaker&quot; breaks 2 shields.)"/>
 			<property name="Number" value="8"/>
 			<property name="Rarity" value="Uncommon"/>
@@ -475,8 +475,8 @@
 			<property name="Civilization" value="Fire"/>
 			<property name="Type" value="Creature"/>
 			<property name="Race" value="Attack Raptor"/>
-			<property name="Power" value="2000"/>
-			<property name="Rules" value="Bunker Buster - Whenever this creature battles a creature that has &quot;Blocker&quot;, this creature gets +2000 power."/>
+			<property name="Power" value="2000+"/>
+			<property name="Rules" value="Bunker Buster — Whenever this creature battles a creature that has &quot;Blocker&quot;, this creature gets +2000 power."/>
 			<property name="Number" value="46"/>
 			<property name="Rarity" value="Common"/>
 		</card>
@@ -555,7 +555,7 @@
 			<property name="Civilization" value="Fire"/>
 			<property name="Type" value="Creature"/>
 			<property name="Race" value="Drakon"/>
-			<property name="Power" value="2000"/>
+			<property name="Power" value="2000+"/>
 			<property name="Rules" value="Fast Attack (This creature can attack on the turn it enters the battle zone.)&#xd;&#xa;Powerful Attack +2000 (While attacking, this creature gets +2000 power.)"/>
 			<property name="Number" value="54"/>
 			<property name="Rarity" value="Common"/>
@@ -605,7 +605,7 @@
 			<property name="Civilization" value="Nature"/>
 			<property name="Type" value="Creature"/>
 			<property name="Race" value="Earthstrike Dragon"/>
-			<property name="Power" value="8000"/>
+			<property name="Power" value="8000+"/>
 			<property name="Rules" value="Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Coiling Crush — While battling, this creature gets +8000 power."/>
 			<property name="Number" value="59"/>
 			<property name="Rarity" value="Very Rare"/>
@@ -675,7 +675,7 @@
 			<property name="Civilization" value="Nature"/>
 			<property name="Type" value="Creature"/>
 			<property name="Race" value="Wild Veggie"/>
-			<property name="Power" value="2000"/>
+			<property name="Power" value="2000+"/>
 			<property name="Rules" value="Mixed Veggies — Whenever one of your other creatures enters the battle zone, this creature gets +3000 power until the end of the turn."/>
 			<property name="Number" value="66"/>
 			<property name="Rarity" value="Common"/>
@@ -685,7 +685,7 @@
 			<property name="Civilization" value="Nature"/>
 			<property name="Type" value="Creature"/>
 			<property name="Race" value="Tusker"/>
-			<property name="Power" value="3000"/>
+			<property name="Power" value="3000+"/>
 			<property name="Rules" value="Powerful Attack +2000 (While attacking, this creature gets +2000 power.)"/>
 			<property name="Number" value="67"/>
 			<property name="Rarity" value="Common"/>
@@ -802,7 +802,7 @@
 		</card>
 		<card name="Blade Seer" id="9cb8d25d-c7af-4952-b701-36174fd81abd" >
 			<property name="Level" value="6"/>
-			<property name="Civilization" value="Light / Nature"/>
+			<property name="Civilization" value="Light /.Nature"/>
 			<property name="Type" value="Creature"/>
 			<property name="Race" value="Storm Patrol / Beast Kin"/>
 			<property name="Power" value="4000"/>
@@ -812,7 +812,7 @@
 		</card>
 		<card name="Dawnflower Quartz" id="2993596d-4dfd-4d42-9988-c03d15e3fdf4" >
 			<property name="Level" value="4"/>
-			<property name="Civilization" value="Light / Nature"/>
+			<property name="Civilization" value="Light /.Nature"/>
 			<property name="Type" value="Creature"/>
 			<property name="Race" value="Spirit Quartz"/>
 			<property name="Power" value="3000"/>
@@ -822,7 +822,7 @@
 		</card>
 		<card name="Fullmetal Lemon" id="3196e625-26a0-4c4f-a15f-9761e92796d2" >
 			<property name="Level" value="3"/>
-			<property name="Civilization" value="Light / Nature"/>
+			<property name="Civilization" value="Light /.Nature"/>
 			<property name="Type" value="Creature"/>
 			<property name="Race" value="Enforcer / Wild Veggie"/>
 			<property name="Power" value="3500"/>
@@ -832,7 +832,7 @@
 		</card>
 		<card name="Humonculon the Blaster" id="16154b88-7b88-42d5-bbfe-f487d46bca17" >
 			<property name="Level" value="5"/>
-			<property name="Civilization" value="Light / Nature"/>
+			<property name="Civilization" value="Light /.Nature"/>
 			<property name="Type" value="Creature"/>
 			<property name="Race" value="Enforcer / Megabug"/>
 			<property name="Power" value="3000"/>
@@ -842,7 +842,7 @@
 		</card>
 		<card name="Oathsworn Call" id="6bd2ae05-a571-4e27-a0a6-359f3faa6197" >
 			<property name="Level" value="5"/>
-			<property name="Civilization" value="Light / Nature"/>
+			<property name="Civilization" value="Light /.Nature"/>
 			<property name="Type" value="Spell"/>
 			<property name="Race" value=""/>
 			<property name="Power" value=""/>
@@ -852,17 +852,17 @@
 		</card>
 		<card name="Starseed Squadron" id="01ddd3fc-3bee-45fc-a82a-bd81d253c3e9" >
 			<property name="Level" value="4"/>
-			<property name="Civilization" value="Light / Nature"/>
+			<property name="Civilization" value="Light /.Nature"/>
 			<property name="Type" value="Creature"/>
 			<property name="Race" value="Enforcer / Tree Kin"/>
-			<property name="Power" value="4000"/>
+			<property name="Power" value="4000+"/>
 			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Spellcharge — Whenever you cast a spell, each of your creatures gets +2000 power until the end of the turn.&#xd;&#xa;Overpower — Each of your creatures that has power 6000 or more has &quot;Double Breaker.&quot; (A creature that has &quot;Double Breaker&quot; breaks 2 shields.)"/>
 			<property name="Number" value="84"/>
 			<property name="Rarity" value="Very Rare"/>
 		</card>
 		<card name="Suncloak Protector" id="dd9e9e82-7102-4d58-a1a8-f7222f2a80a9" >
 			<property name="Level" value="7"/>
-			<property name="Civilization" value="Light / Nature"/>
+			<property name="Civilization" value="Light /.Nature"/>
 			<property name="Type" value="Creature"/>
 			<property name="Race" value="Skyforce Champion / Colossus"/>
 			<property name="Power" value="7500"/>
@@ -872,7 +872,7 @@
 		</card>
 		<card name="Sword Horned" id="41bd24d0-f34d-4d75-ac22-f5a88cbb65de" >
 			<property name="Level" value="3"/>
-			<property name="Civilization" value="Light / Nature"/>
+			<property name="Civilization" value="Light /.Nature"/>
 			<property name="Type" value="Creature"/>
 			<property name="Race" value="Enforcer / Beast Kin"/>
 			<property name="Power" value="5500"/>
@@ -985,7 +985,7 @@
 			<property name="Civilization" value="Darkness / Fire"/>
 			<property name="Type" value="Creature"/>
 			<property name="Race" value="Shadow Champion / Armored Dragon"/>
-			<property name="Power" value="6000"/>
+			<property name="Power" value="6000+"/>
 			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Vampiric Bite — Whenever this creature attacks, target enemy creature gets -3000 power until the end of the turn and this creature gets +3000 power until the end of the turn. (A creature that has power 0 or less is banished.)"/>
 			<property name="Number" value="97"/>
 			<property name="Rarity" value="Very Rare"/>
@@ -1025,7 +1025,7 @@
 			<property name="Civilization" value="Darkness / Fire"/>
 			<property name="Type" value="Creature"/>
 			<property name="Race" value="Tarborg / Rock Brute"/>
-			<property name="Power" value="2000"/>
+			<property name="Power" value="2000+"/>
 			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Powerful Attack +2000 (While attacking, this creature gets +2000 power.)&#xd;&#xa;Splattermelt — When this creature is banished, your opponent chooses and discards a card."/>
 			<property name="Number" value="101"/>
 			<property name="Rarity" value="Common"/>
@@ -1075,7 +1075,7 @@
 			<property name="Civilization" value="Fire / Nature"/>
 			<property name="Type" value="Creature"/>
 			<property name="Race" value="Stomper / Wild Veggie"/>
-			<property name="Power" value="5000"/>
+			<property name="Power" value="5000+"/>
 			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Skewer — While battling a creature that has &quot;Blocker&quot;, this creature gets +3000 power.&#xd;&#xa;Recycle — If this creature would be banished, put it into your mana zone instead."/>
 			<property name="Number" value="106"/>
 			<property name="Rarity" value="Uncommon"/>
@@ -1105,7 +1105,7 @@
 			<property name="Civilization" value="Fire / Nature"/>
 			<property name="Type" value="Creature"/>
 			<property name="Race" value="Armored Dragon / Beast Kin"/>
-			<property name="Power" value="6000"/>
+			<property name="Power" value="6000+"/>
 			<property name="Rules" value="(This card enters you mana zone tapped.)&#xd;&#xa;Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Stand and Fight — When this creature enters the battle zone, you may put the top card of your deck into your mana zone. If you do and it's a Fire card, this creature gets +2000 power and &quot;Fast Attack&quot; until the end of the turn. (A creature that has &quot;Fast Attack&quot; can attack on the turn it enters the battle zone.)"/>
 			<property name="Number" value="109"/>
 			<property name="Rarity" value="Rare"/>

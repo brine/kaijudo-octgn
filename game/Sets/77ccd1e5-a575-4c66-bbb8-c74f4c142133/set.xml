@@ -87,7 +87,7 @@
 			<property name="Type" value="Spell"/>
 			<property name="Race" value=""/>
 			<property name="Power" value=""/>
-			<property name="Rules" value="Shield Blast (Instead of putting this spell into your hand from a broken shield, you may cast it for free) Draw 2 cards."/>
+			<property name="Rules" value="Shield Blast (Instead of putting this spell into your hand from a broken shield, you may cast it for free.)&#xd;&#xa;Draw 2 cards."/>
 			<property name="Number" value="9"/>
 			<property name="Rarity" value="Uncommon"/>
 		</card>
@@ -107,7 +107,7 @@
 			<property name="Type" value="Spell"/>
 			<property name="Race" value=""/>
 			<property name="Power" value=""/>
-			<property name="Rules" value="Shield Blast (Instead of putting this spell into your hand from a broken shield, you may cast it for free) Banish target enemy creature that is level 4 or less."/>
+			<property name="Rules" value="Shield Blast (Instead of putting this spell into your hand from a broken shield, you may cast it for free.)&#xd;&#xa;Banish target enemy creature that is level 4 or less."/>
 			<property name="Number" value="11"/>
 			<property name="Rarity" value="Common"/>
 		</card>
@@ -207,7 +207,7 @@
 			<property name="Type" value="Spell"/>
 			<property name="Race" value=""/>
 			<property name="Power" value=""/>
-			<property name="Rules" value="Shield Blast (Instead of putting this spell into your hand from a broken shield, you may cast it for free) Banish target enemy creature."/>
+			<property name="Rules" value="Shield Blast (Instead of putting this spell into your hand from a broken shield, you may cast it for free.)&#xd;&#xa;Banish target enemy creature."/>
 			<property name="Number" value="21"/>
 			<property name="Rarity" value="Rare"/>
 		</card>
@@ -237,7 +237,7 @@
 			<property name="Type" value="Spell"/>
 			<property name="Race" value=""/>
 			<property name="Power" value=""/>
-			<property name="Rules" value="Shield Blast (Instead of putting this spell into your hand from a broken shield, you may cast it for free) Banish target enemy creature that has &quot;Blocker.&quot;"/>
+			<property name="Rules" value="Shield Blast (Instead of putting this spell into your hand from a broken shield, you may cast it for free.)&#xd;&#xa;Banish target enemy creature that has &quot;Blocker.&quot;"/>
 			<property name="Number" value="24"/>
 			<property name="Rarity" value="Common"/>
 		</card>
@@ -256,7 +256,7 @@
 			<property name="Civilization" value="Fire"/>
 			<property name="Type" value="Creature"/>
 			<property name="Race" value="Rock Brute"/>
-			<property name="Power" value="4000"/>
+			<property name="Power" value="4000+"/>
 			<property name="Rules" value="Lava Stomp — While you have no other creatures in the battle zone, this creature has &quot;Powerful Attack +4000&quot; and &quot;Double Breaker&quot;. (A creature that has &quot;Powerful Attack +4000&quot; and &quot;Double Breaker&quot; gets +4000 power while attacking and breaks 2 shields.)"/>
 			<property name="Number" value="26"/>
 			<property name="Rarity" value="Rare"/>
@@ -296,7 +296,7 @@
 			<property name="Civilization" value="Fire"/>
 			<property name="Type" value="Creature"/>
 			<property name="Race" value="Drakon"/>
-			<property name="Power" value="3000"/>
+			<property name="Power" value="3000+"/>
 			<property name="Rules" value="Powerful Attack +2000 (While attacking, this creature gets +2000 power.)"/>
 			<property name="Number" value="30"/>
 			<property name="Rarity" value="Common"/>
@@ -307,7 +307,7 @@
 			<property name="Type" value="Spell"/>
 			<property name="Race" value=""/>
 			<property name="Power" value=""/>
-			<property name="Rules" value="Shield Blast (Instead of putting this spell into your hand from a broken shield, you may cast it for free) Banish target enemy creature that has power 3000 or less."/>
+			<property name="Rules" value="Shield Blast (Instead of putting this spell into your hand from a broken shield, you may cast it for free.)&#xd;&#xa;Banish target enemy creature that has power 3000 or less."/>
 			<property name="Number" value="31"/>
 			<property name="Rarity" value="Common"/>
 		</card>
@@ -327,7 +327,7 @@
 			<property name="Type" value="Spell"/>
 			<property name="Race" value=""/>
 			<property name="Power" value=""/>
-			<property name="Rules" value="Shield Blast (Instead of putting this spell into your hand from a broken shield, you may cast it for free) Banish target enemy creature that has power 5000 or less."/>
+			<property name="Rules" value="Shield Blast (Instead of putting this spell into your hand from a broken shield, you may cast it for free.)&#xd;&#xa;Banish target enemy creature that has power 5000 or less."/>
 			<property name="Number" value="33"/>
 			<property name="Rarity" value="Rare"/>
 		</card>
@@ -357,7 +357,7 @@
 			<property name="Type" value="Spell"/>
 			<property name="Race" value=""/>
 			<property name="Power" value=""/>
-			<property name="Rules" value="Shield Blast (Instead of putting this spell into your hand from a broken shield, you may cast it for free) Put target enemy creature that is level 4 or less from the battle zone into your opponent's mana zone."/>
+			<property name="Rules" value="Shield Blast (Instead of putting this spell into your hand from a broken shield, you may cast it for free.)&#xd;&#xa;Put target enemy creature that is level 4 or less from the battle zone into your opponent's mana zone."/>
 			<property name="Number" value="36"/>
 			<property name="Rarity" value="Common"/>
 		</card>
@@ -377,7 +377,7 @@
 			<property name="Type" value="Spell"/>
 			<property name="Race" value=""/>
 			<property name="Power" value=""/>
-			<property name="Rules" value="Shield Blast (Instead of putting this spell into your hand from a broken shield, you may cast it for free) Put the top card of your deck into your mana zone."/>
+			<property name="Rules" value="Shield Blast (Instead of putting this spell into your hand from a broken shield, you may cast it for free.)&#xd;&#xa;Put the top card of your deck into your mana zone."/>
 			<property name="Number" value="38"/>
 			<property name="Rarity" value="Common"/>
 		</card>
@@ -387,7 +387,7 @@
 			<property name="Type" value="Spell"/>
 			<property name="Race" value=""/>
 			<property name="Power" value=""/>
-			<property name="Rules" value="Shield Blast (Instead of putting this spell into your hand from a broken shield, you may cast it for free) Put target enemy creature from the battle zone into your opponent's mana zone."/>
+			<property name="Rules" value="Shield Blast (Instead of putting this spell into your hand from a broken shield, you may cast it for free.)&#xd;&#xa;Put target enemy creature from the battle zone into your opponent's mana zone."/>
 			<property name="Number" value="39"/>
 			<property name="Rarity" value="Rare"/>
 		</card>
@@ -407,7 +407,7 @@
 			<property name="Type" value="Creature"/>
 			<property name="Race" value="Tree Kin"/>
 			<property name="Power" value="1000"/>
-			<property name="Rules" value="Nature’s Gift – Each of your other creatures gets +1000 power."/>
+			<property name="Rules" value="Nature’s Gift — Each of your other creatures gets +1000 power."/>
 			<property name="Number" value="41"/>
 			<property name="Rarity" value="Uncommon"/>
 		</card>
