@@ -206,6 +206,8 @@ def toShields(card, x = 0, y = 0, notifymute = False):
     card.moveToTable(0,0,True)
     if card.isFaceUp:
         card.isFaceUp = False
+    if card.orientation != Rot0:
+        card.orientation = Rot0
     align()
     if notifymute == False:
         notify("{} sets a new shield.".format(me))
