@@ -242,8 +242,11 @@ def toShields(card, x = 0, y = 0, notifymute = False):
         
 def toPlay(card, x = 0, y = 0, notifymute = False):
     mute()
-    card.moveToTable(0,0)
-    align()
+    if card.Type == "Spell":
+        card.moveTo(owner.piles['Discard Pile'])
+    else:
+        card.moveToTable(0,0)
+        align()
     if notifymute == False:
         notify("{} plays {}.".format(me, card))
 
