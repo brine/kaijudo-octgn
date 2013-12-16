@@ -243,7 +243,7 @@ def toShields(card, x = 0, y = 0, notifymute = False):
 def toPlay(card, x = 0, y = 0, notifymute = False):
     mute()
     if card.Type == "Spell":
-        card.moveTo(owner.piles['Discard Pile'])
+        card.moveTo(card.owner.piles['Discard Pile'])
     else:
         card.moveToTable(0,0)
         align()
