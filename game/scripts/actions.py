@@ -129,6 +129,8 @@ def banish(card, x = 0, y = 0):
                 return
         toHand(card, notifymute = True)
         notify("{}'s shield is broken.".format(me))
+    else:
+        toDiscard(card)
 
 def shuffle(group, x = 0, y = 0):
     mute()
@@ -217,9 +219,13 @@ def toPlay(card, x = 0, y = 0, notifymute = False):
 
 def toDiscard(card, x = 0, y = 0, notifymute = False):
     mute()
+    src = card.group
     card.moveTo(card.owner.piles['Discard Pile'])
     if notifymute == False:
-        notify("{} discards {}.".format(me, card))
+        if src == table:
+            notify("{} banishes {}.".format(me, card))
+        else:
+            notify("{} discards {} from {}.".format(me, card, src.name))
 
 def toHand(card, x = 0, y = 0, notifymute = False):
     mute()
