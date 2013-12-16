@@ -381,5 +381,65 @@
 			<property name="Number" value="11"/>
 			<property name="Rarity" value="Y2PRM"/>
 		</card>
+		<card name="Vicious Squillace Scourge" id="d0defe87-0ef9-4952-8a7d-6502d5eaaf96" >
+			<property name="Level" value="5"/>
+			<property name="Civilization" value="Water / Darkness"/>
+			<property name="Type" value="Evolution Creature"/>
+			<property name="Race" value="Corrupted / Leviathan / Chimera"/>
+			<property name="Power" value="9000"/>
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Evolution — Put on one of your Corrupted creatures, Leviathans, or Chimeras.&#xd;&#xa;Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Crushing Assault — All your Corrupted creatures can't be blocked and have &quot;Slayer.&quot; (Whenever a creature that has &quot;Slayer&quot; loses a battle, banish the other creature.)"/>
+			<property name="Number" value="1"/>
+			<property name="Rarity" value="10INV"/>
+		</card>
+		<card name="Forgotten Chief" id="4e6ef3f4-fec8-44c7-80a8-02ee71886b2b" >
+			<property name="Level" value="5"/>
+			<property name="Civilization" value="Water / Nature"/>
+			<property name="Type" value="Creature"/>
+			<property name="Race" value="Corrupted / Spirit Totem"/>
+			<property name="Power" value="5000"/>
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Dreadful Chant — Each of your Corrupted creatures can't be blocked by creatures that have less power than it."/>
+			<property name="Number" value="12"/>
+			<property name="Rarity" value="Y2PRM"/>
+		</card>
+		<card name="Skraven, Draconic Reaper" id="bc5a96de-5d91-477e-9943-3fd1556a32bb" >
+			<property name="Level" value="7"/>
+			<property name="Civilization" value="Darkness / Fire"/>
+			<property name="Type" value="Creature"/>
+			<property name="Race" value="Shadow Champion / Armored Dragon"/>
+			<property name="Power" value="7000"/>
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Protector (You may tap this creature to change an attack on one of your other creatures to this creature.&#xd;&#xa;Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Spirit Swap — Whenever this creature wins a battle, choose a creature in your discard pile and return it to your hand."/>
+			<property name="Number" value="13"/>
+			<property name="Rarity" value="Y2PRM"/>
+		</card>
+		<card name="Enslaved Flametropus" id="7086f902-275a-43b1-a5f9-7bc93a9acc4d" >
+			<property name="Level" value="5"/>
+			<property name="Civilization" value="Water / Fire"/>
+			<property name="Type" value="Creature"/>
+			<property name="Race" value="Corrupted / Rock Brute"/>
+			<property name="Power" value="4000+"/>
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Lava Wave — While you have only Corrupted creatures in the battle zone, this creature has &quot;Powerful Attack +4000&quot; and &quot;Double Breaker.&quot; (A creature that has &quot;Powerful Attack +4000&quot; and &quot;Double Breaker&quot; gets +4000 power while attacking and breaks 2 shields.)"/>
+			<property name="Number" value="14"/>
+			<property name="Rarity" value="Y2PRM"/>
+		</card>
+		<card name="Shaman of the Vigil" id="b24ede77-4a41-468e-9e7d-e8f022ea2d04" >
+			<property name="Level" value="3"/>
+			<property name="Civilization" value="Light / Nature"/>
+			<property name="Type" value="Evolution Creature"/>
+			<property name="Race" value="Enforcer / Beast Kin"/>
+			<property name="Power" value="5500"/>
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Evolution — Put on one of your Enforcers or Beast Kin.&#xd;&#xa;Pack Sworn — All your Beast Kin have &quot;Protector.&quot; (You may tap a creature that has &quot;Protector&quot; to change an attack on one of your other creatures to it.)&#xd;&#xa;Inspirit — At the end of each of your turns, untap all your Enforcers."/>
+			<property name="Number" value="15"/>
+			<property name="Rarity" value="Y2PRM"/>
+		</card>
+		<card name="Death Liger the Justicar" id="686a33c7-1d65-41a7-ace4-5a1874bbb9cf" >
+			<property name="Level" value="8"/>
+			<property name="Civilization" value="Light / Darkness"/>
+			<property name="Type" value="Creature"/>
+			<property name="Race" value="Skyforce Champion / Shadow Champion"/>
+			<property name="Power" value="8500"/>
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Soul Rend — When this creature enters the battle zone, target enemy creature gets -3000 power until the end of the turn. (A creature that has power 0 or less is banished.)&#xd;&#xa;Triumphant Roar — Whenever an enemy creature is banished, tap target enemy creature."/>
+			<property name="Number" value="1"/>
+			<property name="Rarity" value="9SHA"/>
+		</card>
 	</cards>
 </set>

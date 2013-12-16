@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="48bb61f4-5707-44bf-853e-0c473549ef50">
+  <section name="Main" shared="False">
+    <card qty="1" id="fd2d3c8c-549b-43aa-83be-9f00373acf9d">Midnight Crawler</card>
+    <card qty="1" id="f8b64808-8a84-4194-909a-245bad68c28e">Finbarr, Council of Logos</card>
+    <card qty="1" id="d2024441-893c-470e-8c7b-af74450d89a5">Veil Vortex</card>
+    <card qty="2" id="c2dfd11a-c425-4497-a862-f3f6c9d5f867">Rusalka, Aqua Chaser</card>
+    <card qty="1" id="9f90db58-3594-4694-9df3-eca7043a79d2">Reef Prince Glu-urrgle</card>
+    <card qty="2" id="583a1e8d-3be3-48c9-8e99-6be2bd018f55">Ice Launcher</card>
+    <card qty="2" id="f9f3f6f7-4ac0-489a-b7e9-75d7d788f708">Ice Blade</card>
+    <card qty="1" id="f173d435-6d0b-43c4-b3d8-d2b134488774">Hydro Spy</card>
+    <card qty="2" id="814a7746-63fd-493b-b629-94694f8f3485">Buoyant Blowfish</card>
+    <card qty="3" id="f6beb352-842e-49fb-b3fb-fa0c1fce45a9">Aqua Seneschal</card>
+    <card qty="2" id="80d38942-31ba-4790-aaed-23907932404e">Aqua Soldier</card>
+    <card qty="2" id="401ef51a-ebcd-43f7-b6c5-bf07e23aca0e">Aqua Commando</card>
+    <card qty="1" id="f6b648be-536c-4a08-9ea0-2e9f910722c1">Dark Scaradorable</card>
+    <card qty="2" id="dca1ea51-ac6f-4d20-9ca1-a821aea8e61b">Skull Cutter</card>
+    <card qty="1" id="f865150e-b962-43e2-9615-31948183363a">Voidwing</card>
+    <card qty="1" id="e9b824da-6891-4978-8ee7-35b039c3396d">Specter Claw</card>
+    <card qty="2" id="3eadc863-517f-42c5-b2f7-e96e41a6a99d">Marrow Ooze</card>
+    <card qty="1" id="d766af04-ea39-4345-8b04-0c760184f271">Grave Scrounger</card>
+    <card qty="2" id="dbb8bd03-1eef-4d81-a757-6d897139bb90">Gigastand</card>
+    <card qty="1" id="e595f346-c08a-4e28-aa47-b9b4907ef8f9">Dream Pirate</card>
+    <card qty="1" id="1cd9286a-028e-49af-962b-2bc049cef813">Draxar, the Soul Crusher</card>
+    <card qty="2" id="179c975f-1aea-48d7-9ff3-af9e5d3f0416">Death Smoke</card>
+    <card qty="3" id="61d30bff-e32d-4741-a254-7853f1b753e3">Brain Squirmer</card>
+    <card qty="3" id="a9221aa6-760d-4ee8-8106-7426f721f46a">Bone Blades</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="48bb61f4-5707-44bf-853e-0c473549ef50">
+  <section name="Main" shared="False">
+    <card qty="1" id="6b6f5f1e-e8c0-4998-9be4-e8619d21b219">Tatsurion</card>
+    <card qty="3" id="e232da23-74f9-469e-bc4c-df5b4b43b446">Blaze Belcher</card>
+    <card qty="2" id="9b0cc392-2c79-47a8-8f09-78f26a2ad01b">Comet Missile</card>
+    <card qty="2" id="4ad76104-6d15-4cb5-9fb7-cb0bdf41235d">Draglide the Swiftest</card>
+    <card qty="1" id="00cd4e29-9137-423c-8912-4ebdd2a58d97">Flametropus</card>
+    <card qty="3" id="71e5012b-2634-4c44-9702-8cefa1a254e9">Gatling Skyterror</card>
+    <card qty="2" id="9863e9c1-600c-49eb-8aea-910ee0d25ae2">Little Hissy</card>
+    <card qty="1" id="79c86ddd-1038-48d2-bd0b-9a9c9ef139df">Overcharge</card>
+    <card qty="2" id="17081b14-2959-42f5-89b3-9149d9825a38">Pyro Trooper</card>
+    <card qty="2" id="599fc42c-ace0-4417-9fc4-6278897889a3">Rock Bite</card>
+    <card qty="3" id="67e5f42f-83aa-4322-8881-e9d24efd7ff1">Simian Trooper Grash</card>
+    <card qty="1" id="fd8c1720-5094-4258-8cdd-fe9f2f00021c">Tornado Flame</card>
+    <card qty="1" id="362e9b58-8a32-4475-b163-c440c8534d79">Roaming Bloodmane</card>
+    <card qty="3" id="0e3be3d7-a1c4-46b5-b3a8-7132610f2a8c">Ambush Scorpion</card>
+    <card qty="1" id="2638f14e-6305-4712-a107-bc4d429f4234">Brave Giant</card>
+    <card qty="2" id="87257881-6178-4f01-beba-a073fccdec0c">Bronze-Arm Tribe</card>
+    <card qty="2" id="ad94c593-cfdb-4268-919c-47f84b0be4cd">Essence Elf</card>
+    <card qty="1" id="e2744a56-51d9-4660-ba67-c1efb90652cc">Raging Goliant</card>
+    <card qty="2" id="f9039e33-570d-4ac3-bdf5-d846440aad58">Return to the Soil</card>
+    <card qty="1" id="0bad7261-90fd-4907-a0fc-a98127a6906e">Root Trap</card>
+    <card qty="2" id="a2b68cf4-8555-4228-ae75-48af4eac58a9">Rumbling Terrasaur</card>
+    <card qty="2" id="1ecd5efb-c12c-4eff-aa48-998f7df2553d">Sprout</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

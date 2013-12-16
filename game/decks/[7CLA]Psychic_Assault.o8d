@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="48bb61f4-5707-44bf-853e-0c473549ef50">
+  <section name="Main" shared="False">
+    <card qty="3" id="3cf5a7d7-7bff-4e77-a635-d75b64c14e63">Beliqua the Ascender</card>
+    <card qty="1" id="1e4b5618-4801-4f57-89ac-02f8bb8263c3">Citadel Magistrate</card>
+    <card qty="1" id="28fd9923-5946-4227-b84b-cd0a574f15d2">Citadel Steward</card>
+    <card qty="2" id="b9506b01-f9f7-40a6-a23a-804c11f7433f">Containment Field</card>
+    <card qty="2" id="a5b140d6-712a-4b1a-a86d-7ef24feedad7">Lars, Virtuous Imager</card>
+    <card qty="2" id="982a745e-006d-4662-a000-45c208a3f5c5">Rain-Cloud Kraken</card>
+    <card qty="3" id="091aeafa-926b-4062-9609-098666476750">Shimmerwing</card>
+    <card qty="2" id="b1ee8698-eb7d-42a9-bed7-82e33aa7ca25">Spire Zealot</card>
+    <card qty="1" id="c7656c24-16e5-49b9-9a5f-d490fdad8507">Thunder Reaper</card>
+    <card qty="2" id="52c6789b-5bc3-4d3e-b251-fef15a4527ba">Aeropica</card>
+    <card qty="1" id="701e00f8-6240-4197-9f03-4a1c1907d668">Aqua Rider</card>
+    <card qty="2" id="325bc9e6-960a-45b1-979c-02e85f8cd905">Cyber Cyclones</card>
+    <card qty="1" id="42ef1f20-b19b-490a-b04d-74ab1c789f8f">General Finbarr</card>
+    <card qty="2" id="b1175d81-97f1-4848-ad64-d80d819c0bee">Queen Sargasso</card>
+    <card qty="2" id="37727162-0280-46bc-8699-78ec020197b1">Tenuous Trove</card>
+    <card qty="2" id="0f1fbf76-5b0d-453a-a979-2e21a9ffeb27">Time Rime</card>
+    <card qty="2" id="5a0ae485-2506-4de4-b3f9-2d145ff6ab50">Aqua Strider</card>
+    <card qty="1" id="58e6bdfe-c40c-4cc9-af76-6529247c8ae1">Crusader Engine</card>
+    <card qty="3" id="96aaebc5-7166-4fa5-aa46-b182c914a334">Memory Keeper</card>
+    <card qty="1" id="3dc1a856-620f-47de-a67e-ef145f2264b6">Panopter</card>
+    <card qty="1" id="a6845bb5-f928-465b-9be1-0c103d4c8635">Piercing Judgment</card>
+    <card qty="1" id="77f68d34-795b-4735-8151-5f6df21b6a07">Sunspout Quartz</card>
+    <card qty="2" id="d7b50e2b-9dcd-4d06-b0f3-826a66c8cc78">Wave Lancer</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

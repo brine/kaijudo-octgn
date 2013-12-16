@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="48bb61f4-5707-44bf-853e-0c473549ef50">
+  <section name="Main" shared="False">
+    <card qty="1" id="e6f965ea-c04d-4359-8b2b-046719784257">Ra-Vu the Stormbringer </card>
+    <card qty="1" id="eceadb9f-a2bf-41e4-8fbf-e5bdd70d97f4">Twilight Commander</card>
+    <card qty="2" id="8c4b2b40-880f-4b12-a969-e4c1ac75cb8e">Helios Ring</card>
+    <card qty="3" id="85f9556d-64bb-402b-8342-92c987a8907f">Starwing</card>
+    <card qty="1" id="49a0089f-5f2b-4c62-8917-a34b5ab02349">Starlight Strategist</card>
+    <card qty="1" id="4a524ba0-1291-443e-83b6-5864671437f8">Sun-Stalk Seed</card>
+    <card qty="1" id="17b72fb5-b1c1-4303-98b0-f61a443f13e6">Keeper of Clouds</card>
+    <card qty="1" id="035b5516-f72a-4d50-b7d0-0eea779053d0">Jade Monitor</card>
+    <card qty="1" id="43cd3ef2-024d-461f-9cce-a5b8832041f9">Covering Fire</card>
+    <card qty="1" id="a027d964-47b2-446f-95ed-049f9383add1">Orbital Observer</card>
+    <card qty="3" id="f92bf161-2602-4217-b0a3-5952b26f8941">Stalker Sphere</card>
+    <card qty="1" id="3b944d9e-bedc-443c-99b5-3e6dcb7b212d">Argus, Vigilant Seer</card>
+    <card qty="1" id="68e5b50e-d904-4a12-955d-9fb9b6d276e5">Forklift Tank Glu-urrgle</card>
+    <card qty="3" id="0c94be3e-0434-4ec4-bd5d-fdd0564067ff">Cyber Trader</card>
+    <card qty="2" id="0697c400-8b77-40c7-9f97-d57d5d71fe9a">Cyber Sprite</card>
+    <card qty="3" id="008ffd0f-1c47-4211-a00b-09e9063d5dd8">Emperor Axon</card>
+    <card qty="2" id="f6beb352-842e-49fb-b3fb-fa0c1fce45a9">Aqua Seneschal</card>
+    <card qty="2" id="f9f3f6f7-4ac0-489a-b7e9-75d7d788f708">Ice Blade</card>
+    <card qty="2" id="1191bb03-d64c-4939-814b-ec2228e98b4c">Logos Scan</card>
+    <card qty="2" id="6c5c7c49-0395-42c1-aba9-7b28292bfa80">Search the Depths</card>
+    <card qty="1" id="f8b64808-8a84-4194-909a-245bad68c28e">Finbarr, Council of Logos</card>
+    <card qty="2" id="f173d435-6d0b-43c4-b3d8-d2b134488774">Hydro Spy</card>
+    <card qty="1" id="c1f400cc-8bac-43c4-a7c7-d800cdeb3a13">King Neptas</card>
+    <card qty="2" id="d048f5cd-55ef-4a8e-91a2-44128c88ce8d">Sopan, Cyber Renegade</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

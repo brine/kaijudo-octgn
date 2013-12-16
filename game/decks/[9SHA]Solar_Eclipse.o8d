@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="48bb61f4-5707-44bf-853e-0c473549ef50">
+  <section name="Main" shared="False">
+    <card qty="1" id="3cf5a7d7-7bff-4e77-a635-d75b64c14e63">Beliqua the Ascender</card>
+    <card qty="2" id="65cd3ef2-c1e1-4d0b-9bf6-ab6bba9fef26">Blade Barrier</card>
+    <card qty="2" id="28fd9923-5946-4227-b84b-cd0a574f15d2">Citadel Steward</card>
+    <card qty="2" id="b9506b01-f9f7-40a6-a23a-804c11f7433f">Containment Field</card>
+    <card qty="1" id="8268fb9c-8a7d-42e1-9151-e6c4e9404f88">Halo Hawk</card>
+    <card qty="2" id="a5b140d6-712a-4b1a-a86d-7ef24feedad7">Lars, Virtuous Imager</card>
+    <card qty="3" id="982a745e-006d-4662-a000-45c208a3f5c5">Rain-Cloud Kraken</card>
+    <card qty="2" id="3cd6720d-111e-4204-ad41-a1ab1439ccac">Repulse</card>
+    <card qty="2" id="7fb32efb-eeda-4aed-8fcc-d6315a9cc259">Sentrus</card>
+    <card qty="1" id="091aeafa-926b-4062-9609-098666476750">Shimmerwing</card>
+    <card qty="2" id="397cefbd-652f-4934-8142-458365beeea9">Arachnoir of Cobweb Cavern</card>
+    <card qty="2" id="e9dcf61a-a16f-401c-8557-7857dc321867">Cave Gulper</card>
+    <card qty="2" id="2466933d-a2f9-4c8f-b868-a91602f53957">Dagger Doll</card>
+    <card qty="3" id="27097d33-3541-4417-a211-558b0df7a453">Ghost Bite</card>
+    <card qty="2" id="65c19c7d-fbd0-46fe-8999-547928392919">Maddening Whispers</card>
+    <card qty="1" id="10605eba-04a6-4d3a-ab12-d7c1c1ca77f5">Suffocate</card>
+    <card qty="2" id="e8cd1d23-827f-4a1a-84ce-c28f48b65c8f">Tygrif</card>
+    <card qty="1" id="686a33c7-1d65-41a7-ace4-5a1874bbb9cf">Death Liger the Justicar</card>
+    <card qty="1" id="1cd13ead-f2b6-4ccc-93a2-6acdb74b636c">Calamity Bell</card>
+    <card qty="1" id="e492003a-a5d8-45b9-8ba4-4e2b47a5ca65">Glimmergloom Quartz</card>
+    <card qty="3" id="2f77f33b-a488-4302-8d49-361492869d4d">Lost Patrol</card>
+    <card qty="1" id="839ee0d0-3e5c-4e2a-8e1c-b06cf93fa8ca">Serpens, the Spirit Shifter</card>
+    <card qty="1" id="59dd104d-62e7-44d4-9e75-259bcbffb8af">Zoltara the Mercenary</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

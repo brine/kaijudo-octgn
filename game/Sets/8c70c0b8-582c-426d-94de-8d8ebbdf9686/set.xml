@@ -400,7 +400,7 @@
 			<property name="Number" value="38"/>
 			<property name="Rarity" value="Rare"/>
 		</card>
-		<card name="Transforming Talon" id="0b87b70b-85db-46ce-9800-a847de82155d" >
+		<card name="Transforming Totem" id="0b87b70b-85db-46ce-9800-a847de82155d" >
 			<property name="Level" value="5"/>
 			<property name="Civilization" value="Nature"/>
 			<property name="Type" value="Creature"/>

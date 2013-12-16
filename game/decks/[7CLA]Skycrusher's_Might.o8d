@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="48bb61f4-5707-44bf-853e-0c473549ef50">
+  <section name="Main" shared="False">
+    <card qty="3" id="e9dcf61a-a16f-401c-8557-7857dc321867">Cave Gulper</card>
+    <card qty="2" id="8ca2e748-d3f8-4736-bf6c-b53f230a173d">Dreadhusk</card>
+    <card qty="1" id="aab03d8e-8896-4ecd-b159-986a3d69feef">Gregoria's Fortress</card>
+    <card qty="2" id="81916f0c-e831-4593-81ea-c2ac87390d1b">Skeleton Soldier</card>
+    <card qty="2" id="d80dcf57-27db-428e-9c30-a3eb2069439e">Soul Schism</card>
+    <card qty="1" id="9b4e6351-c9f9-4ee4-9f5f-21d6b890b49b">Toxic Fog</card>
+    <card qty="1" id="fed93aab-c0f2-4368-9c50-8bfb3f7cff2b">Assault Dragon</card>
+    <card qty="2" id="91a9f562-d2ef-466e-8efa-cd1602da305d">Blade-Rush Wyvern</card>
+    <card qty="3" id="6a2cfc11-f0b2-4e5f-bf09-7afb0333e3de">Chaotic Skyterror</card>
+    <card qty="3" id="6311e59c-c242-4ab4-bda6-da0fc68927c2">Drill Storm</card>
+    <card qty="2" id="8dbe306f-9722-4a0f-8e21-5a1dd988ffe5">Flame Spinner</card>
+    <card qty="1" id="5f8c1dfa-d996-4977-9470-377b677f8e26">General Skycrusher</card>
+    <card qty="2" id="3b3dcd8b-8a01-468a-a949-65c99273037c">Jump Jets</card>
+    <card qty="2" id="1b727bf7-16a9-4fb4-9ceb-4c374dea9039">Redscale Drakon</card>
+    <card qty="3" id="a4b26e7b-3cfd-43ca-a3e5-362482e02941">Toolbot</card>
+    <card qty="1" id="42888f0d-b901-406d-9865-8934389172a5">Chasmblaze Quartz</card>
+    <card qty="1" id="5dc1ad00-fbb3-4770-8474-aa0b9b03a1d7">Galzak of Shadow Pass</card>
+    <card qty="3" id="29119708-7960-4c05-9ae2-571bb37a855d">Haunted Mech</card>
+    <card qty="2" id="af8621c3-6dba-4e07-ac8b-87e162fa5a3b">Lizard-Skin Puppet</card>
+    <card qty="2" id="387579de-6675-4e3b-ae52-c4cd6427d203">Oozing Lavasaur</card>
+    <card qty="1" id="a390ca67-2df4-437f-b954-8c1c340b9299">Soul Vortex</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

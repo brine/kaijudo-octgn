@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="48bb61f4-5707-44bf-853e-0c473549ef50">
+  <section name="Main" shared="False">
+    <card qty="1" id="f67a2760-fcac-440c-888e-41a67e3f0ae1">King Nautilus</card>
+    <card qty="2" id="80194826-b121-43dd-b3d9-3a37509cecdd">Aqua Seneschal</card>
+    <card qty="2" id="83d9bfc8-128e-4052-9ca8-beb0da524674">Frogzooka</card>
+    <card qty="2" id="bcb74c3b-85ba-4fe5-ab88-389313310b16">Hydro Spy</card>
+    <card qty="3" id="8d21ec50-581a-41cb-abe3-eb744a968b27">Hydrobot Crab</card>
+    <card qty="2" id="024a6764-6417-4a38-a366-59c20884a42e">Ice Blade</card>
+    <card qty="1" id="28e35dc0-e6f1-4a72-8b90-2ea196659b49">King Pontias</card>
+    <card qty="1" id="198329a9-4dda-4e45-9d45-a49f74d4c336">Reef-Eye</card>
+    <card qty="2" id="31f6cbd8-3912-416f-954d-33da996719a0">Spy Mission</card>
+    <card qty="1" id="7d9cef11-fd11-4812-8b38-88dbbd35dd6f">Teleport</card>
+    <card qty="1" id="69a47cd7-c8f1-4f08-b392-518e911fead7">Razorkinder</card>
+    <card qty="3" id="2837a852-e4b2-4ca5-9518-df70532ba2e1">Bone Blades</card>
+    <card qty="3" id="03d4d2bc-3dc3-470d-bf6a-6e92fd923b7d">Brain Squirmer</card>
+    <card qty="1" id="756f1dbb-f3d1-46ce-b69e-81319d4ce342">Death Smoke</card>
+    <card qty="2" id="24914cca-4971-4fc9-b259-d3b3ff6f15b7">Dream Pirate</card>
+    <card qty="2" id="a86d07ec-f9e0-4344-888d-28fc2e8918bc">Fumes</card>
+    <card qty="1" id="7547ce6e-27c1-48df-b97b-3548c0fab516">Gigargon</card>
+    <card qty="3" id="3e37c977-2484-4b83-9bf9-2101e61e7857">Grave Worm Hatchling</card>
+    <card qty="1" id="ce3875d8-d6d6-4eeb-a700-3bdd52bddc43">Horrid Stinger</card>
+    <card qty="3" id="8e629f2f-a552-41da-832e-43dd26394684">Skeeter Swarmer</card>
+    <card qty="1" id="db3eb2e7-cd18-45c7-be53-7475c69f8383">Skull Cutter</card>
+    <card qty="1" id="8afa7e8c-daaa-4598-a40b-207935995ba1">Terror Pit</card>
+    <card qty="1" id="89aac7dd-81fd-43a5-85d0-10a4ee2e358f">Zagaan, the Bone Knight</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

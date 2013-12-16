@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="48bb61f4-5707-44bf-853e-0c473549ef50">
+  <section name="Main" shared="False">
+    <card qty="1" id="3b944d9e-bedc-443c-99b5-3e6dcb7b212d">Argus, Vigilant Seer</card>
+    <card qty="1" id="a5ed4ee1-c4e8-42d6-b9eb-d8f146de307b">Grand Gure, Tower Keeper</card>
+    <card qty="1" id="7e13ce80-7ef3-4fd0-9a71-2dfd3134fa67">Halon</card>
+    <card qty="3" id="035b5516-f72a-4d50-b7d0-0eea779053d0">Jade Monitor</card>
+    <card qty="2" id="17b72fb5-b1c1-4303-98b0-f61a443f13e6">Keeper of Clouds</card>
+    <card qty="1" id="c6bc3ebd-a021-4c89-b18f-955cac6ebc57">Stormspark Blast</card>
+    <card qty="2" id="4a524ba0-1291-443e-83b6-5864671437f8">Sun-Stalk Seed</card>
+    <card qty="2" id="da3a85a1-554e-4ab5-a6a4-cd5494eeec2b">Sunshock</card>
+    <card qty="1" id="69304986-0c0f-4610-bf89-cc3fe74ebb6d">Wrist-Rockets Tatsurion</card>
+    <card qty="1" id="f377ad53-fd1a-4ea6-a5f7-8ec35f56314d">Bolshack Dragon</card>
+    <card qty="2" id="e6c80e46-690b-4fea-8f0c-1459f25f2d19">Draglide the Swiftest</card>
+    <card qty="3" id="4990b970-8327-4bb8-9b27-b590e69b1732">Drakon Weaponsmith</card>
+    <card qty="1" id="82061bb3-dfbc-458d-bceb-545bfb2d47b3">Meteosaur</card>
+    <card qty="2" id="01366f14-1d9a-4f5a-8c4d-adce0fdf2e97">Rock Bite</card>
+    <card qty="2" id="5e3277af-d57f-452c-8a70-d3162b6822db">Stonesaur</card>
+    <card qty="1" id="75e0ad33-16d4-4808-8197-84b5dbeab829">Super Bazooka Volcanodon</card>
+    <card qty="2" id="561ab7e1-49c0-4683-9dfd-f88ca67c4f34">Vorg</card>
+    <card qty="1" id="bbd7739d-955a-4f09-9f92-a2f1280db7fe">Brave Giant</card>
+    <card qty="2" id="7d17bb69-36bf-4c4c-8e01-bbfa580cae82">Karate Carrot</card>
+    <card qty="1" id="d5afd12a-46a9-4d59-b0d0-b400538a6d46">Power Surge</card>
+    <card qty="3" id="5dcf1c9f-4048-4462-997c-725adf0a30c3">Razorhide</card>
+    <card qty="2" id="8cb5ea64-85b8-4ccf-9976-1fc4dd81a024">Return to the Soil</card>
+    <card qty="2" id="8fd1ab82-88e8-4b6f-ba8f-d78f722735a6">Rumbling Terrasaur</card>
+    <card qty="1" id="b34f109b-e6ad-478d-a866-f1b7800ac18a">Splinterclaw Wasp</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

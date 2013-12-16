@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="48bb61f4-5707-44bf-853e-0c473549ef50">
+  <section name="Main" shared="False">
+    <card qty="1" id="6f66bd23-0b8a-4f00-af7d-8d3398a640da">Bolt-Tail Dragon</card>
+    <card qty="1" id="7d7c6879-c28b-4f4e-be59-ec61ee9da821">Gilaflame the Assaulter</card>
+    <card qty="1" id="8dbac6ca-797c-41ca-bbba-d1a0e25264ab">Om Nom Nom</card>
+    <card qty="3" id="67e5f42f-83aa-4322-8881-e9d24efd7ff1">Simian Trooper Grash</card>
+    <card qty="1" id="17081b14-2959-42f5-89b3-9149d9825a38">Pyro Trooper</card>
+    <card qty="2" id="7a94d391-d8cf-405d-9138-25e97726ce42">Draglide the Swiftest</card>
+    <card qty="2" id="fce3cd84-e70f-45da-90c3-c9e3bc63ce1e">Gatling Skyterror</card>
+    <card qty="1" id="192c92a4-1fdf-4df2-882c-5ce2804ebd56">Little Hissy</card>
+    <card qty="2" id="c49e7e27-74ce-4bef-bc91-14b20cd7d004">Drakon Weaponsmith</card>
+    <card qty="2" id="e232da23-74f9-469e-bc4c-df5b4b43b446">Blaze Belcher</card>
+    <card qty="1" id="04108de1-82e3-48e3-adc2-50016c25f018">Tornado Flame</card>
+    <card qty="1" id="79c86ddd-1038-48d2-bd0b-9a9c9ef139df">Overcharge</card>
+    <card qty="2" id="599fc42c-ace0-4417-9fc4-6278897889a3">Rock Bite</card>
+    <card qty="1" id="34753223-2652-4d49-9558-4aa84a9c9071">Brave Giant</card>
+    <card qty="1" id="df982c3c-7855-4a31-b23b-a5d0524daa6a">Quillspike Tatsurion</card>
+    <card qty="2" id="bfe401ba-d0c2-407d-9740-c60a64df99a9">Rumbling Terrasaur</card>
+    <card qty="2" id="78042135-e016-4720-b103-cc565e09a1c8">Forest Hornet</card>
+    <card qty="1" id="125691cc-a97a-47e9-9c3b-6bb19dda99cc">Karate Carrot</card>
+    <card qty="2" id="87257881-6178-4f01-beba-a073fccdec0c">Bronze-Arm Tribe</card>
+    <card qty="2" id="42ae93c7-e350-470d-9f76-795c2868171e">Razorhide</card>
+    <card qty="2" id="0e3be3d7-a1c4-46b5-b3a8-7132610f2a8c">Ambush Scorpion</card>
+    <card qty="1" id="ad94c593-cfdb-4268-919c-47f84b0be4cd">Essence Elf</card>
+    <card qty="1" id="2d5b67b5-8ab2-4663-80e7-782d2632c4d8">Chief Many-Tribes</card>
+    <card qty="1" id="1ae8f64b-024e-4168-a359-ab2b6de391c2">Root Trap</card>
+    <card qty="2" id="f9039e33-570d-4ac3-bdf5-d846440aad58">Return to the Soil</card>
+    <card qty="2" id="844b4e04-17d4-4e30-96c4-bda16c4c83e9">Sprout</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

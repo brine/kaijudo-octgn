@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="48bb61f4-5707-44bf-853e-0c473549ef50">
+  <section name="Main" shared="False">
+    <card qty="2" id="b9506b01-f9f7-40a6-a23a-804c11f7433f">Containment Field</card>
+    <card qty="1" id="c5ef70de-3242-474b-9b80-8893f7040c57">Seneschal, Choten's Lieutenant</card>
+    <card qty="3" id="24032fae-57d5-4a1a-9862-6cecc5646394">Aqua Trickster</card>
+    <card qty="1" id="37727162-0280-46bc-8699-78ec020197b1">Tenuous Trove</card>
+    <card qty="2" id="27097d33-3541-4417-a211-558b0df7a453">Ghost Bite</card>
+    <card qty="2" id="965be8c7-d19c-4648-890c-47e4b5d5aeae">Shadow Strike</card>
+    <card qty="3" id="5d4e7186-96f5-4090-8f4e-af41f0901fae">Mesmerize</card>
+    <card qty="1" id="10605eba-04a6-4d3a-ab12-d7c1c1ca77f5">Suffocate</card>
+    <card qty="2" id="59c4193f-75ec-44a5-9efd-28a429fd3ef1">Monstrify</card>
+    <card qty="1" id="c7313411-2ca6-4f9a-b764-929a3a60905a">Tusked Shouter</card>
+    <card qty="1" id="5647e0eb-e14d-4eb7-9a8e-40541c86fd7b">Luminar Unleashed</card>
+    <card qty="3" id="97344153-e1d4-4260-88a3-293670a77c21">Skyvolt Mech</card>
+    <card qty="2" id="c1260126-9ed1-4cef-aa07-e9d8272bb3b5">Fallen Keeper</card>
+    <card qty="2" id="3d7e50c6-6de7-45d1-9517-75d5fa4b2fb1">Choten's Stalker Sphere</card>
+    <card qty="2" id="1cd13ead-f2b6-4ccc-93a2-6acdb74b636c">Calamity Bell</card>
+    <card qty="1" id="d0defe87-0ef9-4952-8a7d-6502d5eaaf96">Vicious Squillace Scourge</card>
+    <card qty="2" id="e79003d9-9d39-4f67-9096-17b371809caa">Essence Shade</card>
+    <card qty="1" id="33f85fb4-dcf8-4854-8470-a0e18b67b3a1">Sabotage Worm</card>
+    <card qty="3" id="67be0af2-3ad9-42ca-bfc1-7110d955cb82">Tainted Quartz</card>
+    <card qty="3" id="a76efb08-4293-4520-8c69-99428e8191c7">Bronze-Arm Renegade</card>
+    <card qty="1" id="7a416efb-2d3c-4aee-acab-acf63d929744">Foul Mana</card>
+    <card qty="1" id="6bd2ae05-a571-4e27-a0a6-359f3faa6197">Oathsworn Call</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

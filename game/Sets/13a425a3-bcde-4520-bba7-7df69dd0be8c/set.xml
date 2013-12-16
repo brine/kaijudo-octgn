@@ -50,7 +50,7 @@
 			<property name="Number" value="3"/>
 			<property name="Rarity" value="Rare"/>
 		</card>
-		<card name="Citadel Sword" id="28fd9923-5946-4227-b84b-cd0a574f15d2" >
+		<card name="Citadel Steward" id="28fd9923-5946-4227-b84b-cd0a574f15d2" >
 			<property name="Level" value="4"/>
 			<property name="Civilization" value="Light"/>
 			<property name="Type" value="Creature"/>
