@@ -6,6 +6,11 @@ shields = []
 playerside = None
 sideflip = None
 diesides = 20
+shieldMarker = ('Shield', 'a4ba770e-3a38-4494-b729-ef5c89f561b7')
+
+def resetGame():
+    mute()
+    me.setGlobalVariable("shieldCount", "0")
 
 def align():
   mute()
@@ -62,6 +67,20 @@ def clear(card, x = 0, y = 0):
 
 def setup(group, x = 0, y = 0):
     mute()
+    ## cancel out of setup if any of these conditions occur
+    for c in table: ## scan the table for cards you own or control
+        if c.controller == me or c.owner == me:
+            return
+    for c in me.hand: ## cancel if you've already drawn cards
+        return
+    for c in me.piles['Discard Pile']: ##cancel if you have cards in Discard
+        return
+    if len(me.Deck) < 10: #We need at least 10 cards to properly setup the game
+        return
+    #####
+    me.setGlobalVariable("shieldCount", "0")
+    me.Deck.shuffle()
+    rnd(1,10)
     for card in me.Deck.top(5): toShields(card, notifymute = True)
     for card in me.Deck.top(5): toHand(card, notifymute = True)
     align()
@@ -200,17 +219,26 @@ def toMana(card, x = 0, y = 0, notifymute = False):
     align()
     if notifymute == False:
         notify("{} charges {} as mana.".format(me, card))
-    
+
 def toShields(card, x = 0, y = 0, notifymute = False):
     mute()
+    if card in table and not card.isFaceUp:
+        whisper("This is already a shield.")
+        return
+    count = int(me.getGlobalVariable("shieldCount")) + 1
+    me.setGlobalVariable("shieldCount", convertToString(count))
+    if notifymute == False:
+        if card in table and card.isFaceUp:  ##If a visible card in play is turning into a shield, we want to record its name in the notify
+            notify("{} sets {} as shield #{}.".format(me, card, count))
+        else:
+            notify("{} sets a card in {} as shield #{}.".format(me, card.group.name, count))
     card.moveToTable(0,0,True)
     if card.isFaceUp:
         card.isFaceUp = False
     if card.orientation != Rot0:
         card.orientation = Rot0
+    card.markers[shieldMarker] = count
     align()
-    if notifymute == False:
-        notify("{} sets a new shield.".format(me))
         
 def toPlay(card, x = 0, y = 0, notifymute = False):
     mute()
