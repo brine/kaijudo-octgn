@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <game xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	id="48bb61f4-5707-44bf-853e-0c473549ef50" version="3.0.6.1" octgnVersion="3.1.30.0"
+	id="48bb61f4-5707-44bf-853e-0c473549ef50" version="3.0.6.2" octgnVersion="3.1.30.0"
 	name="Kaijudo" tags="kaijudo" description="Kaijudo"
 	setsurl="http://octgn.gamersjudgement.com/wordpress/kaijudo/images/" gameurl="http://octgn.gamersjudgement.com/wordpress/kaijudo/" authors="brine, ZeroVash"
 	markersize="18" iconurl="https://raw.github.com/brine/kaijudo-octgn/master/game/cards/logo.png" >
