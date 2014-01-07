@@ -36,6 +36,7 @@
 	</table>
 	<player summary="{#Hand}">
 		<globalvariable name="shieldCount" value="0" />
+		<globalvariable name="evolution" value="{}" />
 		<hand name="Hand" visibility="me" ordered="False" width="63" height="88" shortcut="ctrl+H" icon="groups/hand.png">
 			<cardaction menu="Play Card" default="True" execute="toPlay" />
 			<cardaction menu="Set as Shield" shortcut="ctrl+H" execute="toShields" />
