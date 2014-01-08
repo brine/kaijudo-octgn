@@ -14,6 +14,28 @@ def resetGame():
     mute()
     me.setGlobalVariable("shieldCount", "0")
 
+def moveCard(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY, x, y, isScriptMove):
+    mute()
+    if player != me or isScriptMove == True: ##Ignore for cards you don't control, or cards that were moved via script
+        return
+    if fromGroup != table or toGroup == table: ## we only want cases where a card is being moved from table to another group
+        return
+    evolveDict = eval(me.getGlobalVariable("evolution"))
+    for evo in eval(me.getGlobalVariable("evolution")):
+        if Card(evo) not in table:
+            del evolveDict[evo]
+        else:
+            evolvedList = evolveDict[evo]
+            for evolvedCard in evolvedList:
+                if Card(evolvedCard) not in table:
+                    evolvedList.remove(evolvedCard)
+            if len(evolvedList) == 0:
+                del evolveDict[evo]
+            else:
+                evolveDict[evo] = evolvedList
+    if evolveDict != eval(me.getGlobalVariable("evolution")):
+        me.setGlobalVariable("evolution", str(evolveDict))
+
 def isCreature(card):
     mute()
     if card in table and card.isFaceUp and not card.orientation == Rot180 and not card.orientation == Rot270:
@@ -64,20 +86,6 @@ def align():
         return "BREAK"
     cardorder = [[],[],[]]
     evolveDict = eval(me.getGlobalVariable("evolution"))
-    for evo in eval(me.getGlobalVariable("evolution")):
-        if Card(evo) not in table:
-            del evolveDict[evo]
-        else:
-            evolvedList = evolveDict[evo]
-            for evolvedCard in evolvedList:
-                if Card(evolvedCard) not in table:
-                    evolvedList.remove(evolvedCard)
-            if len(evolvedList) == 0:
-                del evolveDict[evo]
-            else:
-                evolveDict[evo] = evolvedList
-    if evolveDict != eval(me.getGlobalVariable("evolution")):
-        me.setGlobalVariable("evolution", str(evolveDict))
     for card in table:
         if card.controller == me and not card._id in list(itertools.chain.from_iterable(evolveDict.values())):
             if isShield(card):
@@ -124,7 +132,7 @@ def setup(group, x = 0, y = 0):
     me.Deck.shuffle()
     rnd(1,10)
     for card in me.Deck.top(5): toShields(card, notifymute = True)
-    for card in me.Deck.top(5): toHand(card, notifymute = True)
+    for card in me.Deck.top(5): card.moveTo(card.owner.hand)
     align()
     notify("{} sets up their battle zone.".format(me))
 
@@ -188,7 +196,7 @@ def banish(card, x = 0, y = 0):
                 rnd(1,10)
                 notify("{} uses {}'s Shield Blast.".format(me, card))
                 return
-        toHand(card, notifymute = True)
+        card.moveTo(card.owner.hand)
         notify("{}'s shield is broken.".format(me))
     else:
         toDiscard(card)
@@ -205,7 +213,7 @@ def draw(group, x = 0, y = 0):
     mute()
     if len(group) == 0: return
     card = group[0]
-    toHand(card, notifymute = True)
+    card.moveTo(card.owner.hand)
     notify("{} draws a card.".format(me))
 
 def drawX(group, x = 0, y = 0):
@@ -213,7 +221,7 @@ def drawX(group, x = 0, y = 0):
     mute()
     count = askInteger("Draw how many cards?", 7)
     if count == None: return
-    for card in group.top(count): toHand(card, notifymute = True)
+    for card in group.top(count): card.moveTo(card.owner.hand)
     notify("{} draws {} cards.".format(me, count))
     
 def mill(group, x = 0, y = 0):
@@ -364,7 +372,7 @@ def toDiscard(card, x = 0, y = 0, notifymute = False, alignCheck = True, ignoreE
         else:
             notify("{} discards {} from {}.".format(me, card, src.name))
 
-def toHand(card, x = 0, y = 0, notifymute = False, alignCheck = True, ignoreEvo = False):
+def toHand(card, x = 0, y = 0, alignCheck = True, ignoreEvo = False):
     mute()
     evolveDict = eval(me.getGlobalVariable('evolution'))
     if ignoreEvo == False and isCreature(card) and card._id in list(itertools.chain.from_iterable(evolveDict.values())):
@@ -378,7 +386,43 @@ def toHand(card, x = 0, y = 0, notifymute = False, alignCheck = True, ignoreEvo 
                 toHand(Card(evolvedCard), alignCheck = False, ignoreEvo = True)
         del evolveDict[card._id]
         me.setGlobalVariable('evolution', str(evolveDict))
-    if notifymute == False:
-        notify("{} moves {} to hand.".format(me, card))
-        if alignCheck:
-            align()
+    notify("{} moves {} to hand.".format(me, card))
+    if alignCheck:
+        align()
+
+def toDeckTop(card, x = 0, y = 0):
+    mute()
+    toDeck(card)
+
+def toDeckBottom(card, x = 0, y = 0):
+    mute()
+    toDeck(card, bottom = True)
+
+def toDeck(card, bottom = False):
+    mute()
+    evolveDict = eval(me.getGlobalVariable('evolution'))
+    if isCreature(card) and card._id in list(itertools.chain.from_iterable(evolveDict.values())):
+        if not confirm("WARNING: There is an evolution creature on top of this card, and can not legally be banished.\nWould you like to override this?"):
+            return
+    cardList = [card]
+    if card._id in evolveDict:
+        evolvedCardList = evolveDict[card._id]
+        for evolvedCard in evolvedCardList:
+            if Card(evolvedCard) in table:
+                cardList.append(Card(evolvedCard))
+        del evolveDict[card._id]
+        me.setGlobalVariable('evolution', str(evolveDict))
+    while len(cardList) > 0:
+        if len(cardList) == 1:
+            choice = 1
+        else:
+            choice = askChoice("Choose a card to place it on top of your deck.", [c.name for c in cardList])
+        if choice > 0:
+            c = cardList.pop(choice - 1)
+            if bottom == True:
+                notify("{} moves {} to bottom of Deck.".format(me, c))
+                c.moveToBottom(c.owner.Deck)
+            else:
+                notify("{} moves {} to top of Deck.".format(me, c))
+                c.moveTo(c.owner.Deck)
+    align()

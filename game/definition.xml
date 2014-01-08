@@ -9,7 +9,8 @@
 		<script src="scripts/actions.py" />
 	</scripts>
 	<events>
-		<event name="onGameStart" action="resetGame" />
+		<event name="OnGameStart" action="resetGame" />
+		<event name="OnMoveCard" action="moveCard" />
 	</events>
 	<proxygen definitionsrc="proxy/CardGenData.xml">
 	</proxygen>
@@ -32,6 +33,9 @@
 		<cardaction menu="Banish Card / Break Shield" shortcut="del" execute="banish" />
 		<cardaction menu="Set as Shield" shortcut="ctrl+H" execute="toShields" />
 		<cardaction menu="Charge as Mana" shortcut="ctrl+C" execute="toMana" />
+		<cardaction menu="Move to Hand" shortcut="ctrl+B" execute="toHand" />
+		<cardaction menu="Move to Top of Deck" shortcut="ctrl+E" execute="toDeckTop" />
+		<cardaction menu="Move to Bottom of Deck" shortcut="ctrl+shift+E" execute="toDeckBottom" />
 		<cardaction menu="Clear Targets/Arrows" shortcut="esc" execute="clear" />
 	</table>
 	<player summary="{#Hand}">
