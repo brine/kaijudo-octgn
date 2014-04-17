@@ -526,7 +526,7 @@
 			<property name="Type" value="Creature"/>
 			<property name="Race" value="Battle Sphere / Beast Kin"/>
 			<property name="Power" value="3000+"/>
-			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Blocker (You may tap this creature to change an enemy creature's attack to this creature.)er (You may tap this creature to change an enemy creature's attack to this creature.)&#xd;&#xa;Skirmisher (This creature can attack only creatures.)&#xd;&#xa;Powerful Attack +4000 (While attacking, this creature gets +4000 attack.)"/>
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Blocker (You may tap this creature to change an enemy creature's attack to this creature.)&#xd;&#xa;Skirmisher (This creature can attack only creatures.)&#xd;&#xa;Powerful Attack +4000 (While attacking, this creature gets +4000 attack.)"/>
 			<property name="Number" value="51"/>
 			<property name="Rarity" value="Common"/>
 		</card>
@@ -886,7 +886,7 @@
 			<property name="Type" value="Creature"/>
 			<property name="Race" value="Skyforce Champion / Drakon"/>
 			<property name="Power" value="4500"/>
-			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Blocker (You may tap this creature to change an enemy creature's attack to this creature.)er (You may tap this creature to change an enemy creature's attack to this creature.)&#xd;&#xa;Fast Attack (This creature can attack on the turn it enters the battle zone.)attack&#xd;&#xa;Into the Fray — Whenever this creature wins a battle for the first time each turn, untap it."/>
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Blocker (You may tap this creature to change an enemy creature's attack to this creature.)&#xd;&#xa;Fast Attack (This creature can attack on the turn it enters the battle zone.)attack&#xd;&#xa;Into the Fray — Whenever this creature wins a battle for the first time each turn, untap it."/>
 			<property name="Number" value="87"/>
 			<property name="Rarity" value="Super Rare"/>
 		</card>

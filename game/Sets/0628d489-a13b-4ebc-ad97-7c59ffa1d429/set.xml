@@ -441,5 +441,115 @@
 			<property name="Number" value="1"/>
 			<property name="Rarity" value="9SHA"/>
 		</card>
+		<card name="Ember Titan" id="cc614250-5ca0-453d-824a-2ffc8607cf4b" >
+			<property name="Level" value="7"/>
+			<property name="Civilization" value="Fire / Nature"/>
+			<property name="Type" value="Creature"/>
+			<property name="Race" value="Rock Brute / Colossus"/>
+			<property name="Power" value="7000"/>
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Lava Thorns — When this creature enters the battle zone, banish all enemy creatures that have power 2000 or less."/>
+			<property name="Number" value="16"/>
+			<property name="Rarity" value="Y2PRM"/>
+		</card>
+		<card name="Gilded Archon" id="0f291f9e-8dc9-4af6-aa0c-b63a56cf2c7e" >
+			<property name="Level" value="7"/>
+			<property name="Civilization" value="Light / Water"/>
+			<property name="Type" value="Creature"/>
+			<property name="Race" value="Storm Patrol / Cyber Lord"/>
+			<property name="Power" value="6500"/>
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Blocker (You may tap this creature to change an enemy creature's attack to this creature.)&#xd;&#xa;Skirmisher (This creature can attack only creatures.)&#xd;&#xa;Spell Echo — When this creature enters the battle zone, you may choose a spell in your discard pile that is level 3 or less and cast it for free. If you do, put it on the bottom of your deck instead of into your discard pile after you cast it."/>
+			<property name="Number" value="17"/>
+			<property name="Rarity" value="Y2PRM"/>
+		</card>
+		<card name="Snow Fort" id="d5f39fb3-4c14-4038-aeeb-85b6c121c601" >
+			<property name="Level" value="7"/>
+			<property name="Civilization" value="Water"/>
+			<property name="Type" value="Creature"/>
+			<property name="Race" value="Cyber Complex"/>
+			<property name="Power" value="9000"/>
+			<property name="Rules" value="Blocker (You may tap this creature to change an enemy creature's attack to this creature.)&#xd;&#xa;Guard (This creature can't attack.)&#xd;&#xa;Snowball Fight — Whenever one of your creatures attacks, you may discard a card. If you do, target enemy creature can't attack or block until the start of your next turn.&#xd;&#xa;I'm Melting! — When an Armored Dragon or Melt Warrior attacks, banish this creature."/>
+			<property name="Number" value="18"/>
+			<property name="Rarity" value="Y2PRM"/>
+		</card>
+		<card name="Fullmetal Lemon" id="e8351c73-8256-4f5b-ad9d-3bc62f6560cc" >
+			<property name="Level" value="3"/>
+			<property name="Civilization" value="Light /.Nature"/>
+			<property name="Type" value="Creature"/>
+			<property name="Race" value="Enforcer / Wild Veggie"/>
+			<property name="Power" value="3500"/>
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Blocker (You may tap this creature to change an enemy creature's attack to this creature.)&#xd;&#xa;Skirmisher (This creature can attack only creatures.)&#xd;&#xa;Juiced — If this creature would be banished, put it into your mana zone instead."/>
+			<property name="Number" value="19"/>
+			<property name="Rarity" value="Y2PRM"/>
+		</card>
+		<card name="Reckoning" id="697495d9-cf1c-48b5-b15c-a63312477d17" >
+			<property name="Level" value="7"/>
+			<property name="Civilization" value="Light"/>
+			<property name="Type" value="Spell"/>
+			<property name="Race" value=""/>
+			<property name="Power" value=""/>
+			<property name="Rules" value="Until the start of your next turn, each of your creatures wins all its battles."/>
+			<property name="Number" value="20"/>
+			<property name="Rarity" value="Y2PRM"/>
+		</card>
+		<card name="Wavebreaker Shaman" id="ad7d6958-6414-48b2-ad41-f8eb9cca8ed2" >
+			<property name="Level" value="4"/>
+			<property name="Civilization" value="Water / Nature"/>
+			<property name="Type" value="Creature"/>
+			<property name="Race" value="Aquan / Spirit Totem"/>
+			<property name="Power" value="5000"/>
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Blocker (You may tap this creature to change an enemy creature's attack to this creature.)&#xd;&#xa;Guard (This creature can't attack.)&#xd;&#xa;Spirit Guide — Whenever this creature blocks, look at the top 3 cards of your deck. You may reveal a creature from among them and put it into your hand. Put the rest on the bottom of your deck in any order."/>
+			<property name="Number" value="21"/>
+			<property name="Rarity" value="Y2PRM"/>
+		</card>
+		<card name="Cyber Seer" id="b0105c7d-ebc6-45a4-929f-4a9e817188ee" >
+			<property name="Level" value="5"/>
+			<property name="Civilization" value="Water"/>
+			<property name="Type" value="Creature"/>
+			<property name="Race" value="Cyber Lord"/>
+			<property name="Power" value="3000"/>
+			<property name="Rules" value="Eye of Logos — Whenever you cast a spell, you may draw a card. If you do, discard a card."/>
+			<property name="Number" value="22"/>
+			<property name="Rarity" value="Y2PRM"/>
+		</card>
+		<card name="Ravenous Detrivore" id="d277311b-266b-4371-b3da-526cfde7d398" >
+			<property name="Level" value="6"/>
+			<property name="Civilization" value="Darkness / Nature"/>
+			<property name="Type" value="Creature"/>
+			<property name="Race" value="Chimera / Beast Kin"/>
+			<property name="Power" value="5000+"/>
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Munch — Whenever this creature attacks, you may choose a creature in your discard pile and put it on the bottom of your deck. If you do, this creature gets power equal to that creature's power until the end of the turn.&#xd;&#xa;Necrocharged — While this creature has power 6000 or more, it has quot;Double Breaker.quot; While it has power 12000 or more, it has quot;Triple Breaker.quot;"/>
+			<property name="Number" value="23"/>
+			<property name="Rarity" value="Y2PRM"/>
+		</card>
+		<card name="Kolani, Dragon Oracle" id="c7009f35-292d-40ba-b0ae-43ed6f93efa2" >
+			<property name="Level" value="7"/>
+			<property name="Civilization" value="Water"/>
+			<property name="Type" value="Creature"/>
+			<property name="Race" value="Tsunami Dragon"/>
+			<property name="Power" value="6000"/>
+			<property name="Rules" value="Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Whispering Waves — When this creature enters the battle zone, look at the top 2 cards of your deck. Put one of them into your hand and the other on top of your deck."/>
+			<property name="Number" value="1"/>
+			<property name="Rarity" value="11BBR"/>
+		</card>
+		<card name="Krakatoa the Shattered" id="22213271-589b-418e-92c1-770852176da3" >
+			<property name="Level" value="6"/>
+			<property name="Civilization" value="Fire / Nature"/>
+			<property name="Type" value="Creature"/>
+			<property name="Race" value="Armored Dragon / Living City"/>
+			<property name="Power" value="5000"/>
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Rousing Bellow — When this creature enters the battle zone, you may put a non-evolution creature that is level 4 or less from your hand into the battle zone. That creature gets quot;Fast Attackquot; until the end of the turn. At the end of the turn, put it into your mana zone. (A creature that has quot;Fast Attackquot; can attack on the turn it enters the battle zone.)"/>
+			<property name="Number" value="3"/>
+			<property name="Rarity" value="11BBR"/>
+		</card>
+		<card name="Spire Widow" id="c7d40868-338c-4d92-b799-658db1eb945e" >
+			<property name="Level" value="8"/>
+			<property name="Civilization" value="Light / Darkness"/>
+			<property name="Type" value="Creature"/>
+			<property name="Race" value="Sky Weaver / Brain Jacker"/>
+			<property name="Power" value="2000"/>
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Slayer (When this creature loses a battle, banish the other creature.)&#xd;&#xa;Unweaving — When this creature enters the battle zone, choose target enemy creature. Your opponent shuffles it into his or her deck."/>
+			<property name="Number" value="2"/>
+			<property name="Rarity" value="11BBR"/>
+		</card>
 	</cards>
 </set>
