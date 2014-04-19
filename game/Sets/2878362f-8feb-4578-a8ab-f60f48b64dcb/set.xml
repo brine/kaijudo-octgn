@@ -1334,7 +1334,7 @@
 			<property name="Level" value="2"/>
 			<property name="Civilization" value="Fire"/>
 			<property name="Type" value="Creature"/>
-			<property name="Race" value="Beserker"/>
+			<property name="Race" value="Berserker"/>
 			<property name="Power" value="2000"/>
 			<property name="Rules" value=""/>
 			<property name="Number" value="132"/>

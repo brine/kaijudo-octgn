@@ -744,7 +744,7 @@
 			<property name="Level" value="5"/>
 			<property name="Civilization" value="Light / Water"/>
 			<property name="Type" value="Creature"/>
-			<property name="Race" value="Enforce / Cyber Lord"/>
+			<property name="Race" value="Enforcer / Cyber Lord"/>
 			<property name="Power" value="3000"/>
 			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Stun — When this creature enters the battle zone, tap target enemy creature.&#xd;&#xa;Pathfind — When this creature enters the battle zone, choose one of your other creatures. It can't be blocked this turn."/>
 			<property name="Number" value="73"/>
@@ -884,7 +884,7 @@
 			<property name="Level" value="4"/>
 			<property name="Civilization" value="Water / Darkness"/>
 			<property name="Type" value="Creature"/>
-			<property name="Race" value="Cyber Virus / Rot Wurm"/>
+			<property name="Race" value="Cyber Virus / Rot Worm"/>
 			<property name="Power" value="5000"/>
 			<property name="Rules" value="(This card enters your mana zone tapped.)"/>
 			<property name="Number" value="87"/>
