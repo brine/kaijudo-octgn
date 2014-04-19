@@ -473,7 +473,7 @@
 		</card>
 		<card name="Fullmetal Lemon" id="e8351c73-8256-4f5b-ad9d-3bc62f6560cc" >
 			<property name="Level" value="3"/>
-			<property name="Civilization" value="Light /.Nature"/>
+			<property name="Civilization" value="Light / Nature"/>
 			<property name="Type" value="Creature"/>
 			<property name="Race" value="Enforcer / Wild Veggie"/>
 			<property name="Power" value="3500"/>
