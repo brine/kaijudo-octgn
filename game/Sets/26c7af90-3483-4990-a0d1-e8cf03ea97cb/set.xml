@@ -604,7 +604,7 @@
 			<property name="Level" value="7"/>
 			<property name="Civilization" value="Fire"/>
 			<property name="Type" value="Evolution Creature"/>
-			<property name="Race" value="Armored Dragon / BeastKin"/>
+			<property name="Race" value="Armored Dragon / Beast Kin"/>
 			<property name="Power" value="12000"/>
 			<property name="Rules" value="Evolution — Put on one of your Armored Dragons.&#xd;&#xa;Triple Breaker (This creature breaks 3 shields.)&#xd;&#xa;Dragon Wings — When this creature enters the battle zone, target enemy creature can't attack or block until the start of your next turn."/>
 			<property name="Number" value="59"/>
