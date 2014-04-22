@@ -24,7 +24,7 @@
 		<property name="Power" type="String" textKind="Enum" ignoreText="False" />
 		<property name="Number" type="Integer" ignoreText="False" />
 	</card>
-	<table name="Battle Zone" visibility="undefined" ordered="False" width="800" height="600" background="background/background.jpg" backgroundStyle="uniformToFill">
+	<table name="Battle Zone" visibility="undefined" ordered="False" width="800" height="600" board="proxy/blank.png" background="background/background.jpg" backgroundStyle="uniformToFill">
 		<groupaction menu="Untap All" shortcut="F1" execute="untapAll" />
 		<groupaction menu="Roll Die" shortcut="ctrl+R" execute="rollDie" />
 		<groupaction menu="Set Die Type" shortcut="ctrl+shift+R" execute="setDie" />
