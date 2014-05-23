@@ -551,5 +551,85 @@
 			<property name="Number" value="2"/>
 			<property name="Rarity" value="11BBR"/>
 		</card>
+		<card name="Beastlord Rulchor" id="5ccfa4fd-2e09-4ee4-b49f-91a000d61197" >
+			<property name="Level" value="6"/>
+			<property name="Civilization" value="Nature"/>
+			<property name="Type" value="Evolution Creature"/>
+			<property name="Race" value="Beast Kin"/>
+			<property name="Power" value="9000"/>
+			<property name="Rules" value="Evolution — Put on one of your Nature creatures.&#xd;&#xa;Double Breaker&#xd;&#xa;Unleash — Look at the top 5 cards of your deck. You may put a non-evolution creature that is level 3 or less from among them into the battle zone, and you may reveal an evolution creature from among them and put it into your hand. Put the rest on the bottom of your deck in any order. (To use a creature's &quot;Unleash&quot; ability, put a card from under it into your discard pile when it attacks.)"/>
+			<property name="Number" value="1"/>
+			<property name="Rarity" value="13GAU"/>
+		</card>
+		<card name="Molten Stonesaur" id="e11feb70-d0ee-4e62-9379-4f5ca0c7f5cb" >
+			<property name="Level" value="6"/>
+			<property name="Civilization" value="Fire"/>
+			<property name="Type" value="Evolution Creature"/>
+			<property name="Race" value="Rock Brute"/>
+			<property name="Power" value="8000"/>
+			<property name="Rules" value="Evolution — Put on one of your Fire creatures.&#xd;&#xa;Double Breaker&#xd;&#xa;Magma Burst — When this creature is banished, banish target enemy creature that has power less than or equal to this creature's power."/>
+			<property name="Number" value="1"/>
+			<property name="Rarity" value="Y3PRM"/>
+		</card>
+		<card name="Magistrate Jazuri" id="11e3d053-70f0-4c18-a04e-bd2babb5b5a6" >
+			<property name="Level" value="6"/>
+			<property name="Civilization" value="Light"/>
+			<property name="Type" value="Evolution Creature"/>
+			<property name="Race" value="Skyforce Champion"/>
+			<property name="Power" value="8500"/>
+			<property name="Rules" value="Evolution — Put on one of your Light creatures.&#xd;&#xa;Blocker (You may tap this creature to change an enemy creature's attack to this creature.)&#xd;&#xa;Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Unleash — Untap all your creatures at the end of the turn. (To use a creature's &quot;Unleash&quot; ability, put a card from under it into your discard pile when it attacks.)"/>
+			<property name="Number" value="2"/>
+			<property name="Rarity" value="Y3PRM"/>
+		</card>
+		<card name="Ocean Ravager" id="2dbb4a3f-994c-499b-802b-58280965b47a" >
+			<property name="Level" value="6"/>
+			<property name="Civilization" value="Water"/>
+			<property name="Type" value="Evolution Creature"/>
+			<property name="Race" value="Earth Eater"/>
+			<property name="Power" value="7000"/>
+			<property name="Rules" value="Evolution — Put on one of your Water creatures.&#xd;&#xa;Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Unleash — Draw 2 cards. (To use a creature's &quot;Unleash&quot; ability, put a card from under it into your discard pile when it attacks.)"/>
+			<property name="Number" value="3"/>
+			<property name="Rarity" value="Y3PRM"/>
+		</card>
+		<card name="Oblivion Knight" id="7abb9efc-b03d-4355-82fb-0b4b3c5bd576" >
+			<property name="Level" value="6"/>
+			<property name="Civilization" value="Darkness"/>
+			<property name="Type" value="Evolution Creature"/>
+			<property name="Race" value="Shadow Champion"/>
+			<property name="Power" value="7000"/>
+			<property name="Rules" value="Evolution — Put on one of your Darkness creatures.&#xd;&#xa;Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Unleash — Your opponent chooses and discards 2 cards. (To use a creature's &quot;Unleash&quot; ability, put a card from under it into your discard pile when it attacks.)"/>
+			<property name="Number" value="4"/>
+			<property name="Rarity" value="Y3PRM"/>
+		</card>
+		<card name="Firemane Dragon" id="2794bfaa-b916-4760-ad15-4ed72f09688e" >
+			<property name="Level" value="5"/>
+			<property name="Civilization" value="Fire"/>
+			<property name="Type" value="Evolution Creature"/>
+			<property name="Race" value="Armored Dragon"/>
+			<property name="Power" value="8000"/>
+			<property name="Rules" value="Evolution — Put on one of your Fire creatures.&#xd;&#xa;Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Unleash — All your creatures get &quot;Fast Attack&quot; until the end of the turn. (To use a creature's &quot;Unleash&quot; ability, put a card from under it into your discard pile when it attacks.)"/>
+			<property name="Number" value="5"/>
+			<property name="Rarity" value="Y3PRM"/>
+		</card>
+		<card name="Mesa Behemoth" id="3d0ddc3d-51c4-4c50-a2bb-a46f488b8481" >
+			<property name="Level" value="6"/>
+			<property name="Civilization" value="Nature"/>
+			<property name="Type" value="Evolution Creature"/>
+			<property name="Race" value="Colossus"/>
+			<property name="Power" value="8000"/>
+			<property name="Rules" value="Evolution — Put on one of your Nature creatures.&#xd;&#xa;Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Unleash — Search your deck. You may reveal a creature from it and put that card into your hand. Then shuffle your deck. (To use a creature's &quot;Unleash&quot; ability, put a card from under it into your discard pile when it attacks.)"/>
+			<property name="Number" value="6"/>
+			<property name="Rarity" value="Y3PRM"/>
+		</card>
+		<card name="Swarming Rapids Lurker" id="82e0b996-ec8e-404a-b234-1d6163b30cea" >
+			<property name="Level" value="5"/>
+			<property name="Civilization" value="Water"/>
+			<property name="Type" value="Evolution Creature"/>
+			<property name="Race" value="Trench Hunter"/>
+			<property name="Power" value="6000+"/>
+			<property name="Rules" value="Evolution — Put on one of your Water creatures.&#xd;&#xa;Blocker, Double Breaker&#xd;&#xa;Unleash — This creature gets +5000 power until the end of the turn and can't be blocked this turn. (To use a creature's &quot;Unleash&quot; ability, put a card from under it into your discard pile when it attacks.)"/>
+			<property name="Number" value="7"/>
+			<property name="Rarity" value="Y3PRM"/>
+		</card>
 	</cards>
 </set>
