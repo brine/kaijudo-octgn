@@ -4,7 +4,6 @@
 import re
 import itertools
 
-shields = []
 playerside = None
 sideflip = None
 diesides = 20
@@ -95,7 +94,7 @@ def align():
             else: ##collect all creatures
                 cardorder[0].append(card)
     xpos = 80
-    ypos = 5
+    ypos = 5 + 10*(max([len(evolveDict[x]) for x in evolveDict]) if len(evolveDict) > 0 else 1)
     for cardtype in cardorder:
         if cardorder.index(cardtype) == 1:
             xpos = 80
@@ -104,11 +103,17 @@ def align():
             xpos = 80
             ypos += 93
         for c in cardtype:
-            c.moveToTable(sideflip * xpos, playerside * ypos + (44*playerside - 44))
+            x = sideflip * xpos
+            y = playerside * ypos + (44*playerside - 44)
+            if c.position != (x,y):
+                c.moveToTable(x,y)
             xpos += 79
     for evolution in evolveDict:
+        count = 0
         for evolvedCard in evolveDict[evolution]:
-            Card(evolvedCard).moveToTable(*Card(evolution).position)
+            x, y = Card(evolution).position
+            count += 1
+            Card(evolvedCard).moveToTable(x, y - 10*count)
             Card(evolvedCard).sendToBack()
 
 def clear(card, x = 0, y = 0):
@@ -344,39 +349,55 @@ def toPlay(card, x = 0, y = 0, notifymute = False, evolveText = ''):
                 evolveDict[card._id] = targetList
                 me.setGlobalVariable("evolution", str(evolveDict))
                 evolveText = ", evolving {}".format(", ".join([c.name for c in targets]))
-        card.moveToTable(0,0)
+                card.moveToTable(0,0)
+                if targets[0].orientation == Rot90: ##evolution creatures enter play tapped when the target is also tapped
+                    card.orientation = Rot90
+        else:
+            card.moveToTable(0,0)
         align()
     if notifymute == False:
         notify("{} plays {}{}.".format(me, card, evolveText))
 
 def toDiscard(card, x = 0, y = 0, notifymute = False, alignCheck = True, ignoreEvo = False):
     mute()
-    evolveDict = eval(me.getGlobalVariable('evolution'))
-    if ignoreEvo == False and isCreature(card) and card._id in list(itertools.chain.from_iterable(evolveDict.values())):
-        if not confirm("WARNING: There is an evolution creature on top of this card, and can not legally be banished.\nWould you like to override this?"):
-            return
     src = card.group
-    card.moveTo(card.owner.piles['Discard Pile'])
-    if card._id in evolveDict:
-        evolvedCardList = evolveDict[card._id]
-        for evolvedCard in evolvedCardList:
-            if Card(evolvedCard) in table:
-                toDiscard(Card(evolvedCard), alignCheck = False, ignoreEvo = True)
-        del evolveDict[card._id]
-        me.setGlobalVariable('evolution', str(evolveDict))
-    if notifymute == False:
-        if src == table:
-            notify("{} banishes {}.".format(me, card))
-            if alignCheck:
-                align()
+    if src == table:
+        evolveDict = eval(me.getGlobalVariable('evolution'))
+        originalDict = str(evolveDict)
+        invertDict = {}
+        for activeEvolution in evolveDict:
+            for evolveFodder in evolveDict[activeEvolution]:
+                invertDict[evolveFodder] = activeEvolution
+        if card._id in invertDict and isCreature(card): ## If the card being banished was evolution fodder, announce Unleash ability.
+            evoCard = invertDict[card._id]
+            evolveDict[evoCard].remove(card._id)
+            if len(evolveDict[evoCard]) == 0:
+                del evolveDict[evoCard]
+            if notifymute == False:
+                notify("{} banishes {} for {}'s Unleash ability.".format(me, card, Card(evoCard)))
         else:
+            if notifymute == False:
+                notify("{} banishes {}.".format(me, card))
+            if card._id in evolveDict and isCreature(card): ## If the  card being banished was an evolution creature, banish all cards underneath
+                evolvedCardList = evolveDict[card._id]
+                for evolvedCard in evolvedCardList:
+                    if Card(evolvedCard) in table:
+                        toDiscard(Card(evolvedCard), alignCheck = False, notifymute = True)
+                del evolveDict[card._id]
+        if str(evolveDict) != originalDict: ## Update evolution variable only if it had changed
+            me.setGlobalVariable('evolution', str(evolveDict))
+    else:
+        if notifymute == False:
             notify("{} discards {} from {}.".format(me, card, src.name))
+    card.moveTo(card.owner.piles['Discard Pile'])
+    if alignCheck and src == table:
+        align()
 
 def toHand(card, x = 0, y = 0, alignCheck = True, ignoreEvo = False):
     mute()
     evolveDict = eval(me.getGlobalVariable('evolution'))
     if ignoreEvo == False and isCreature(card) and card._id in list(itertools.chain.from_iterable(evolveDict.values())):
-        if not confirm("WARNING: There is an evolution creature on top of this card, and can not legally be banished.\nWould you like to override this?"):
+        if not confirm("WARNING: There is an evolution creature on top of this card, and can not legally be returned to hand.\nWould you like to override this?"):
             return
     card.moveTo(card.owner.hand)
     if card._id in evolveDict:
@@ -402,7 +423,7 @@ def toDeck(card, bottom = False):
     mute()
     evolveDict = eval(me.getGlobalVariable('evolution'))
     if isCreature(card) and card._id in list(itertools.chain.from_iterable(evolveDict.values())):
-        if not confirm("WARNING: There is an evolution creature on top of this card, and can not legally be banished.\nWould you like to override this?"):
+        if not confirm("WARNING: There is an evolution creature on top of this card, and can not legally be returned to deck.\nWould you like to override this?"):
             return
     cardList = [card]
     if card._id in evolveDict:
