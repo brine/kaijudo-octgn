@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="48bb61f4-5707-44bf-853e-0c473549ef50">
+  <section name="Main" shared="False">
+    <card qty="1" id="3304949b-be5a-4157-b6d1-a85c5c716bb1">General Dorzim</card>
+    <card qty="2" id="4e42dd5f-614d-46ea-b6de-06f9a350d7c2">Hover-Talon</card>
+    <card qty="2" id="67875b00-5679-4dfb-91ca-599858241218">Sunstorm Dreadnought</card>
+    <card qty="3" id="992704ea-d1f2-476d-a133-a925b4f5a09a">Blinder Beetle</card>
+    <card qty="3" id="ef48e6a7-009f-4706-93d4-830750d324d5">Commissar Soris</card>
+    <card qty="3" id="e1c69cf5-5978-4bbe-8a79-3e84db4e45af">Magris the Magnetizer</card>
+    <card qty="3" id="2b2ce184-d8d6-4abc-8f5c-f9a61ac10782">Skybound Keeper</card>
+    <card qty="3" id="a21d1ae9-4c01-4d4d-8113-e1733dd17935">Stratus Dart</card>
+    <card qty="1" id="5ccfa4fd-2e09-4ee4-b49f-91a000d61197">Beastlord Rulchor</card>
+    <card qty="1" id="97727fdb-8e52-451a-bce1-221c87715a01">Anjak, the All-Kin</card>
+    <card qty="1" id="e2eccbdc-5dbe-43d1-80d2-066487272395">Barbed Crusher</card>
+    <card qty="1" id="7451f653-b248-4955-a52c-84c20e4f163b">Root Trap</card>
+    <card qty="1" id="3dba7418-d712-445d-8809-e169352e62f5">Sumo Artichoke</card>
+    <card qty="2" id="2bb9a50a-17e7-401a-a62c-d8d9c7cc0274">Charging Greatclaw</card>
+    <card qty="2" id="e1e8534d-4a74-42d1-bd6e-685dac9d6aa1">Predatory Snapdragon</card>
+    <card qty="3" id="06c382e1-701b-4cf1-bacc-3ae0073430f4">Pouncing Crickant</card>
+    <card qty="3" id="7c003d5e-f5b9-4a6a-9567-226d9994fe34">Sun-Clan Tortoise</card>
+    <card qty="3" id="d94fc8bd-4506-4776-ad98-e5c55ff1c86b">Vine Bind</card>
+    <card qty="2" id="5bef02ee-d64e-44d6-b459-8de36a1789f4">Battlebred Defender</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>
