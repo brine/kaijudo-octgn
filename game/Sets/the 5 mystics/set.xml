@@ -20,7 +20,7 @@
 		</pack>
 	</packaging>
 	<cards>
-		<card name="Arcane Warden" id="44580832-ebb8-4496-821e-8ff66c792e26" >
+		<card name="Arcane Warden" id="fc84c153-7e58-4158-9822-2b0194844683" >
 			<property name="Level" value="5"/>
 			<property name="Civilization" value="Light"/>
 			<property name="Type" value="Creature"/>
@@ -30,7 +30,7 @@
 			<property name="Number" value="1"/>
 			<property name="Rarity" value="Uncommon"/>
 		</card>
-		<card name="Beacon Drone" id="32c5efc2-1121-4030-ae03-438d2afee4ad" >
+		<card name="Beacon Drone" id="218a69c8-34d8-4c85-adaf-2b4eebe91091" >
 			<property name="Level" value="2"/>
 			<property name="Civilization" value="Light"/>
 			<property name="Type" value="Creature"/>
@@ -40,7 +40,7 @@
 			<property name="Number" value="2"/>
 			<property name="Rarity" value="Common"/>
 		</card>
-		<card name="Caelum Skysworn" id="a65780de-6871-48b6-867f-b79c8979098f" >
+		<card name="Caelum Skysworn" id="4d8191ed-9443-494b-9c66-bfd55bf0a7bb" >
 			<property name="Level" value="6"/>
 			<property name="Civilization" value="Light"/>
 			<property name="Type" value="Creature"/>
@@ -50,7 +50,7 @@
 			<property name="Number" value="3"/>
 			<property name="Rarity" value="Rare"/>
 		</card>
-		<card name="Cerulean Core" id="24032fae-57d5-4a1a-9862-6cecc5646394" >
+		<card name="Cerulean Core" id="bf37248d-396a-428f-859e-2e46b9a3ae41" >
 			<property name="Level" value="4"/>
 			<property name="Civilization" value="Light"/>
 			<property name="Type" value="Creature"/>
