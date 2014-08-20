@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="48bb61f4-5707-44bf-853e-0c473549ef50" sleeveid="0">
+  <section name="Main" shared="False">
+    <card qty="3" id="a715f7ec-4a4b-4445-88fb-e5aa1c38a0f9">Spy Tide</card>
+    <card qty="2" id="809fc067-21b4-4967-b08b-bf8ca7ebe5a1">Tide Seer</card>
+    <card qty="1" id="e35850ed-f3f5-4b11-b05a-ecb7240b658e">Waveforce Seer</card>
+    <card qty="3" id="cace27c4-2b90-4d3c-a94d-2534a6310e4c">Ichor Spider</card>
+    <card qty="3" id="4a1f701e-7e33-4340-af56-aa9498a8eca1">Lethal Lockbox</card>
+    <card qty="2" id="7780a231-abe2-42cf-9d60-afa4d4d8fc6a">Deteriorate</card>
+    <card qty="2" id="6889b659-764b-4bb8-9791-c0f692710d30">Sinister Scheme</card>
+    <card qty="1" id="8f0c6d4c-79c2-42da-a86a-86095532ed56">Shredmane</card>
+    <card qty="1" id="776ec5bb-2ef6-453f-b303-fe68e3c0c424">Terror Pit</card>
+    <card qty="1" id="236ead19-6178-47fc-9d11-de1f4cf7da46">Rite of Revival</card>
+    <card qty="1" id="63942471-ec5c-4c1a-9163-245b4b0f6e3f">Rygar the Tank</card>
+    <card qty="2" id="d198644b-4fbe-41c0-879c-5e88589c4981">Mischievous Fire-Chick</card>
+    <card qty="2" id="5920a845-3968-4a72-8825-9addfca9a757">Blastforge Sweeper</card>
+    <card qty="3" id="4da00f62-4dc0-42c5-9473-222a3f6b37c9">Ember Adept</card>
+    <card qty="3" id="0b4e5c53-2db5-4332-b2eb-6b05e35c88da">Scrapheap Hunter</card>
+    <card qty="1" id="6383f734-a4d1-4bc0-a373-ed19f76b89c0">Wildfire Valkyrie</card>
+    <card qty="2" id="eb3c3bb2-93c3-4708-8466-7c5907514a66">Abyssal Scavenger</card>
+    <card qty="1" id="6c33b219-0af7-4cc9-87de-dbaa32a6005b">Mind Censor</card>
+    <card qty="1" id="95cc5f2b-1b39-4d48-bbc4-ed7fab7d0732">Dragon Engine Glu-urrgle</card>
+    <card qty="2" id="dabf106d-15f0-478f-b85e-06f0e6c6c39f">Bile Raptor</card>
+    <card qty="1" id="638102fe-3b60-421b-ad30-16d38b6816ad">Taksha, Scourge Gunner</card>
+    <card qty="2" id="fb7f1f4e-b65f-4352-a29b-ea3cd7559a25">Zombie Backhoe</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

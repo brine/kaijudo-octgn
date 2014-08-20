@@ -1,55 +1,245 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Promotional Cards" id="0628d489-a13b-4ebc-ad97-7c59ffa1d429" gameId="48bb61f4-5707-44bf-853e-0c473549ef50" gameVersion="1.0.0.0" version="2.0.0.0">
 	<cards>
-		<card name="Dark Scaradorable" id="f6b648be-536c-4a08-9ea0-2e9f910722c1" >
+		<card name="Vicious Squillace Scourge" id="d0defe87-0ef9-4952-8a7d-6502d5eaaf96" >
+			<property name="Level" value="5"/>
+			<property name="Civilization" value="Water / Darkness"/>
+			<property name="Type" value="Evolution Creature"/>
+			<property name="Race" value="Corrupted / Leviathan / Chimera"/>
+			<property name="Power" value="9000"/>
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Evolution — Put on one of your Corrupted creatures, Leviathans, or Chimeras.&#xd;&#xa;Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Crushing Assault — All your Corrupted creatures can't be blocked and have &quot;Slayer.&quot; (Whenever a creature that has &quot;Slayer&quot; loses a battle, banish the other creature.)"/>
+			<property name="Number" value="1"/>
+			<property name="Rarity" value="10INV"/>
+		</card>
+		<card name="Beastlord Rulchor" id="5ccfa4fd-2e09-4ee4-b49f-91a000d61197" >
+			<property name="Level" value="6"/>
+			<property name="Civilization" value="Nature"/>
+			<property name="Type" value="Evolution Creature"/>
+			<property name="Race" value="Beast Kin"/>
+			<property name="Power" value="9000"/>
+			<property name="Rules" value="Evolution — Put on one of your Nature creatures.&#xd;&#xa;Double Breaker&#xd;&#xa;Unleash — Look at the top 5 cards of your deck. You may put a non-evolution creature that is level 3 or less from among them into the battle zone, and you may reveal an evolution creature from among them and put it into your hand. Put the rest on the bottom of your deck in any order. (To use a creature's &quot;Unleash&quot; ability, put a card from under it into your discard pile when it attacks.)"/>
+			<property name="Number" value="1"/>
+			<property name="Rarity" value="13GAU"/>
+		</card>
+		<card name="Molten Stonesaur" id="e11feb70-d0ee-4e62-9379-4f5ca0c7f5cb" >
+			<property name="Level" value="6"/>
+			<property name="Civilization" value="Fire"/>
+			<property name="Type" value="Evolution Creature"/>
+			<property name="Race" value="Rock Brute"/>
+			<property name="Power" value="8000"/>
+			<property name="Rules" value="Evolution — Put on one of your Fire creatures.&#xd;&#xa;Double Breaker&#xd;&#xa;Magma Burst — When this creature is banished, banish target enemy creature that has power less than or equal to this creature's power."/>
+			<property name="Number" value="1"/>
+			<property name="Rarity" value="13PRM"/>
+		</card>
+		<card name="Magistrate Jazuri" id="11e3d053-70f0-4c18-a04e-bd2babb5b5a6" >
+			<property name="Level" value="6"/>
+			<property name="Civilization" value="Light"/>
+			<property name="Type" value="Evolution Creature"/>
+			<property name="Race" value="Skyforce Champion"/>
+			<property name="Power" value="8500"/>
+			<property name="Rules" value="Evolution — Put on one of your Light creatures.&#xd;&#xa;Blocker (You may tap this creature to change an enemy creature's attack to this creature.)&#xd;&#xa;Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Unleash — Untap all your creatures at the end of the turn. (To use a creature's &quot;Unleash&quot; ability, put a card from under it into your discard pile when it attacks.)"/>
+			<property name="Number" value="2"/>
+			<property name="Rarity" value="13PRM"/>
+		</card>
+		<card name="Ocean Ravager" id="2dbb4a3f-994c-499b-802b-58280965b47a" >
+			<property name="Level" value="6"/>
+			<property name="Civilization" value="Water"/>
+			<property name="Type" value="Evolution Creature"/>
+			<property name="Race" value="Earth Eater"/>
+			<property name="Power" value="7000"/>
+			<property name="Rules" value="Evolution — Put on one of your Water creatures.&#xd;&#xa;Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Unleash — Draw 2 cards. (To use a creature's &quot;Unleash&quot; ability, put a card from under it into your discard pile when it attacks.)"/>
+			<property name="Number" value="3"/>
+			<property name="Rarity" value="13PRM"/>
+		</card>
+		<card name="Oblivion Knight" id="7abb9efc-b03d-4355-82fb-0b4b3c5bd576" >
 			<property name="Level" value="6"/>
 			<property name="Civilization" value="Darkness"/>
-			<property name="Type" value="Creature"/>
-			<property name="Race" value="Chimera"/>
-			<property name="Power" value="6000"/>
-			<property name="Rules" value="Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Terrifying Gaze — Whenever this creature enters the battle zone, choose one of your opponent's shields. This creature breaks that shield."/>
-			<property name="Number" value="0"/>
-			<property name="Rarity" value="Promo"/>
+			<property name="Type" value="Evolution Creature"/>
+			<property name="Race" value="Shadow Champion"/>
+			<property name="Power" value="7000"/>
+			<property name="Rules" value="Evolution — Put on one of your Darkness creatures.&#xd;&#xa;Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Unleash — Your opponent chooses and discards 2 cards. (To use a creature's &quot;Unleash&quot; ability, put a card from under it into your discard pile when it attacks.)"/>
+			<property name="Number" value="4"/>
+			<property name="Rarity" value="13PRM"/>
 		</card>
-		<card name="General Finbarr" id="42ef1f20-b19b-490a-b04d-74ab1c789f8f" >
+		<card name="Firemane Dragon" id="2794bfaa-b916-4760-ad15-4ed72f09688e" >
+			<property name="Level" value="5"/>
+			<property name="Civilization" value="Fire"/>
+			<property name="Type" value="Evolution Creature"/>
+			<property name="Race" value="Armored Dragon"/>
+			<property name="Power" value="8000"/>
+			<property name="Rules" value="Evolution — Put on one of your Fire creatures.&#xd;&#xa;Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Unleash — All your creatures get &quot;Fast Attack&quot; until the end of the turn. (To use a creature's &quot;Unleash&quot; ability, put a card from under it into your discard pile when it attacks.)"/>
+			<property name="Number" value="5"/>
+			<property name="Rarity" value="13PRM"/>
+		</card>
+		<card name="Mesa Behemoth" id="3d0ddc3d-51c4-4c50-a2bb-a46f488b8481" >
+			<property name="Level" value="6"/>
+			<property name="Civilization" value="Nature"/>
+			<property name="Type" value="Evolution Creature"/>
+			<property name="Race" value="Colossus"/>
+			<property name="Power" value="8000"/>
+			<property name="Rules" value="Evolution — Put on one of your Nature creatures.&#xd;&#xa;Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Unleash — Search your deck. You may reveal a creature from it and put that card into your hand. Then shuffle your deck. (To use a creature's &quot;Unleash&quot; ability, put a card from under it into your discard pile when it attacks.)"/>
+			<property name="Number" value="6"/>
+			<property name="Rarity" value="13PRM"/>
+		</card>
+		<card name="Swarming Rapids Lurker" id="82e0b996-ec8e-404a-b234-1d6163b30cea" >
+			<property name="Level" value="5"/>
+			<property name="Civilization" value="Water"/>
+			<property name="Type" value="Evolution Creature"/>
+			<property name="Race" value="Trench Hunter"/>
+			<property name="Power" value="6000+"/>
+			<property name="Rules" value="Evolution — Put on one of your Water creatures.&#xd;&#xa;Blocker, Double Breaker&#xd;&#xa;Unleash — This creature gets +5000 power until the end of the turn and can't be blocked this turn. (To use a creature's &quot;Unleash&quot; ability, put a card from under it into your discard pile when it attacks.)"/>
+			<property name="Number" value="7"/>
+			<property name="Rarity" value="13PRM"/>
+		</card>
+		<card name="Bristling Tatsurion" id="51cc9653-bd99-47e1-9dff-280af86d3435" >
+			<property name="Level" value="6"/>
+			<property name="Civilization" value="Nature"/>
+			<property name="Type" value="Vortex Evolution Creature"/>
+			<property name="Race" value="Armored Dragon / Beast Kin"/>
+			<property name="Power" value="8000+"/>
+			<property name="Rules" value="Vortex Evolution — Put on 2 of your Nature creatures.&#xd;&#xa;Double Breaker&#xd;&#xa;Thornshot — While this creature has power 12000 or more, it has &quot;Triple Breaker.&quot;&#xd;&#xa;Quillspike Defender — All of your othercreatures can't be attacked.&#xd;&#xa;Unleash — For each other creature you have in the battle zone, this creature gets +3000 power until the start of your next turn. (To use a creature’s &quot;Unleash&quot; ability, put a card from under it into your discard pile when it attacks.)"/>
+			<property name="Number" value="8"/>
+			<property name="Rarity" value="13PRM"/>
+		</card>
+		<card name="Torhelm, Stomper Elite" id="af7cfaae-4e6b-42ad-97b0-e4677adc32de" >
+			<property name="Level" value="2"/>
+			<property name="Civilization" value="Fire"/>
+			<property name="Type" value="Evolution Creature"/>
+			<property name="Race" value="Stomper"/>
+			<property name="Power" value="5000"/>
+			<property name="Rules" value="Evolution — Put on one of your Fire creatures.&#xd;&#xa;Adaptive Weaponry — This creature can attack untapped creatures on the turn it enters the battle zone.&#xd;&#xa;Counterstrike — Whenever this creature becomes the target of an opponent's spell or ability, this creature breaks one of your opponent's shields."/>
+			<property name="Number" value="10"/>
+			<property name="Rarity" value="13PRM"/>
+		</card>
+		<card name="Terror Pit" id="2d6535af-c459-4f75-a60f-e2d261052d8e" >
+			<property name="Level" value="7"/>
+			<property name="Civilization" value="Darkness"/>
+			<property name="Type" value="Spell"/>
+			<property name="Race" value=""/>
+			<property name="Power" value=""/>
+			<property name="Rules" value="Shield Blast (Instead of putting this spell into your hand from a broken shield, you may cast it for free.)&#xd;&#xa;Banish target enemy creature."/>
+			<property name="Number" value="11"/>
+			<property name="Rarity" value="13PRM"/>
+		</card>
+		<card name="Hive Marshal Golian" id="ff46f3e1-6ad8-4ca8-add9-f5d20c41ef86" >
+			<property name="Level" value="8"/>
+			<property name="Civilization" value="Nature"/>
+			<property name="Type" value="Evolution Creature"/>
+			<property name="Race" value="Megabug"/>
+			<property name="Power" value="8000"/>
+			<property name="Rules" value="Evolution — Put on one of your Nature creatures.&#xd;&#xa;Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Unleash — Each of your other creatures gets +3000 power until the end of the turn and can't be blocked this turn by creatures that have less power than it. (To use a creature’s &quot;Unleash&quot; ability, put a card from under it into your discard pile when it attacks.)"/>
+			<property name="Number" value="1"/>
+			<property name="Rarity" value="14ONS"/>
+		</card>
+		<card name="Pakidamo the Resilient" id="d9f6c8aa-de7d-4186-b057-2149ff7e7111" >
+			<property name="Level" value="7"/>
+			<property name="Civilization" value="Light / Nature"/>
+			<property name="Type" value="Creature"/>
+			<property name="Race" value="Storm Patrol / Beast Kin"/>
+			<property name="Power" value="6000"/>
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Defense Drop — When this creature enters the battle zone, search your deck. You may put a non-evolution creature that is level 3 or less and has &quot;Blocker&quot; from your deck into the battle zone. Then shuffle your deck"/>
+			<property name="Number" value="2"/>
+			<property name="Rarity" value="14ONS"/>
+		</card>
+		<card name="Abyssal Stalker Baleia" id="c57c1e7b-c891-41a2-beed-3e637d438412" >
+			<property name="Level" value="6"/>
+			<property name="Civilization" value="Water / Darkness"/>
+			<property name="Type" value="Creature"/>
+			<property name="Race" value="Leviathan / Specter"/>
+			<property name="Power" value="6000"/>
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Aura of Dread — When this creature enters the battle zone, all your creatures get &quot;Slayer&quot; until the end of the turn. (When a creature that has &quot;Slayer&quot; loses a battle, banish the other creature.)&#xd;&#xa;Ethereal — This creature can't be blocked."/>
+			<property name="Number" value="3"/>
+			<property name="Rarity" value="14ONS"/>
+		</card>
+		<card name="Prism Blade the Ascendant" id="14815f79-15e1-4f13-bb6b-48abe74e0e3c" >
+			<property name="Level" value="4"/>
+			<property name="Civilization" value="Light"/>
+			<property name="Type" value="Evolution Creature"/>
+			<property name="Race" value="Enforcer"/>
+			<property name="Power" value="6000"/>
+			<property name="Rules" value="Evolution — Put on one of your Light creatures&#xd;&#xa;Double Breaker&#xd;&#xa;Beacon of Hope — Whenever you're attacked for the first time each turn, you may untap one of your other creatures. It gets &quot;Blocker&quot; until the end of the turn."/>
+			<property name="Number" value="1"/>
+			<property name="Rarity" value="15PRM"/>
+		</card>
+		<card name="Karstara the Warder" id="ecd92db8-afd9-4e79-91ff-5722a8f12d62" >
+			<property name="Level" value="7"/>
+			<property name="Civilization" value="Light"/>
+			<property name="Type" value="Creature"/>
+			<property name="Race" value="Void Spawn / Skyforce Champion"/>
+			<property name="Power" value="6500"/>
+			<property name="Rules" value="Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Impede — Whenever this creature attacks, you may clash with your opponent. If you won the clash, put the top card of your deck into your shield zone face down as a new shield. (To clash, each player reveals the top card of his or her deck, then puts it on the bottom. You win if your card had the same or higher level.)"/>
+			<property name="Number" value="2"/>
+			<property name="Rarity" value="15PRM"/>
+		</card>
+		<card name="Tarvox the Voracious" id="2a9a928c-da93-4e66-95b6-84acb265e81c" >
 			<property name="Level" value="6"/>
 			<property name="Civilization" value="Water"/>
 			<property name="Type" value="Creature"/>
-			<property name="Race" value="Cyber Lord"/>
-			<property name="Power" value="4000"/>
-			<property name="Rules" value="Finbarr's Hoverhex — When this creature enters the battle zone, you may return target creature from the battle zone to its owner's hand.&#xd;&#xa;Finbarr's Command — Whenever one of your other creatures attacks, you may draw a card."/>
-			<property name="Number" value="0"/>
-			<property name="Rarity" value="Promo"/>
-		</card>
-		<card name="General Skycrusher" id="5f8c1dfa-d996-4977-9470-377b677f8e26" >
-			<property name="Level" value="7"/>
-			<property name="Civilization" value="Fire"/>
-			<property name="Type" value="Creature"/>
-			<property name="Race" value="Armored Dragon"/>
-			<property name="Power" value="8000"/>
-			<property name="Rules" value="Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Skycrusher's Saber — When this creature enters the battle zone, banish target enemy creature that has power 3000 or less.&#xd;&#xa;Skycrusher's Command — Whenever one of your other creatures attacks, it gets &quot;Powerful Attack +3000&quot; until the end of the turn. (A creature that has &quot;Powerful Attack +3000&quot; gets +3000 power while attacking.)"/>
-			<property name="Number" value="0"/>
-			<property name="Rarity" value="Promo"/>
-		</card>
-		<card name="Hammer Dragon Foulbyrn" id="8f131be8-f501-4a58-9ee7-e4205a325630" >
-			<property name="Level" value="7"/>
-			<property name="Civilization" value="Fire"/>
-			<property name="Type" value="Creature"/>
-			<property name="Race" value="Armored Dragon"/>
+			<property name="Race" value="Void Spawn / Earth Eater"/>
 			<property name="Power" value="6000"/>
-			<property name="Rules" value="Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Draconic Roar — Whenever this creature attacks, reveal the top card of your deck. If it's a non-evolution Dragon, put it into the battle zone. Otherwise, put it on the bottom of your deck."/>
-			<property name="Number" value="0"/>
-			<property name="Rarity" value="Promo"/>
+			<property name="Rules" value="Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Vaporize — Whenever this creature attacks, you may clash with your opponent. If you won the clash, return target creature from the battle zone to its owner's hand. (To clash, each player reveals the top card of his or her deck, then puts it on the bottom. You win if your card had the same or higher level.)"/>
+			<property name="Number" value="3"/>
+			<property name="Rarity" value="15PRM"/>
 		</card>
-		<card name="Necrodragon of Vile Ichor" id="f3e43956-3686-4b57-bc82-bc694a64a53c" >
-			<property name="Level" value="9"/>
+		<card name="Malphalgus the Tormenter" id="a67f6e66-a629-44b3-850d-0c2b1b3fa530" >
+			<property name="Level" value="6"/>
 			<property name="Civilization" value="Darkness"/>
 			<property name="Type" value="Creature"/>
-			<property name="Race" value="Terror Dragon"/>
-			<property name="Power" value="7000"/>
-			<property name="Rules" value="Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Slayer (When this creature loses a battle, banish the other creature.)&#xd;&#xa;Acidic Breath — When this creature enters the battle zone, choose one of your opponent's shields for each Dragon you have in the battle zone. This creature breaks those shields."/>
-			<property name="Number" value="0"/>
-			<property name="Rarity" value="Promo"/>
+			<property name="Race" value="Void Spawn / Shadow Champion"/>
+			<property name="Power" value="6000"/>
+			<property name="Rules" value="Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Animate — Whenever this creature atacks, you may clash with your opponent. If you won the clash, put a non-evolution creature from your discard pile into the battle zone. (To clash, each player reveals the top card of his or her deck, then puts it on the bottom. You win if your card had the same or higher level.)"/>
+			<property name="Number" value="4"/>
+			<property name="Rarity" value="15PRM"/>
+		</card>
+		<card name="Quetaro the Gladiator" id="37391b0e-5ece-47ad-8074-2c727efb3af9" >
+			<property name="Level" value="7"/>
+			<property name="Civilization" value="Fire"/>
+			<property name="Type" value="Creature"/>
+			<property name="Race" value="Void Spawn / Armored Dragon"/>
+			<property name="Power" value="6000"/>
+			<property name="Rules" value="Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Brawl — Whenever this creature attacks, you may clash with your opponent. If you won the clash, this creature battles target enemy creature. (To clash, each player reveals the top card of his or her deck, then puts it on the bottom. You win if your card had the same or higher level.)"/>
+			<property name="Number" value="5"/>
+			<property name="Rarity" value="15PRM"/>
+		</card>
+		<card name="Rogonite the Obliterator" id="84abf6e5-20e3-4139-af2d-1b64e5ee9f81" >
+			<property name="Level" value="5"/>
+			<property name="Civilization" value="Nature"/>
+			<property name="Type" value="Creature"/>
+			<property name="Race" value="Void Spawn / Colossus"/>
+			<property name="Power" value="5000+"/>
+			<property name="Rules" value="Pummel — Whenever this creature attacks, you may clash with your opponent. If you won the clash, each of your creatures gets +5000 power until the end of the turn and breaks an additional shield this turn. (To clash, each player reveals the top card of his or her deck, then puts it on the bottom. You win if your card had the same or higher level.)"/>
+			<property name="Number" value="6"/>
+			<property name="Rarity" value="15PRM"/>
+		</card>
+		<card name="Gilaflame the Draconic" id="3966ec4e-b967-4e70-a986-9f2fce1302ad" >
+			<property name="Level" value="4"/>
+			<property name="Civilization" value="Fire"/>
+			<property name="Type" value="Vortex Evolution Creature"/>
+			<property name="Race" value="Armored Dragon / Drakon"/>
+			<property name="Power" value="8000"/>
+			<property name="Rules" value="Vortex Evolution — Put on 2 of your Fire creatures.&#xd;&#xa;Double Breaker&#xd;&#xa;Outmaneuver — At the end of each of your turns, you may return any number of your tapped creatures from the battle zone to your hand.&#xd;&#xa;Talon Fury — Whenever this creature attacks, banish all enemy creatures  that have power 2000 or less."/>
+			<property name="Number" value="7"/>
+			<property name="Rarity" value="15PRM"/>
+		</card>
+		<card name="Queen Rusalka" id="5dd7a687-4464-4eca-94f9-bcbfe311d5b4" >
+			<property name="Level" value="5"/>
+			<property name="Civilization" value="Water"/>
+			<property name="Type" value="Vortex Evolution Creature"/>
+			<property name="Race" value="Leviathan / Trench Hunter"/>
+			<property name="Power" value="9000"/>
+			<property name="Rules" value="Vortex Evolution — Put on 2 of your Water creatures.&#xd;&#xa;Psychic Echo — When this creature enters the battle zone, return all cards from under it to your hand.&#xd;&#xa;Thought Blind —This creature can't be blocked."/>
+			<property name="Number" value="8"/>
+			<property name="Rarity" value="15PRM"/>
+		</card>
+		<card name="Dragon Engine Glu-urrgle" id="95cc5f2b-1b39-4d48-bbc4-ed7fab7d0732" >
+			<property name="Level" value="5"/>
+			<property name="Civilization" value="Water / Fire"/>
+			<property name="Type" value="Vortex Evolution Creature"/>
+			<property name="Race" value="Cyber Lord / Armored Dragon"/>
+			<property name="Power" value="10000"/>
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Vortex Evolution — Put on 2 of your Water and/or Fire creatures.&#xd;&#xa;Double Breaker&#xd;&#xa;Clockwork Brain — Whenever one of your creatures attacks, you may draw a card.&#xd;&#xa;Armored Scales — Whenever you draw a card, choose one of your creatures. Until the start of your next turn, if that creature would be banished, return it to your hand instead."/>
+			<property name="Number" value="1"/>
+			<property name="Rarity" value="15VTX"/>
 		</card>
 		<card name="Quillspike Tatsurion" id="df982c3c-7855-4a31-b23b-a5d0524daa6a" >
 			<property name="Level" value="5"/>
@@ -58,18 +248,18 @@
 			<property name="Race" value="Armored Dragon / Beast Kin"/>
 			<property name="Power" value="5000+"/>
 			<property name="Rules" value="Spike Armor — While being attacked, this creature gets +5000 power."/>
-			<property name="Number" value="0"/>
-			<property name="Rarity" value="Promo"/>
+			<property name="Number" value="1"/>
+			<property name="Rarity" value="2DED"/>
 		</card>
-		<card name="Ra-Vu the Stormbringer " id="e6f965ea-c04d-4359-8b2b-046719784257" >
+		<card name="Dark Scaradorable" id="f6b648be-536c-4a08-9ea0-2e9f910722c1" >
 			<property name="Level" value="6"/>
-			<property name="Civilization" value="Light"/>
-			<property name="Type" value="Evolution Creature"/>
-			<property name="Race" value="Skyforce Champion"/>
-			<property name="Power" value="11000"/>
-			<property name="Rules" value="Evolution — Put on one of your Skyforce Champions.&#xd;&#xa;Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Lightning Vortex — At the end of each of your turns, untap all your creatures.&#xd;&#xa;Eye of the Storm — All your creatures have &quot;Blocker.&quot; (You may tap a creature that has &quot;Blocker&quot; to change an enemy creature's attack to it.)&#xd;&#xa;"/>
-			<property name="Number" value="0"/>
-			<property name="Rarity" value="Promo"/>
+			<property name="Civilization" value="Darkness"/>
+			<property name="Type" value="Creature"/>
+			<property name="Race" value="Chimera"/>
+			<property name="Power" value="6000"/>
+			<property name="Rules" value="Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Terrifying Gaze — Whenever this creature enters the battle zone, choose one of your opponent's shields. This creature breaks that shield."/>
+			<property name="Number" value="1"/>
+			<property name="Rarity" value="3RIS"/>
 		</card>
 		<card name="Wrist-Rockets Tatsurion" id="69304986-0c0f-4610-bf89-cc3fe74ebb6d" >
 			<property name="Level" value="7"/>
@@ -78,8 +268,78 @@
 			<property name="Race" value="Armored Dragon / Beast Kin"/>
 			<property name="Power" value="5000"/>
 			<property name="Rules" value="Rocket Launchers — When this creature enters the battle zone or whenever it attacks, banish target enemy creature that has power 2000 or less."/>
-			<property name="Number" value="0"/>
-			<property name="Rarity" value="Promo"/>
+			<property name="Number" value="2"/>
+			<property name="Rarity" value="3RIS"/>
+		</card>
+		<card name="Ra-Vu the Stormbringer " id="e6f965ea-c04d-4359-8b2b-046719784257" >
+			<property name="Level" value="6"/>
+			<property name="Civilization" value="Light"/>
+			<property name="Type" value="Evolution Creature"/>
+			<property name="Race" value="Skyforce Champion"/>
+			<property name="Power" value="11000"/>
+			<property name="Rules" value="Evolution — Put on one of your Skyforce Champions.&#xd;&#xa;Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Lightning Vortex — At the end of each of your turns, untap all your creatures.&#xd;&#xa;Eye of the Storm — All your creatures have &quot;Blocker.&quot; (You may tap a creature that has &quot;Blocker&quot; to change an enemy creature's attack to it.)&#xd;&#xa;"/>
+			<property name="Number" value="1"/>
+			<property name="Rarity" value="4EVO"/>
+		</card>
+		<card name="Necrodragon of Vile Ichor" id="f3e43956-3686-4b57-bc82-bc694a64a53c" >
+			<property name="Level" value="9"/>
+			<property name="Civilization" value="Darkness"/>
+			<property name="Type" value="Creature"/>
+			<property name="Race" value="Terror Dragon"/>
+			<property name="Power" value="7000"/>
+			<property name="Rules" value="Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Slayer (When this creature loses a battle, banish the other creature.)&#xd;&#xa;Acidic Breath — When this creature enters the battle zone, choose one of your opponent's shields for each Dragon you have in the battle zone. This creature breaks those shields."/>
+			<property name="Number" value="1"/>
+			<property name="Rarity" value="5DRA"/>
+		</card>
+		<card name="Hammer Dragon Foulbyrn" id="8f131be8-f501-4a58-9ee7-e4205a325630" >
+			<property name="Level" value="7"/>
+			<property name="Civilization" value="Fire"/>
+			<property name="Type" value="Creature"/>
+			<property name="Race" value="Armored Dragon"/>
+			<property name="Power" value="6000"/>
+			<property name="Rules" value="Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Draconic Roar — Whenever this creature attacks, reveal the top card of your deck. If it's a non-evolution Dragon, put it into the battle zone. Otherwise, put it on the bottom of your deck."/>
+			<property name="Number" value="2"/>
+			<property name="Rarity" value="5DRA"/>
+		</card>
+		<card name="General Finbarr" id="42ef1f20-b19b-490a-b04d-74ab1c789f8f" >
+			<property name="Level" value="6"/>
+			<property name="Civilization" value="Water"/>
+			<property name="Type" value="Creature"/>
+			<property name="Race" value="Cyber Lord"/>
+			<property name="Power" value="4000"/>
+			<property name="Rules" value="Finbarr's Hoverhex — When this creature enters the battle zone, you may return target creature from the battle zone to its owner's hand.&#xd;&#xa;Finbarr's Command — Whenever one of your other creatures attacks, you may draw a card."/>
+			<property name="Number" value="1"/>
+			<property name="Rarity" value="7CLA"/>
+		</card>
+		<card name="General Skycrusher" id="5f8c1dfa-d996-4977-9470-377b677f8e26" >
+			<property name="Level" value="7"/>
+			<property name="Civilization" value="Fire"/>
+			<property name="Type" value="Creature"/>
+			<property name="Race" value="Armored Dragon"/>
+			<property name="Power" value="8000"/>
+			<property name="Rules" value="Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Skycrusher's Saber — When this creature enters the battle zone, banish target enemy creature that has power 3000 or less.&#xd;&#xa;Skycrusher's Command — Whenever one of your other creatures attacks, it gets &quot;Powerful Attack +3000&quot; until the end of the turn. (A creature that has &quot;Powerful Attack +3000&quot; gets +3000 power while attacking.)"/>
+			<property name="Number" value="2"/>
+			<property name="Rarity" value="7CLA"/>
+		</card>
+		<card name="Cyber Scamp" id="1211d1a9-ca36-44c5-99e2-0122a34b39d7" >
+			<property name="Level" value="2"/>
+			<property name="Civilization" value="Water"/>
+			<property name="Type" value="Creature"/>
+			<property name="Race" value="Cyber Lord"/>
+			<property name="Power" value="1000"/>
+			<property name="Rules" value="Ditto — Whenever your opponent casts a spell, search your deck. You may take a creature named Cyber Scamp from your deck and put that creature into the  battle zone. Then shuffle your deck."/>
+			<property name="Number" value="1"/>
+			<property name="Rarity" value="9PRM"/>
+		</card>
+		<card name="Death Liger the Justicar" id="686a33c7-1d65-41a7-ace4-5a1874bbb9cf" >
+			<property name="Level" value="8"/>
+			<property name="Civilization" value="Light / Darkness"/>
+			<property name="Type" value="Creature"/>
+			<property name="Race" value="Skyforce Champion / Shadow Champion"/>
+			<property name="Power" value="8500"/>
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Soul Rend — When this creature enters the battle zone, target enemy creature gets -3000 power until the end of the turn. (A creature that has power 0 or less is banished.)&#xd;&#xa;Triumphant Roar — Whenever an enemy creature is banished, tap target enemy creature."/>
+			<property name="Number" value="1"/>
+			<property name="Rarity" value="9SHA"/>
 		</card>
 		<card name="Draglide the Swiftest" id="1b91dd9f-ffc1-48fb-a13d-52455b3433ac" >
 			<property name="Level" value="4"/>
@@ -281,6 +541,16 @@
 			<property name="Number" value="20"/>
 			<property name="Rarity" value="Y1PRM"/>
 		</card>
+		<card name="Memory Swarm" id="27546153-3962-4bfe-b13e-d83243a4a8a3" >
+			<property name="Level" value="3"/>
+			<property name="Civilization" value="Water"/>
+			<property name="Type" value="Creature"/>
+			<property name="Race" value="Cyber Virus"/>
+			<property name="Power" value="1000"/>
+			<property name="Rules" value="Thought Blind — This creature can't be blocked."/>
+			<property name="Number" value="1"/>
+			<property name="Rarity" value="Y2PRM"/>
+		</card>
 		<card name="Wild Sky Sword" id="f921a30b-d4e2-4b5b-82a3-c2d91b5758c3" >
 			<property name="Level" value="6"/>
 			<property name="Civilization" value="Light / Nature"/>
@@ -347,7 +617,7 @@
 			<property name="Type" value="Creature"/>
 			<property name="Race" value="Skyforce Champion / Shadow Champion"/>
 			<property name="Power" value="6000"/>
-			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Piercing Gaze - When this creature enters the battle zone, your opponent discards a card at random. If that card is level 3 or less, you may draw a card."/>
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Piercing Gaze — When this creature enters the battle zone, your opponent discards a card at random. If that card is level 3 or less, you may draw a card."/>
 			<property name="Number" value="8"/>
 			<property name="Rarity" value="Y2PRM"/>
 		</card>
@@ -357,7 +627,7 @@
 			<property name="Type" value="Creature"/>
 			<property name="Race" value="Tsunami Dragon / Earthstrike Dragon"/>
 			<property name="Power" value="11000"/>
-			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Frozen Field - This creature can't be blocked by creatures that have less power than it.&#xd;&#xa;Ice Wave - Whenever this creature wins a battle, you may draw 2 cards."/>
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Frozen Field — This creature can't be blocked by creatures that have less power than it.&#xd;&#xa;Ice Wave — Whenever this creature wins a battle, you may draw 2 cards."/>
 			<property name="Number" value="9"/>
 			<property name="Rarity" value="Y2PRM"/>
 		</card>
@@ -367,7 +637,7 @@
 			<property name="Type" value="Creature"/>
 			<property name="Race" value="Rot Worm / Tree Kin"/>
 			<property name="Power" value="3000"/>
-			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Resurge - When this creature enters the battle zone, choose a creature in your discard pile and return it to your hand. Then you may put a non-evolution creature that is level 5 or less from your hand into the battle zone."/>
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Resurge — When this creature enters the battle zone, choose a creature in your discard pile and return it to your hand. Then you may put a non-evolution creature that is level 5 or less from your hand into the battle zone."/>
 			<property name="Number" value="10"/>
 			<property name="Rarity" value="Y2PRM"/>
 		</card>
@@ -377,21 +647,11 @@
 			<property name="Type" value="Creature"/>
 			<property name="Race" value="Cyber Lord / Stomper"/>
 			<property name="Power" value="1000+"/>
-			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Powerful Attack +2000 (While attacking, this creature gets +2000 power.)&#xd;&#xa;Fists of Fury - This creature can attack tapped creatures on the turn it enters the battle zone.&#xd;&#xa;Eject - If this creature would be banished, return it to your hand instead."/>
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Powerful Attack +2000 (While attacking, this creature gets +2000 power.)&#xd;&#xa;Fists of Fury — This creature can attack tapped creatures on the turn it enters the battle zone.&#xd;&#xa;Eject — If this creature would be banished, return it to your hand instead."/>
 			<property name="Number" value="11"/>
 			<property name="Rarity" value="Y2PRM"/>
 		</card>
-		<card name="Vicious Squillace Scourge" id="d0defe87-0ef9-4952-8a7d-6502d5eaaf96" >
-			<property name="Level" value="5"/>
-			<property name="Civilization" value="Water / Darkness"/>
-			<property name="Type" value="Evolution Creature"/>
-			<property name="Race" value="Corrupted / Leviathan / Chimera"/>
-			<property name="Power" value="9000"/>
-			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Evolution — Put on one of your Corrupted creatures, Leviathans, or Chimeras.&#xd;&#xa;Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Crushing Assault — All your Corrupted creatures can't be blocked and have &quot;Slayer.&quot; (Whenever a creature that has &quot;Slayer&quot; loses a battle, banish the other creature.)"/>
-			<property name="Number" value="1"/>
-			<property name="Rarity" value="10INV"/>
-		</card>
-		<card name="Forgotten Chief" id="4e6ef3f4-fec8-44c7-80a8-02ee71886b2b" >
+		<card name="Forgotten Chief" id="e582766c-f4a7-465c-b1b9-b039791e3c85" >
 			<property name="Level" value="5"/>
 			<property name="Civilization" value="Water / Nature"/>
 			<property name="Type" value="Creature"/>
@@ -401,7 +661,7 @@
 			<property name="Number" value="12"/>
 			<property name="Rarity" value="Y2PRM"/>
 		</card>
-		<card name="Skraven, Draconic Reaper" id="bc5a96de-5d91-477e-9943-3fd1556a32bb" >
+		<card name="Skraven, Draconic Reaper" id="28d96b46-3747-4f26-9d45-31a9b3f2cac5" >
 			<property name="Level" value="7"/>
 			<property name="Civilization" value="Darkness / Fire"/>
 			<property name="Type" value="Creature"/>
@@ -411,7 +671,7 @@
 			<property name="Number" value="13"/>
 			<property name="Rarity" value="Y2PRM"/>
 		</card>
-		<card name="Enslaved Flametropus" id="7086f902-275a-43b1-a5f9-7bc93a9acc4d" >
+		<card name="Enslaved Flametropus" id="ea1a9f95-3bea-46ac-886b-3a05040db105" >
 			<property name="Level" value="5"/>
 			<property name="Civilization" value="Water / Fire"/>
 			<property name="Type" value="Creature"/>
@@ -421,7 +681,7 @@
 			<property name="Number" value="14"/>
 			<property name="Rarity" value="Y2PRM"/>
 		</card>
-		<card name="Shaman of the Vigil" id="b24ede77-4a41-468e-9e7d-e8f022ea2d04" >
+		<card name="Shaman of the Vigil" id="12a608b8-4d7c-4d56-8629-3205a4aef0b4" >
 			<property name="Level" value="3"/>
 			<property name="Civilization" value="Light / Nature"/>
 			<property name="Type" value="Evolution Creature"/>
@@ -430,16 +690,6 @@
 			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Evolution — Put on one of your Enforcers or Beast Kin.&#xd;&#xa;Pack Sworn — All your Beast Kin have &quot;Protector.&quot; (You may tap a creature that has &quot;Protector&quot; to change an attack on one of your other creatures to it.)&#xd;&#xa;Inspirit — At the end of each of your turns, untap all your Enforcers."/>
 			<property name="Number" value="15"/>
 			<property name="Rarity" value="Y2PRM"/>
-		</card>
-		<card name="Death Liger the Justicar" id="686a33c7-1d65-41a7-ace4-5a1874bbb9cf" >
-			<property name="Level" value="8"/>
-			<property name="Civilization" value="Light / Darkness"/>
-			<property name="Type" value="Creature"/>
-			<property name="Race" value="Skyforce Champion / Shadow Champion"/>
-			<property name="Power" value="8500"/>
-			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Soul Rend — When this creature enters the battle zone, target enemy creature gets -3000 power until the end of the turn. (A creature that has power 0 or less is banished.)&#xd;&#xa;Triumphant Roar — Whenever an enemy creature is banished, tap target enemy creature."/>
-			<property name="Number" value="1"/>
-			<property name="Rarity" value="9SHA"/>
 		</card>
 		<card name="Ember Titan" id="cc614250-5ca0-453d-824a-2ffc8607cf4b" >
 			<property name="Level" value="7"/>
@@ -473,7 +723,7 @@
 		</card>
 		<card name="Fullmetal Lemon" id="e8351c73-8256-4f5b-ad9d-3bc62f6560cc" >
 			<property name="Level" value="3"/>
-			<property name="Civilization" value="Light / Nature"/>
+			<property name="Civilization" value="Light /.Nature"/>
 			<property name="Type" value="Creature"/>
 			<property name="Race" value="Enforcer / Wild Veggie"/>
 			<property name="Power" value="3500"/>
@@ -520,116 +770,6 @@
 			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Munch — Whenever this creature attacks, you may choose a creature in your discard pile and put it on the bottom of your deck. If you do, this creature gets power equal to that creature's power until the end of the turn.&#xd;&#xa;Necrocharged — While this creature has power 6000 or more, it has quot;Double Breaker.quot; While it has power 12000 or more, it has quot;Triple Breaker.quot;"/>
 			<property name="Number" value="23"/>
 			<property name="Rarity" value="Y2PRM"/>
-		</card>
-		<card name="Kolani, Dragon Oracle" id="c7009f35-292d-40ba-b0ae-43ed6f93efa2" >
-			<property name="Level" value="7"/>
-			<property name="Civilization" value="Water"/>
-			<property name="Type" value="Creature"/>
-			<property name="Race" value="Tsunami Dragon"/>
-			<property name="Power" value="6000"/>
-			<property name="Rules" value="Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Whispering Waves — When this creature enters the battle zone, look at the top 2 cards of your deck. Put one of them into your hand and the other on top of your deck."/>
-			<property name="Number" value="1"/>
-			<property name="Rarity" value="11BBR"/>
-		</card>
-		<card name="Krakatoa the Shattered" id="22213271-589b-418e-92c1-770852176da3" >
-			<property name="Level" value="6"/>
-			<property name="Civilization" value="Fire / Nature"/>
-			<property name="Type" value="Creature"/>
-			<property name="Race" value="Armored Dragon / Living City"/>
-			<property name="Power" value="5000"/>
-			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Rousing Bellow — When this creature enters the battle zone, you may put a non-evolution creature that is level 4 or less from your hand into the battle zone. That creature gets quot;Fast Attackquot; until the end of the turn. At the end of the turn, put it into your mana zone. (A creature that has quot;Fast Attackquot; can attack on the turn it enters the battle zone.)"/>
-			<property name="Number" value="3"/>
-			<property name="Rarity" value="11BBR"/>
-		</card>
-		<card name="Spire Widow" id="c7d40868-338c-4d92-b799-658db1eb945e" >
-			<property name="Level" value="8"/>
-			<property name="Civilization" value="Light / Darkness"/>
-			<property name="Type" value="Creature"/>
-			<property name="Race" value="Sky Weaver / Brain Jacker"/>
-			<property name="Power" value="2000"/>
-			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Slayer (When this creature loses a battle, banish the other creature.)&#xd;&#xa;Unweaving — When this creature enters the battle zone, choose target enemy creature. Your opponent shuffles it into his or her deck."/>
-			<property name="Number" value="2"/>
-			<property name="Rarity" value="11BBR"/>
-		</card>
-		<card name="Beastlord Rulchor" id="5ccfa4fd-2e09-4ee4-b49f-91a000d61197" >
-			<property name="Level" value="6"/>
-			<property name="Civilization" value="Nature"/>
-			<property name="Type" value="Evolution Creature"/>
-			<property name="Race" value="Beast Kin"/>
-			<property name="Power" value="9000"/>
-			<property name="Rules" value="Evolution — Put on one of your Nature creatures.&#xd;&#xa;Double Breaker&#xd;&#xa;Unleash — Look at the top 5 cards of your deck. You may put a non-evolution creature that is level 3 or less from among them into the battle zone, and you may reveal an evolution creature from among them and put it into your hand. Put the rest on the bottom of your deck in any order. (To use a creature's &quot;Unleash&quot; ability, put a card from under it into your discard pile when it attacks.)"/>
-			<property name="Number" value="1"/>
-			<property name="Rarity" value="13GAU"/>
-		</card>
-		<card name="Molten Stonesaur" id="e11feb70-d0ee-4e62-9379-4f5ca0c7f5cb" >
-			<property name="Level" value="6"/>
-			<property name="Civilization" value="Fire"/>
-			<property name="Type" value="Evolution Creature"/>
-			<property name="Race" value="Rock Brute"/>
-			<property name="Power" value="8000"/>
-			<property name="Rules" value="Evolution — Put on one of your Fire creatures.&#xd;&#xa;Double Breaker&#xd;&#xa;Magma Burst — When this creature is banished, banish target enemy creature that has power less than or equal to this creature's power."/>
-			<property name="Number" value="1"/>
-			<property name="Rarity" value="Y3PRM"/>
-		</card>
-		<card name="Magistrate Jazuri" id="11e3d053-70f0-4c18-a04e-bd2babb5b5a6" >
-			<property name="Level" value="6"/>
-			<property name="Civilization" value="Light"/>
-			<property name="Type" value="Evolution Creature"/>
-			<property name="Race" value="Skyforce Champion"/>
-			<property name="Power" value="8500"/>
-			<property name="Rules" value="Evolution — Put on one of your Light creatures.&#xd;&#xa;Blocker (You may tap this creature to change an enemy creature's attack to this creature.)&#xd;&#xa;Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Unleash — Untap all your creatures at the end of the turn. (To use a creature's &quot;Unleash&quot; ability, put a card from under it into your discard pile when it attacks.)"/>
-			<property name="Number" value="2"/>
-			<property name="Rarity" value="Y3PRM"/>
-		</card>
-		<card name="Ocean Ravager" id="2dbb4a3f-994c-499b-802b-58280965b47a" >
-			<property name="Level" value="6"/>
-			<property name="Civilization" value="Water"/>
-			<property name="Type" value="Evolution Creature"/>
-			<property name="Race" value="Earth Eater"/>
-			<property name="Power" value="7000"/>
-			<property name="Rules" value="Evolution — Put on one of your Water creatures.&#xd;&#xa;Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Unleash — Draw 2 cards. (To use a creature's &quot;Unleash&quot; ability, put a card from under it into your discard pile when it attacks.)"/>
-			<property name="Number" value="3"/>
-			<property name="Rarity" value="Y3PRM"/>
-		</card>
-		<card name="Oblivion Knight" id="7abb9efc-b03d-4355-82fb-0b4b3c5bd576" >
-			<property name="Level" value="6"/>
-			<property name="Civilization" value="Darkness"/>
-			<property name="Type" value="Evolution Creature"/>
-			<property name="Race" value="Shadow Champion"/>
-			<property name="Power" value="7000"/>
-			<property name="Rules" value="Evolution — Put on one of your Darkness creatures.&#xd;&#xa;Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Unleash — Your opponent chooses and discards 2 cards. (To use a creature's &quot;Unleash&quot; ability, put a card from under it into your discard pile when it attacks.)"/>
-			<property name="Number" value="4"/>
-			<property name="Rarity" value="Y3PRM"/>
-		</card>
-		<card name="Firemane Dragon" id="2794bfaa-b916-4760-ad15-4ed72f09688e" >
-			<property name="Level" value="5"/>
-			<property name="Civilization" value="Fire"/>
-			<property name="Type" value="Evolution Creature"/>
-			<property name="Race" value="Armored Dragon"/>
-			<property name="Power" value="8000"/>
-			<property name="Rules" value="Evolution — Put on one of your Fire creatures.&#xd;&#xa;Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Unleash — All your creatures get &quot;Fast Attack&quot; until the end of the turn. (To use a creature's &quot;Unleash&quot; ability, put a card from under it into your discard pile when it attacks.)"/>
-			<property name="Number" value="5"/>
-			<property name="Rarity" value="Y3PRM"/>
-		</card>
-		<card name="Mesa Behemoth" id="3d0ddc3d-51c4-4c50-a2bb-a46f488b8481" >
-			<property name="Level" value="6"/>
-			<property name="Civilization" value="Nature"/>
-			<property name="Type" value="Evolution Creature"/>
-			<property name="Race" value="Colossus"/>
-			<property name="Power" value="8000"/>
-			<property name="Rules" value="Evolution — Put on one of your Nature creatures.&#xd;&#xa;Double Breaker (This creature breaks 2 shields.)&#xd;&#xa;Unleash — Search your deck. You may reveal a creature from it and put that card into your hand. Then shuffle your deck. (To use a creature's &quot;Unleash&quot; ability, put a card from under it into your discard pile when it attacks.)"/>
-			<property name="Number" value="6"/>
-			<property name="Rarity" value="Y3PRM"/>
-		</card>
-		<card name="Swarming Rapids Lurker" id="82e0b996-ec8e-404a-b234-1d6163b30cea" >
-			<property name="Level" value="5"/>
-			<property name="Civilization" value="Water"/>
-			<property name="Type" value="Evolution Creature"/>
-			<property name="Race" value="Trench Hunter"/>
-			<property name="Power" value="6000+"/>
-			<property name="Rules" value="Evolution — Put on one of your Water creatures.&#xd;&#xa;Blocker, Double Breaker&#xd;&#xa;Unleash — This creature gets +5000 power until the end of the turn and can't be blocked this turn. (To use a creature's &quot;Unleash&quot; ability, put a card from under it into your discard pile when it attacks.)"/>
-			<property name="Number" value="7"/>
-			<property name="Rarity" value="Y3PRM"/>
 		</card>
 	</cards>
 </set>
