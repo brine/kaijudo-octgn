@@ -101,6 +101,16 @@
 			<property name="Number" value="8"/>
 			<property name="Rarity" value="13PRM"/>
 		</card>
+		<card name="Hover Talon" id="94e2797c-233a-4eb2-87f4-26ab0aa5df8f" >
+			<property name="Level" value="3"/>
+			<property name="Civilization" value="Light"/>
+			<property name="Type" value="Creature"/>
+			<property name="Race" value="Storm Patrol"/>
+			<property name="Power" value="2000"/>
+			<property name="Rules" value="Shield Blast (Instead of putting this spell into your hand from a broken shield, you may cast it for free.)&#xd;&#xa;Blocker (You may tap this creature to change an enemy creature's attack to this creature.)&#xd;&#xa;Skirmisher (This creature can attack only creatures.)"/>
+			<property name="Number" value="9"/>
+			<property name="Rarity" value="13PRM"/>
+		</card>
 		<card name="Torhelm, Stomper Elite" id="af7cfaae-4e6b-42ad-97b0-e4677adc32de" >
 			<property name="Level" value="2"/>
 			<property name="Civilization" value="Fire"/>
