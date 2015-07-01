@@ -13,14 +13,14 @@ def resetGame():
     mute()
     me.setGlobalVariable("shieldCount", "0")
 
-def moveCard(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY, x, y, isScriptMove):
+def moveCards(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY, x, y, highlights, markers, faceup):
     mute()
-    if player != me or isScriptMove == True: ##Ignore for cards you don't control, or cards that were moved via script
+    if player != me: ##Ignore for cards you don't control
         return
-    if fromGroup != table or toGroup == table: ## we only want cases where a card is being moved from table to another group
+    if not in fromGroup: ## we only want cases where a card is being moved from table to another group
         return
     evolveDict = eval(me.getGlobalVariable("evolution"))
-    for evo in eval(me.getGlobalVariable("evolution")):
+    for evo in evolveDict.keys():
         if Card(evo) not in table:
             del evolveDict[evo]
         else:
@@ -173,6 +173,10 @@ def dieFunct(num):
       n = rnd(1, num)
       notify("{} rolls {} on a {}-sided die.".format(me, n, num))
 
+def endTurn(x = 0, y = 0):
+    mute()
+    notify("{} ends their turn.".format(me))
+
 def untapAll(group, x = 0, y = 0):
     mute()
     for card in group:
@@ -201,8 +205,8 @@ def banish(card, x = 0, y = 0):
                 rnd(1,10)
                 notify("{} uses {}'s Shield Blast.".format(me, card))
                 return
+        notify("{}'s shield #{} is broken.".format(me, card.markers[shieldMarker]))
         card.moveTo(card.owner.hand)
-        notify("{}'s shield is broken.".format(me))
     else:
         toDiscard(card)
 
@@ -249,9 +253,8 @@ def randomDiscard(group, x = 0, y = 0):
     if len(group) == 0: return
     card = group.random()
     toDiscard(card, notifymute = True)
-    if notifymute == False:
-        rnd(1,10)
-        notify("{} randomly discards {}.".format(me, card))
+    rnd(1,10)
+    notify("{} randomly discards {}.".format(me, card))
 
 def mana(group, x = 0, y = 0):
     mute()
@@ -349,11 +352,11 @@ def toPlay(card, x = 0, y = 0, notifymute = False, evolveText = ''):
                 evolveDict[card._id] = targetList
                 me.setGlobalVariable("evolution", str(evolveDict))
                 evolveText = ", evolving {}".format(", ".join([c.name for c in targets]))
-                card.moveToTable(0,0)
                 if targets[0].orientation == Rot90: ##evolution creatures enter play tapped when the target is also tapped
                     card.orientation = Rot90
-        else:
-            card.moveToTable(0,0)
+        card.moveToTable(0,0)
+        if shieldMarker in card.markers:
+            card.markers[shieldMarker] = 0
         align()
     if notifymute == False:
         notify("{} plays {}{}.".format(me, card, evolveText))

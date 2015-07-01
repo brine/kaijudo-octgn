@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <game xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	id="48bb61f4-5707-44bf-853e-0c473549ef50" version="3.0.10.0" octgnVersion="3.1.30.0"
+	id="48bb61f4-5707-44bf-853e-0c473549ef50" version="3.0.10.1" octgnVersion="3.1.30.0" scriptVersion="3.1.0.1"
 	name="Kaijudo" tags="kaijudo" description="Kaijudo"
 	setsurl="http://octgn.gamersjudgement.com/wordpress/kaijudo/images/" gameurl="http://octgn.gamersjudgement.com/wordpress/kaijudo/" authors="brine, ZeroVash"
 	markersize="18" iconurl="https://raw.github.com/brine/kaijudo-octgn/master/game/cards/logo.png" >
@@ -10,7 +10,7 @@
 	</scripts>
 	<events>
 		<event name="OnGameStart" action="resetGame" />
-		<event name="OnMoveCard" action="moveCard" />
+		<event name="OnMoveCards" action="moveCards" />
 	</events>
 	<proxygen definitionsrc="proxy/CardGenData.xml">
 	</proxygen>
@@ -28,7 +28,8 @@
 		<groupaction menu="Untap All" shortcut="F1" execute="untapAll" />
 		<groupaction menu="Roll Die" shortcut="ctrl+R" execute="rollDie" />
 		<groupaction menu="Set Die Type" shortcut="ctrl+shift+R" execute="setDie" />
-		<groupaction menu="Set Up Battlezone" execute="setup" />
+		<groupaction menu="Set Up Battlezone + Opening Hand" execute="setup" />
+		<groupaction menu="End Turn" shortcut="ctrl+E" execute="endTurn" />
 		<cardaction menu="Tap / Untap" default="True" shortcut="ctrl+G" execute="tap" />
 		<cardaction menu="Banish Card / Break Shield" shortcut="del" execute="banish" />
 		<cardaction menu="Set as Shield" shortcut="ctrl+H" execute="toShields" />
@@ -46,7 +47,7 @@
 			<cardaction menu="Set as Shield" shortcut="ctrl+H" execute="toShields" />
 			<cardaction menu="Discard Card" shortcut="del" execute="toDiscard" />
 			<cardaction menu="Charge as Mana" shortcut="ctrl+C" execute="toMana" />
-			<groupaction menu="Random Discard" execute="randomDiscard" />
+			<groupaction menu="Random Discard" shortcut="ctrl+X" execute="randomDiscard" />
 		</hand>
 		<group name="Deck" visibility="none" ordered="False" width="63" height="88" shortcut="ctrl+Y" icon="groups/deck.png" collapsed="False">
 			<groupaction menu="Draw Card" shortcut="ctrl+D" execute="draw" />
@@ -55,7 +56,7 @@
 			<groupaction menu="Shuffle" shortcut="ctrl+S" execute="shuffle" />
 			<groupaction menu="Discard Top Card" execute="mill" />
 			<groupaction menu="Discard Top X Cards" execute="millX" />
-			<groupaction menu="Charge Top Card as Mana" execute="mana" />
+			<groupaction menu="Charge Top Card as Mana" shortcut="ctrl+M" execute="mana" />
 		</group>
 		<group name="Discard Pile" visibility="all" ordered="False" width="63" height="88" shortcut="del" icon="groups/discard.png" collapsed="False" />
 	</player>
